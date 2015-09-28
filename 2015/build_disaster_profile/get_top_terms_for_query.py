@@ -26,6 +26,9 @@ def main():
         need_d = os.path.join(args.query_output_dir,i)
         if not os.path.exists(need_d):
             os.mkdir(need_d)
+        need_d = os.path.join(args.nojson_output_dir,i)
+        if not os.path.exists(need_d):
+            os.mkdir(need_d)
 
 
     it = os.walk(args.term_score_dir)
