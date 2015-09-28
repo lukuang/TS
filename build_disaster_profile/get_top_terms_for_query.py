@@ -51,7 +51,7 @@ def main():
         
         name = os.path.split(path_tuple[0])[1]
         
-        pos =  name.find["-"]
+        pos = string.find(name,"-")
         if pos == -1:
             print "wrong file name",name
             sys.exit(-1)
