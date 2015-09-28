@@ -9,7 +9,7 @@ def main():
     parser.add_argument('--disaster_dictionary_file',"-dic",default = "/home/1546/data/changed_disaster_dictionary")
     parser.add_argument('--term_score_dir',"-t",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/terms_per_doc")
     parser.add_argument('--query_output_dir',"-q",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/json_format/top_terms_per_query")
-    parser.add_argument('--nojson_output_dir',"-q",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/top_terms_per_query")
+    parser.add_argument('--nojson_output_dir',"-no",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/top_terms_per_query")
     parser.add_argument("--num_of_terms","-n",type=int,default = 50)
     args = parser.parse_args()
 
