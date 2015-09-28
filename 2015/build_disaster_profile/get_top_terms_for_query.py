@@ -9,6 +9,7 @@ def main():
     parser.add_argument('--disaster_dictionary_file',"-dic",default = "/home/1546/data/changed_disaster_dictionary")
     parser.add_argument('--term_score_dir',"-t",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/terms_per_doc")
     parser.add_argument('--query_output_dir',"-q",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/json_format/top_terms_per_query")
+    parser.add_argument('--nojson_output_dir',"-q",default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/simple_query_disaster_profile/porter_index/top_terms_per_query")
     parser.add_argument("--num_of_terms","-n",type=int,default = 50)
     args = parser.parse_args()
 
@@ -67,8 +68,7 @@ def main():
         term_scores = sorted(score_map.items(), key =lambda x: x[1] ,reverse=True)
 
         i = 0
-        #print args.query_output_dir
-        #print path_tuple[0]
+        #output json format
         with open( os.path.join(args.query_output_dir, index_name_dir, file_name), "w" ) as f:
             out = {}
             for score_tuple in term_scores:
@@ -81,6 +81,17 @@ def main():
             for t in out:
                 out[t] /= out_sum
             f.write(json.dumps(out))
+
+        #output non-json format
+        i = 0
+        with open( os.path.join(args.nojson_output_dir, index_name_dir, file_name), "w" ) as f:
+            for score_tuple in term_scores:
+                f.write(score_tuple[0]+" "+str(score_tuple[1]) +"\n" )
+                
+                i += 1
+                if i == args.num_of_terms:
+                    break
+            
 
 
 
