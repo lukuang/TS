@@ -20,10 +20,15 @@ def main():
               "wsj":"/lustre/scratch/lukuang/wsj/p_index"}
 
 
+    #create directories for every index/corpus
+    for i in indexs:
+        need_d = os.path.join(args.query_output_dir,i)
+        if not os.path.exists(i):
+            os.mkdir(i)
+
 
     it = os.walk(args.term_score_dir)
     it.next()
-    query_score_map = {}
     for path_tuple in it:
         #print path_tuple[0]
         #print path_tuple[2]
@@ -46,19 +51,25 @@ def main():
         
         name = os.path.split(path_tuple[0])[1]
         
+        pos =  name.find["-"]
+        if pos == -1:
+            print "wrong file name",name
+            sys.exit(-1)
+        else:
+            file_name = name[:pos]
+            index_name_dir = name[pos+1:] 
 
         if len(score_map) == 0:
             print "skip", name
             continue
         
 
-        query_score_map[name] = score_map
         term_scores = sorted(score_map.items(), key =lambda x: x[1] ,reverse=True)
 
         i = 0
         #print args.query_output_dir
         #print path_tuple[0]
-        with open( os.path.join(args.query_output_dir, name), "w" ) as f:
+        with open( os.path.join(args.query_output_dir, index_name_dir, file_name), "w" ) as f:
             out = {}
             for score_tuple in term_scores:
                 #f.write(score_tuple[0]+" "+str(score_tuple[1]) +"\n" )
@@ -70,6 +81,9 @@ def main():
             for t in out:
                 out[t] /= out_sum
             f.write(json.dumps(out))
+
+
+
 
 
 if __name__ == '__main__':
