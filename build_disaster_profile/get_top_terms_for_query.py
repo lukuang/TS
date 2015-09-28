@@ -23,8 +23,8 @@ def main():
     #create directories for every index/corpus
     for i in indexs:
         need_d = os.path.join(args.query_output_dir,i)
-        if not os.path.exists(i):
-            os.mkdir(i)
+        if not os.path.exists(need_d):
+            os.mkdir(need_d)
 
 
     it = os.walk(args.term_score_dir)
