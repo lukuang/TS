@@ -1,0 +1,1 @@
+add the functionality over mix that the returned sentences should contain at least one word from each of the two expansion models(wiki and profile)
