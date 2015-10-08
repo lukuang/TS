@@ -10,6 +10,6 @@
 <output_file>result</output_file>
 <check_output>./check_1000</check_output>
 <calculation_output>calculation_output</calculation_output>
-<alpha>0.4</alpha>
-<mu>4000</mu>
+<alpha>NEED TO CHANGE</alpha>
+<mu>NEED TO CHANGE</mu>
 </parameters>

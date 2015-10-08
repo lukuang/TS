@@ -10,7 +10,7 @@
 <output_file>result</output_file>
 <check_output>./check_1000</check_output>
 <calculation_output>calculation_output</calculation_output>
-<alpha>0.2</alpha>
-<belta>0.6</belta>
+<alpha>NEED TO CHANGE</alpha>
+<belta>NEED TO CHANGE</belta>
 <mu>8000</mu>
 </parameters>

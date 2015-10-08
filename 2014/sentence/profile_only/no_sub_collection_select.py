@@ -334,8 +334,8 @@ def parse_args(para_file, required_qid):
     para["doc_list_path"] = os.path.join(root.find("doc_list_path").text, required_qid)
     para["alpha"] = float(root.find("alpha").text)
     para["stopwords"] = root.find("stopwords").text
-    para["mu"] = float(root.find("mu").text)
     para["doc_dir_list"] = root.find("doc_dir_list").text
+    para["mu"] = float(root.find("mu").text)
     return para
 
 def heap_update(result_list, documents):
