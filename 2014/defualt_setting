@@ -1,0 +1,5 @@
+term_dir: /lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms
+
+data_dir: /home/1546/code/2014/2014_new_required_data
+
+mu for mix method: 8000
