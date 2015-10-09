@@ -220,9 +220,9 @@ def get_best_map_per_file(result_file,matches,nuggets):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('-n', '--nuggets_file', help='Nuggets File', default="/home/lukuang/Dropbox/InfoChain/code/farber/NYT/eval_plot/nuggets.tsv")
-    parser.add_argument('-u', '--update_file', help='Updates File', default="/home/lukuang/Dropbox/InfoChain/code/farber/NYT/eval_plot/updates_sampled.extended.tsv")
-    parser.add_argument('-m', '--match_file', help='Matches File', default="/home/lukuang/Dropbox/InfoChain/code/farber/NYT/eval_plot/matches.tsv")
+    parser.add_argument('-n', '--nuggets_file', help='Nuggets File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/nuggets.tsv")
+    parser.add_argument('-u', '--update_file', help='Updates File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/updates_sampled.extended.tsv")
+    parser.add_argument('-m', '--match_file', help='Matches File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/matches.tsv")
     parser.add_argument("result_dir")
     parser.add_argument("--out_file", "-o", default="score_threshold.json")
 
