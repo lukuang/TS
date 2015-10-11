@@ -46,7 +46,7 @@ def read_query(query_file):
             #stem_entity = stem(e)
             if e not in query_entity_map:
                 query_entity_map[e] = e
-    print json.dumps(possible_entities, indent=4, sort_keys=True)
+    print json.dumps(id_entity_map, indent=4, sort_keys=True)
     raw_input("ok now!")
     return query_entity_map
 
