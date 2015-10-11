@@ -2,7 +2,7 @@ import re,sys,os
 import json
 import lxml.etree as ET
 import argparse
-#from stemming.porter import stem
+from stemming.porter import stem
 
 def rep(match):
     return match.group(1)+" "+match.group(2)
@@ -43,12 +43,12 @@ def read_query(query_file):
         #print "for query",qid,"the possible entities are:\n",possible_entities
         id_entity_map[qid]= possible_entities
         for e in possible_entities:
-            #stem_entity = stem(e)
+            stem_entity = stem(e)
             if e not in query_entity_map:
-                query_entity_map[e] = e
+                query_entity_map[stem_entity] = e
     print json.dumps(id_entity_map, indent=4, sort_keys=True)
     raw_input("ok now!")
-    return query_entity_map
+    return query_entity_map, id_entity_map
 
 
 
@@ -56,7 +56,10 @@ def process_phrase(phrase):
     word_string = re.sub("[^A-Za-z0-9]+"," ", phrase.lower())
     word_string = re.sub("([a-z])([A-Z])", rep, word_string)
     word_string = re.sub(" +"," ", word_string)
-    return word_string
+    return_string = ""
+    for word in re.findall(word_string)
+        return_string += stem(word) + " "
+    return return_string
 
 
 
@@ -76,10 +79,10 @@ def find_wiki_entities(query_entities, link_file):
                 if entity1 in query_entities:
                     #print "found entity %s and %s" %(m.group(1),m.group(2))
                     if entity1 not in wiki_entites:
-                        wiki_entites[entity1] = m.group(1)
+                        wiki_entites[query_entities(entity1)] = m.group(1)
                 if entity2 in query_entities:
                     if entity2 not in wiki_entites:
-                        wiki_entites[entity2] = m.group(3)
+                        wiki_entites[query_entities(entity2)] = m.group(3)
 
             i +=1
             if (i%1000000 == 0):
@@ -96,15 +99,18 @@ def main():
     parser.add_argument('--query_file', "-q", default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/trec2014-ts-topics-test.xml")
     parser.add_argument("--link_file","-l", default = "/lustre/scratch/lukuang/dbpedia/src/page_links_en.nt")
     parser.add_argument("--output_file", "-o", default = "query-ent-dbpedia.map")
+    parser.add_argument("--output_json", "-j", default = "query-ent-dbpedia.json")
+
     args = parser.parse_args()
     query_entity_map = read_query(args.query_file)
     raw_entites = find_wiki_entities(query_entity_map, args.link_file)
-    with open(args.output_file,"w") as f:
+    with open(args.output_json,"w") as f:
         f.write(json.dumps(raw_entites))
 
     print json.dumps(raw_entites, indent=4, sort_keys=True)
 
-
+    #with open(args.output_file,"w") as f:
+    #    for k in raw_entites
 
 
 if __name__ == '__main__':
