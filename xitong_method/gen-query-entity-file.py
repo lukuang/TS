@@ -29,6 +29,7 @@ def read_query(query_file):
     root = tree.getroot()
     queries = {}
     query_entity_map = {}
+    id_entity_map = {}
     for event in root.iter("event"):
         qid = event.find("id").text
         
@@ -40,11 +41,13 @@ def read_query(query_file):
         #print all_words
         possible_entities = get_possible_entities(all_words)
         #print "for query",qid,"the possible entities are:\n",possible_entities
+        id_entity_map[qid]= possible_entities
         for e in possible_entities:
             #stem_entity = stem(e)
             if e not in query_entity_map:
                 query_entity_map[e] = e
-    
+    print json.dumps(id_entity_map, indent=4, sort_keys=True)
+    raw_input("ok now!")
     return query_entity_map
 
 
