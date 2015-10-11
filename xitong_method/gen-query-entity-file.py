@@ -58,7 +58,7 @@ def process_phrase(phrase):
     word_string = re.sub("([a-z])([A-Z])", rep, word_string)
     word_string = re.sub(" +"," ", word_string)
     return_string = ""
-    for word in re.findall(word_string):
+    for word in re.findall("\w+",word_string):
         return_string += stem(word) + " "
     return return_string
 
