@@ -46,9 +46,9 @@ def read_query(query_file):
             stem_entity = stem(e)
             if e not in query_entity_map:
                 query_entity_map[stem_entity] = e
-    print json.dumps(id_entity_map, indent=4, sort_keys=True)
-    print json.dumps(query_entity_map, indent=4, sort_keys=True)
-    raw_input("ok now!")
+    #print json.dumps(id_entity_map, indent=4, sort_keys=True)
+    #print json.dumps(query_entity_map, indent=4, sort_keys=True)
+    #raw_input("ok now!")
     return query_entity_map, id_entity_map
 
 
@@ -103,15 +103,19 @@ def main():
     parser.add_argument("--output_json", "-j", default = "query-ent-dbpedia.json")
 
     args = parser.parse_args()
-    query_entity_map = read_query(args.query_file)
+    query_entity_map, id_entity_map = read_query(args.query_file)
     raw_entites = find_wiki_entities(query_entity_map, args.link_file)
     with open(args.output_json,"w") as f:
         f.write(json.dumps(raw_entites))
 
     print json.dumps(raw_entites, indent=4, sort_keys=True)
 
-    #with open(args.output_file,"w") as f:
-    #    for k in raw_entites
+    with open(args.output_file,"w") as f:
+        for qid in id_entity_map:
+            for key in id_entity_map[qid]:
+                if key in raw_entites:
+                    f.write("%s : %s : %s\n" %(qid,key,raw_entites[key]) )
+            f.write("\n") # just in compliance of the original file to avoid potential problems of loading the map file       
 
 
 if __name__ == '__main__':
