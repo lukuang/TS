@@ -46,8 +46,8 @@ def read_query(query_file):
             stem_entity = stem(e)
             if e not in query_entity_map:
                 query_entity_map[stem_entity] = e
-    #print json.dumps(id_entity_map, indent=4, sort_keys=True)
-    #print json.dumps(query_entity_map, indent=4, sort_keys=True)
+    print json.dumps(id_entity_map, indent=4, sort_keys=True)
+    print json.dumps(query_entity_map, indent=4, sort_keys=True)
     #raw_input("ok now!")
     return query_entity_map, id_entity_map
 
@@ -75,10 +75,11 @@ def find_wiki_entities(query_entities, link_file):
                 print line
                 print sys.exit(-1)
             else:
-                entity1 = process_phrase(m.group(3))
+                entity1 = process_phrase(m.group(2))
                 entity2 = process_phrase(m.group(4))
+                #print "found entities %s and %s" %(entity1, entity2)
                 if entity1 in query_entities:
-                    #print "found entity %s and %s" %(m.group(1),m.group(2))
+                    print "found entity %s and %s" %(m.group(1),m.group(2))
                     if entity1 not in wiki_entites:
                         wiki_entites[query_entities(entity1)] = m.group(1)
                 if entity2 in query_entities:
