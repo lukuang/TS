@@ -6,6 +6,7 @@
 #
 
 use strict;
+use lib '/home/1546/perl15/model/';
 use Getopt::Long;
 
 my $script_name = "gen-workset.pl <ret_list> <save>";
@@ -58,14 +59,26 @@ sub load_raw(){
   while(<RAW>){
     chomp;
     next if /^$/;
+    my $next_did = 0;
 
-    if($_ =~ m/<DOCNO>(.*)<\/DOCNO>/){
+    if($_ =~ m/<DOCNO>\s*(.*)\s*<\/DOCNO>/){
       $did = $1;
       $did =~ s/^\s+//;
       $did =~ s/\s+$//;
       next;
     }
-
+    elsif($_=~m/<DOCNO>/){
+	$next_did = 1;
+        next;
+    }
+    elsif($next_did ==1 and $_=~m/(\S+)/ ){
+      $did = $1;
+      $did =~ s/^\s+//;
+      $did =~ s/\s+$//;
+      $next_did = 0;
+      next;
+    }
+   
     if($_ =~ m/<DOC>/){
       $is_in_doc = 1;
       next;

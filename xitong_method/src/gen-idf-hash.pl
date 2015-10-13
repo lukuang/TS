@@ -6,6 +6,7 @@
 #
 
 use strict;
+use lib '/home/1546/perl15/model/';
 use Getopt::Long;
 
 my $script_name = "gen-idf-hash.pl";
@@ -18,8 +19,8 @@ GetOptions('verbose!' => \$verbose,
 my %doc_list;
 my %idf_hash;
 
-my $raw_file = "corpus/top.2000";
-my $idf_hash_file = "corpus/idf.hash.2000";
+my $raw_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/top.2000";
+my $idf_hash_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/idf.hash.2000";
 
 main();
 
@@ -36,17 +37,30 @@ sub load_raw(){
   my $doc = "";
   my $did;
   my $is_in_doc = 0;
+  my $next_did=0;
 
   while(<RAW>){
     chomp;
     next if /^$/;
-
-    if($_ =~ m/<DOCNO>(.*)<\/DOCNO>/){
+    
+    if($_ =~ m/<DOCNO>\s*(.*)\s*<\/DOCNO>/){
       $did = $1;
       $did =~ s/^\s+//;
       $did =~ s/\s+$//;
       next;
     }
+    elsif($_=~m/<DOCNO>/){
+	$next_did = 1;
+        next;
+    }
+    elsif($next_did ==1 and $_=~m/(\S+)/ ){
+      $did = $1;
+      $did =~ s/^\s+//;
+      $did =~ s/\s+$//;
+      $next_did = 0;
+      next;
+    }
+
 
     if($_ =~ m/<DOC>/){
       $is_in_doc = 1;
