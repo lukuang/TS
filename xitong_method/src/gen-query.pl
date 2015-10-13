@@ -48,10 +48,10 @@ sub parse_raw(){
     chomp;
     next if /^$/;
 
-    next if /<top>/;
-    next if /<\/top>/;
+    next if /<event>/;
+    next if /<\/event>/;
 
-    if(m/^<num> Number: (\d+)/){
+    if(m/^<id>(\d+)/){
       $qid = $1;
       next;
     }
@@ -61,14 +61,14 @@ sub parse_raw(){
       next;
     }
     
-    if(m/^<type>/){
+    if(m/^<end>/){
       $is_in_desc = 1;
       next;
     }
 
     if(1 == $is_in_desc){
       # we have reached the end of the desc field
-      if(/^<narr>/){
+      if(/^<type>/){
         # save it
         $query_list{$qid}{title} = $title;
         $query_list{$qid}{query} = $query;
