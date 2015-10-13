@@ -56,12 +56,12 @@ sub parse_raw(){
       next;
     }
 
-    if(m/^<title> (.+)/){
+    if(m/^<query> (.+)/){
       $title = $1;
       next;
     }
     
-    if(m/^<desc>/){
+    if(m/^<type>/){
       $is_in_desc = 1;
       next;
     }
