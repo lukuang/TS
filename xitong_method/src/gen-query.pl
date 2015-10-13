@@ -56,7 +56,7 @@ sub parse_raw(){
       next;
     }
 
-    if(m/^<query> (.+)/){
+    if(m/^<query>([^<]+)/){
       $title = $1;
       next;
     }
