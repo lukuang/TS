@@ -71,6 +71,7 @@ sub parse_raw(){
       if(/^<type>/){
         # save it
         $query_list{$qid}{title} = $title;
+        print "title is $title\n"
         $query_list{$qid}{query} = $query;
         $title = "";
         $query = "";
