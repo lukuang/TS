@@ -1,0 +1,65 @@
+<parameters>
+        <index>/lustre/scratch/lukuang/all_index/p_index</index>
+	<trecFormat>true</trecFormat>
+        <query>
+		<number>11</number>
+		<text>Costa Concordia disaster and recovery costa concordia</text>
+	</query>
+	<query>
+		<number>12</number>
+		<text>Early 2012 European cold wave european cold wave</text>
+	</query>
+	<query>
+		<number>13</number>
+		<text>2013 Eastern Australia floods queensland floods</text>
+	</query>
+	<query>
+		<number>14</number>
+		<text>Boston Marathon bombings boston marathon bombing</text>
+	</query>
+	<query>
+		<number>15</number>
+		<text>Port Said Stadium riot egyptian riots</text>
+	</query>
+	<query>
+		<number>16</number>
+		<text>2012 Afghanistan Quran burning protests quran burning protests</text>
+	</query>
+	<query>
+		<number>17</number>
+		<text>In Amenas hostage crisis in amenas hostage crisis</text>
+	</query>
+	<query>
+		<number>18</number>
+		<text>2011 13 Russian protests russian protests</text>
+	</query>
+	<query>
+		<number>19</number>
+		<text>2012 Romanian protests romanian protests</text>
+	</query>
+	<query>
+		<number>20</number>
+		<text>2012 13 Egyptian protests egyptian protests</text>
+	</query>
+	<query>
+		<number>21</number>
+		<text>Chelyabinsk meteor russia meteor</text>
+	</query>
+	<query>
+		<number>22</number>
+		<text>2013 Bulgarian protests against the Borisov cabinet bulgarian protests</text>
+	</query>
+	<query>
+		<number>23</number>
+		<text>2013 Shahbag protests shahbag protests</text>
+	</query>
+	<query>
+		<number>24</number>
+		<text>February 2013 nor easter nor easter</text>
+	</query>
+	<query>
+		<number>25</number>
+		<text>Christopher Dorner shootings and manhunt Southern California shooting</text>
+	</query>
+	<count>2000</count>
+</parameters>

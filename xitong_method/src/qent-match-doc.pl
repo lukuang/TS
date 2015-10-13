@@ -5,7 +5,7 @@
 #
 
 use strict;
-use lib '/usa/xliu/usr/lib/site_perl/5.8.8/';
+use lib '/home/1546/perl15/model/';
 use Getopt::Long;
 use String::CamelCase qw(decamelize wordsplit);
 
@@ -22,9 +22,9 @@ my %query_ent_list;
 my %query_wiki_list;
 my %ent_match_list;
 
-my $ret_list_file = "ret/org/top.2000";
+my $ret_list_file = "ret/top.2000";
 my $query_ent_list_file = "data/query-ent-dbpedia.map";
-my $raw_file = "corpus/raw";
+my $raw_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/raw";
 
 my $ent_match_file = "data/query-ent-doc.map";
 
@@ -51,6 +51,7 @@ sub load_ret_list(){
   }
 
   close FILE;
+  print "there are ".scalar( keys %ret_list)." queries";
 }
 
 sub load_query_ent_list(){
@@ -77,6 +78,7 @@ sub load_query_ent_list(){
     $query_wiki_list{$qid}{$wiki} = 1;
   }
 
+  print "there are ".scalar( keys %query_ent_list)." queries";
   close FILE;
 }
 
@@ -88,18 +90,29 @@ sub load_raw(){
   my $doc = "";
   my $did;
   my $is_in_doc = 0;
-
+  my $next_did = 0;
   while(<RAW>){
     chomp;
     next if /^$/;
-
-    if($_ =~ m/<DOCNO>(.*)<\/DOCNO>/){
+     
+    if($_ =~ m/<DOCNO>\s*(.*)\s*<\/DOCNO>/){
       $did = $1;
       $did =~ s/^\s+//;
       $did =~ s/\s+$//;
       next;
     }
-
+    elsif($_=~m/<DOCNO>/){
+	$next_did = 1;
+        next;
+    }
+    elsif($next_did ==1 and $_=~m/(\S+)/ ){
+      $did = $1;
+      $did =~ s/^\s+//;
+      $did =~ s/\s+$//;
+      $next_did = 0;
+      next;
+    }
+   
     if($_ =~ m/<DOC>/){
       $is_in_doc = 1;
       next;
@@ -121,7 +134,7 @@ sub load_raw(){
       }
     }
   }
-
+  printf("there are %d documents\n",scalar (keys %doc_list));
   close RAW;
 }
 

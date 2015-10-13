@@ -132,12 +132,13 @@ sub save_indri(){
     $query = trim($query);
 
     print INDRI "\t<query>\n";
+    print INDRI "\t<trecFormat>true</trecFormat>\n";
     print INDRI "\t\t<number>$qid<\/number>\n";
     print INDRI "\t\t<text>$query<\/text>\n";
     print INDRI "\t<\/query>\n";
   }
  
-  print INDRI "\t<count>1000<\/count>\n";
+  print INDRI "\t<count>2000<\/count>\n";
   print INDRI "<\/parameters>\n";
 
   close INDRI;
