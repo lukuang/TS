@@ -60,7 +60,8 @@ def process_phrase(phrase):
     return_string = ""
     for word in re.findall("\w+",word_string):
         return_string += stem(word) + " "
-    return return_string
+    return return_string.strip()
+
 
 
 
@@ -77,14 +78,14 @@ def find_wiki_entities(query_entities, link_file):
             else:
                 entity1 = process_phrase(m.group(2))
                 entity2 = process_phrase(m.group(4))
-                #print "found entities %s and %s" %(entity1, entity2)
+                #print "found entities k%sk and k%sk" %(entity1, entity2)
                 if entity1 in query_entities:
                     print "found entity %s and %s" %(m.group(1),m.group(2))
                     if entity1 not in wiki_entites:
-                        wiki_entites[query_entities(entity1)] = m.group(1)
+                        wiki_entites[query_entities[entity1]] = m.group(1)
                 if entity2 in query_entities:
                     if entity2 not in wiki_entites:
-                        wiki_entites[query_entities(entity2)] = m.group(3)
+                        wiki_entites[query_entities[entity2]] = m.group(3)
 
             i +=1
             if (i%1000000 == 0):
