@@ -11,7 +11,7 @@
 # 1.0  original release
 
 use strict;
-#use lib '/usa/xliu/usr/lib/site_perl/5.8.8/';
+use lib '/home/1546/perl15/model/';
 use Getopt::Long;
 use String::CamelCase qw(decamelize wordsplit);
 
@@ -26,7 +26,7 @@ GetOptions('verbose!' => \$verbose,
 # @ARGV = map { /.gz$/ ? "gzip -dc $_ |" : $_ } @ARGV;
 
 my $qent_match_dbpedia_file = "data/query-ent-dbpedia.map";
-my $dbpedia_graph_file = "dbpedia/page_links_en.nt";
+my $dbpedia_graph_file = "/lustre/scratch/lukuang/dbpedia/src/page_links_en.nt";
 my $inc_ent_file = "data/in.ent.list";
 my $out_ent_file = "data/out.ent.list";
 
