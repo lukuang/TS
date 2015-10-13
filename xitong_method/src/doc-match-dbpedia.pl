@@ -82,6 +82,7 @@ sub load_raw(){
   my $doc = "";
   my $did;
   my $is_in_doc = 0;
+  my $next_did = 0;
 
   while(<RAW>){
     chomp;
