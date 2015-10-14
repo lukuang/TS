@@ -1,63 +1,76 @@
 <parameters>
-        <index>/lustre/scratch/lukuang/all_index/p_index</index>
+	<query>
 	<trecFormat>true</trecFormat>
-        <query>
 		<number>11</number>
 		<text>Costa Concordia disaster and recovery costa concordia</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>12</number>
 		<text>Early 2012 European cold wave european cold wave</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>13</number>
 		<text>2013 Eastern Australia floods queensland floods</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>14</number>
 		<text>Boston Marathon bombings boston marathon bombing</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>15</number>
 		<text>Port Said Stadium riot egyptian riots</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>16</number>
 		<text>2012 Afghanistan Quran burning protests quran burning protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>17</number>
 		<text>In Amenas hostage crisis in amenas hostage crisis</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>18</number>
 		<text>2011 13 Russian protests russian protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>19</number>
 		<text>2012 Romanian protests romanian protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>20</number>
 		<text>2012 13 Egyptian protests egyptian protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>21</number>
 		<text>Chelyabinsk meteor russia meteor</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>22</number>
 		<text>2013 Bulgarian protests against the Borisov cabinet bulgarian protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>23</number>
 		<text>2013 Shahbag protests shahbag protests</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>24</number>
 		<text>February 2013 nor easter nor easter</text>
 	</query>
 	<query>
+	<trecFormat>true</trecFormat>
 		<number>25</number>
 		<text>Christopher Dorner shootings and manhunt Southern California shooting</text>
 	</query>

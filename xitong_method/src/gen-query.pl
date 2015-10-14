@@ -158,7 +158,7 @@ sub save_desc_ns(){
   my %desc_list;
 
   for my $qid(sort {$a<=>$b} keys %query_list){
-    my $query = $query_list{$qid}{query};
+    my $query = $query_list{$qid}{title};
 
     #$query = trim($query);
     my $desc_query = "";
