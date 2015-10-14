@@ -49,9 +49,9 @@ def main():
 
     with open(args.output_file,"w") as f:
         for qid in sorted(models.keys()):
-            f.write("%s %d\n" %qid,length[qid])
+            f.write("%s %d\n" %(qid,length[qid]) )
             for term in models[qid]:
-                f.write("%s %f\n" %term,models[qid][term])
+                f.write("%s %f\n" %(term,models[qid][term]) )
             f.write("\n") # just in compliance of the original file to avoid potential problems of loading the map file       
 
 
