@@ -7,7 +7,7 @@
 11 : 6 : carnival cruise lines : 15.0361725053612 : http://dbpedia.org/resource/carnival_cruise_lines : 3.87543918980499
 12 : 0 : cold : 18439.2527221694 : http://dbpedia.org/resource/cold : 2.49333005236998
 12 : 1 : european union : 7695.38858366957 : http://dbpedia.org/resource/european_union : 8.75333632527731
-12 : 2 : he at : 3668.04775236002 : http://dbpedia.org/resource/heat : 2.49333005236998
+12 : 2 : heat : 3668.04775236002 : http://dbpedia.org/resource/heat : 2.49333005236998
 12 : 3 : winter : 3088.7047329624 : http://dbpedia.org/resource/winter : 2.49333005236998
 12 : 4 : family : 2824.52205867147 : http://dbpedia.org/resource/family : 8.75333632527731
 12 : 5 : temperature : 2821.96750854052 : http://dbpedia.org/resource/temperature : 2.49333005236998
