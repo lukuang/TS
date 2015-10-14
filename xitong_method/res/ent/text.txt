@@ -1,0 +1,1309 @@
+11 : 0 : greece : 19.8798594753412 : http://dbpedia.org/resource/greece : 3.87543918980499
+11 : 1 : costa serena : 19.8798594753412 : http://dbpedia.org/resource/costa_serena : 3.87543918980499
+11 : 2 : costa pacifica : 19.8798594753412 : http://dbpedia.org/resource/costa_pacifica : 3.87543918980499
+11 : 3 : costa cruises : 19.8798594753412 : http://dbpedia.org/resource/costa_cruises : 3.87543918980499
+11 : 4 : italy : 19.8798594753412 : http://dbpedia.org/resource/italy : 3.87543918980499
+11 : 5 : grand prix : 19.8798594753412 : http://dbpedia.org/resource/grand_prix : 3.87543918980499
+11 : 6 : carnival cruise lines : 15.0361725053612 : http://dbpedia.org/resource/carnival_cruise_lines : 3.87543918980499
+12 : 0 : cold : 18439.2527221694 : http://dbpedia.org/resource/cold : 2.49333005236998
+12 : 1 : european union : 7695.38858366957 : http://dbpedia.org/resource/european_union : 8.75333632527731
+12 : 2 : he at : 3668.04775236002 : http://dbpedia.org/resource/heat : 2.49333005236998
+12 : 3 : winter : 3088.7047329624 : http://dbpedia.org/resource/winter : 2.49333005236998
+12 : 4 : family : 2824.52205867147 : http://dbpedia.org/resource/family : 8.75333632527731
+12 : 5 : temperature : 2821.96750854052 : http://dbpedia.org/resource/temperature : 2.49333005236998
+12 : 6 : mass : 2240.2286680551 : http://dbpedia.org/resource/mass : 2.49333005236998
+12 : 7 : wind : 1992.97780027146 : http://dbpedia.org/resource/wind : 2.49333005236998
+12 : 8 : snow : 1809.75738261398 : http://dbpedia.org/resource/snow : 2.49333005236998
+12 : 9 : united nations : 1712.36756812503 : http://dbpedia.org/resource/united_nations : 8.75333632527731
+12 : 10 : sun : 1697.16908858623 : http://dbpedia.org/resource/sun : 2.49333005236998
+12 : 11 : ice : 1697.16109382857 : http://dbpedia.org/resource/ice : 2.49333005236998
+12 : 12 : blue : 1532.586949657 : http://dbpedia.org/resource/blue : 2.49333005236998
+12 : 13 : earth : 1114.44187978149 : http://dbpedia.org/resource/earth : 2.49333005236998
+12 : 14 : cold front : 1083.72642200006 : http://dbpedia.org/resource/cold_front : 2.49333005236998
+12 : 15 : atmosphere : 870.205973333595 : http://dbpedia.org/resource/atmosphere : 2.49333005236998
+12 : 16 : fahrenheit : 788.508958796026 : http://dbpedia.org/resource/fahrenheit : 2.49333005236998
+12 : 17 : celsius : 766.936169868348 : http://dbpedia.org/resource/celsius : 2.49333005236998
+12 : 18 : european integration : 615.743995551691 : http://dbpedia.org/resource/european_integration : 8.75333632527731
+12 : 19 : chilly : 545.875499926404 : http://dbpedia.org/resource/chilly : 2.49333005236998
+12 : 20 : coldest : 542.949118781061 : http://dbpedia.org/resource/coldest : 2.49333005236998
+12 : 21 : fever : 426.63256233945 : http://dbpedia.org/resource/fever : 2.49333005236998
+12 : 22 : colder : 398.807882749433 : http://dbpedia.org/resource/colder : 2.49333005236998
+12 : 23 : frost : 309.716782277513 : http://dbpedia.org/resource/frost : 2.49333005236998
+12 : 24 : shivering : 305.410939614323 : http://dbpedia.org/resource/shivering : 2.49333005236998
+12 : 25 : radiation : 266.210706876168 : http://dbpedia.org/resource/radiation : 2.49333005236998
+12 : 26 : frostbite : 258.149670077149 : http://dbpedia.org/resource/frostbite : 2.49333005236998
+12 : 27 : hail : 255.721394112304 : http://dbpedia.org/resource/hail : 2.49333005236998
+12 : 28 : citizenship : 248.256371386119 : http://dbpedia.org/resource/citizenship : 8.75333632527731
+12 : 29 : altitude : 233.586203228455 : http://dbpedia.org/resource/altitude : 2.49333005236998
+12 : 30 : ice cream : 230.139108710379 : http://dbpedia.org/resource/ice_cream : 2.49333005236998
+12 : 31 : hypothermia : 208.420290000081 : http://dbpedia.org/resource/hypothermia : 2.49333005236998
+12 : 32 : patriotism : 195.154282913899 : http://dbpedia.org/resource/patriotism : 8.75333632527731
+12 : 33 : universe : 193.708630431153 : http://dbpedia.org/resource/universe : 2.49333005236998
+12 : 34 : refrigerator : 183.767956530767 : http://dbpedia.org/resource/refrigerator : 2.49333005236998
+12 : 35 : antarctica : 171.60589876105 : http://dbpedia.org/resource/antarctica : 2.49333005236998
+12 : 36 : fluid : 156.43794563234 : http://dbpedia.org/resource/fluid : 2.49333005236998
+12 : 37 : common cold : 156.367740452071 : http://dbpedia.org/resource/common_cold : 2.49333005236998
+12 : 38 : cold shoulder : 148.891345044941 : http://dbpedia.org/resource/cold_shoulder : 2.49333005236998
+12 : 39 : council of europe : 146.671623571526 : http://dbpedia.org/resource/council_of_europe : 8.75333632527731
+12 : 40 : glacier : 145.165039067241 : http://dbpedia.org/resource/glacier : 2.49333005236998
+12 : 41 : north pole : 104.028901012769 : http://dbpedia.org/resource/north_pole : 2.49333005236998
+12 : 42 : mars : 101.759296268339 : http://dbpedia.org/resource/mars : 2.49333005236998
+12 : 43 : sleet : 100.195120139595 : http://dbpedia.org/resource/sleet : 2.49333005236998
+12 : 44 : mtv : 98.449417656291 : http://dbpedia.org/resource/mtv : 2.49333005236998
+12 : 45 : multilateralism : 87.345820038086 : http://dbpedia.org/resource/multilateralism : 8.75333632527731
+12 : 46 : therapy : 86.4410487817234 : http://dbpedia.org/resource/therapy : 2.49333005236998
+12 : 47 : evaporation : 72.5515448545832 : http://dbpedia.org/resource/evaporation : 2.49333005236998
+12 : 48 : chills : 71.2855669060957 : http://dbpedia.org/resource/chills : 2.49333005236998
+12 : 49 : camping : 64.3207070723248 : http://dbpedia.org/resource/camping : 2.49333005236998
+12 : 50 : criminal justice : 64.2216442525546 : http://dbpedia.org/resource/criminal_justice : 8.75333632527731
+12 : 51 : multiculturalism : 60.6731167935616 : http://dbpedia.org/resource/multiculturalism : 8.75333632527731
+12 : 52 : ice cap : 54.1660119071779 : http://dbpedia.org/resource/ice_cap : 2.49333005236998
+12 : 53 : sovereign state : 51.6967135373815 : http://dbpedia.org/resource/sovereign_state : 8.75333632527731
+12 : 54 : physiology : 45.6424322446413 : http://dbpedia.org/resource/physiology : 2.49333005236998
+12 : 55 : snowball : 41.6283552565662 : http://dbpedia.org/resource/snowball : 2.49333005236998
+12 : 56 : hygiene : 41.3811084911745 : http://dbpedia.org/resource/hygiene : 2.49333005236998
+12 : 57 : british people : 38.9745500348952 : http://dbpedia.org/resource/british_people : 8.75333632527731
+12 : 58 : thermal energy : 37.4928294273264 : http://dbpedia.org/resource/thermal_energy : 2.49333005236998
+12 : 59 : iceberg : 36.6380740602804 : http://dbpedia.org/resource/iceberg : 2.49333005236998
+12 : 60 : uncertainty principle : 31.7144226222659 : http://dbpedia.org/resource/uncertainty_principle : 2.49333005236998
+12 : 61 : capital punishment : 31.0195946376263 : http://dbpedia.org/resource/capital_punishment : 8.75333632527731
+12 : 62 : south pole : 24.3303950513101 : http://dbpedia.org/resource/south_pole : 2.49333005236998
+12 : 63 : nobel prize in physics : 21.8547615410076 : http://dbpedia.org/resource/nobel_prize_in_physics : 2.49333005236998
+12 : 64 : kelvin : 21.4916670981891 : http://dbpedia.org/resource/kelvin : 2.49333005236998
+12 : 65 : jupiter : 21.4095475587914 : http://dbpedia.org/resource/jupiter : 2.49333005236998
+12 : 66 : coldness : 19.96056164366 : http://dbpedia.org/resource/coldness : 2.49333005236998
+12 : 67 : cosmopolitanism : 18.7905461188709 : http://dbpedia.org/resource/cosmopolitanism : 8.75333632527731
+12 : 68 : absolute zero : 17.9832385540691 : http://dbpedia.org/resource/absolute_zero : 2.49333005236998
+12 : 69 : steven chu : 17.1483820719719 : http://dbpedia.org/resource/steven_chu : 2.49333005236998
+12 : 70 : sustainable development : 16.0071918647054 : http://dbpedia.org/resource/sustainable_development : 8.75333632527731
+12 : 71 : kinetic energy : 15.719461851428 : http://dbpedia.org/resource/kinetic_energy : 2.49333005236998
+12 : 72 : cold spot : 14.2679198265819 : http://dbpedia.org/resource/cold_spot : 2.49333005236998
+12 : 73 : perspiration : 14.2028704256406 : http://dbpedia.org/resource/perspiration : 2.49333005236998
+12 : 74 : icebox : 14.0115450849011 : http://dbpedia.org/resource/icebox : 2.49333005236998
+12 : 75 : coolant : 13.8187249392787 : http://dbpedia.org/resource/coolant : 2.49333005236998
+12 : 76 : dry ice : 13.5642198461434 : http://dbpedia.org/resource/dry_ice : 2.49333005236998
+12 : 77 : refrigeration : 13.492790800189 : http://dbpedia.org/resource/refrigeration : 2.49333005236998
+12 : 78 : frankfurter allgemeine zeitung : 13.1724052853752 : http://dbpedia.org/resource/frankfurter_allgemeine_zeitung : 8.75333632527731
+12 : 79 : anti-europeanism : 13.0318751112428 : http://dbpedia.org/resource/anti-europeanism : 8.75333632527731
+12 : 80 : melting point : 12.8369238385139 : http://dbpedia.org/resource/melting_point : 2.49333005236998
+12 : 81 : herschel space observatory : 12.5104702420572 : http://dbpedia.org/resource/herschel_space_observatory : 2.49333005236998
+12 : 82 : special relationship : 12.2667351629062 : http://dbpedia.org/resource/special_relationship : 8.75333632527731
+12 : 83 : snowman : 11.9006887290044 : http://dbpedia.org/resource/snowman : 2.49333005236998
+12 : 84 : winter sport : 11.5561382243755 : http://dbpedia.org/resource/winter_sport : 2.49333005236998
+12 : 85 : vostok station : 11.5335504554232 : http://dbpedia.org/resource/vostok_station : 2.49333005236998
+12 : 86 : saturn : 7.37298182527285 : http://dbpedia.org/resource/saturn : 2.49333005236998
+12 : 87 : secularism : 6.20474883294025 : http://dbpedia.org/resource/secularism : 8.75333632527731
+12 : 88 : mammal : 5.34328199349356 : http://dbpedia.org/resource/mammal : 2.49333005236998
+12 : 89 : liquid nitrogen : 3.51715521273515 : http://dbpedia.org/resource/liquid_nitrogen : 2.49333005236998
+13 : 0 : floods : 9193.73907186641 : http://dbpedia.org/resource/floods : 3.19393756807467
+13 : 1 : rain : 6809.85494242514 : http://dbpedia.org/resource/rain : 3.83497877642908
+13 : 2 : water : 6548.61380067294 : http://dbpedia.org/resource/water : 3.19393756807467
+13 : 3 : flooding : 6386.33148875942 : http://dbpedia.org/resource/flooding : 3.19393756807467
+13 : 4 : australia : 5863.60492990818 : http://dbpedia.org/resource/australia : 3.83497877642908
+13 : 5 : river : 5817.18444261816 : http://dbpedia.org/resource/river : 3.19393756807467
+13 : 6 : china : 4273.43091253475 : http://dbpedia.org/resource/china : 3.19393756807467
+13 : 7 : flooded : 3926.78565860094 : http://dbpedia.org/resource/flooded : 3.19393756807467
+13 : 8 : brisbane : 3722.70194200159 : http://dbpedia.org/resource/brisbane : 3.83497877642908
+13 : 9 : may : 3367.34048178237 : http://dbpedia.org/resource/may : 3.83497877642908
+13 : 10 : disaster : 2671.24380829545 : http://dbpedia.org/resource/disaster : 3.19393756807467
+13 : 11 : away : 2478.61522031532 : http://dbpedia.org/resource/away : 3.83497877642908
+13 : 12 : emergency : 2403.86415182967 : http://dbpedia.org/resource/emergency : 3.19393756807467
+13 : 13 : weather : 2243.6298281225 : http://dbpedia.org/resource/weather : 3.19393756807467
+13 : 14 : yangtze river : 2171.90554667188 : http://dbpedia.org/resource/yangtze_river : 3.19393756807467
+13 : 15 : town : 2104.42184017166 : http://dbpedia.org/resource/town : 3.83497877642908
+13 : 16 : flood control : 1899.04174032155 : http://dbpedia.org/resource/flood_control : 3.19393756807467
+13 : 17 : -land : 1892.64064173362 : http://dbpedia.org/resource/-land : 3.83497877642908
+13 : 18 : york : 1771.27555249859 : http://dbpedia.org/resource/york : 3.19393756807467
+13 : 19 : coast : 1704.22443676751 : http://dbpedia.org/resource/coast : 3.19393756807467
+13 : 20 : 1996 : 1695.1620791223 : http://dbpedia.org/resource/1996 : 3.19393756807467
+13 : 21 : monsoon : 1633.55831892423 : http://dbpedia.org/resource/monsoon : 3.83497877642908
+13 : 22 : storm : 1330.66933355892 : http://dbpedia.org/resource/storm : 3.19393756807467
+13 : 23 : cairns : 1309.94382413216 : http://dbpedia.org/resource/cairns : 3.83497877642908
+13 : 24 : parliament : 1166.6873640709 : http://dbpedia.org/resource/parliament : 3.83497877642908
+13 : 25 : new south wales : 903.181671486056 : http://dbpedia.org/resource/new_south_wales : 3.83497877642908
+13 : 26 : lake : 868.047105314574 : http://dbpedia.org/resource/lake : 3.19393756807467
+13 : 27 : bangladesh : 858.126626424657 : http://dbpedia.org/resource/bangladesh : 3.19393756807467
+13 : 28 : valley : 776.699349232972 : http://dbpedia.org/resource/valley : 3.19393756807467
+13 : 29 : drinking water : 741.309541888965 : http://dbpedia.org/resource/drinking_water : 3.19393756807467
+13 : 30 : california : 715.376315962132 : http://dbpedia.org/resource/california : 3.19393756807467
+13 : 31 : farm : 645.487970334315 : http://dbpedia.org/resource/farm : 3.83497877642908
+13 : 32 : plain : 623.155928443902 : http://dbpedia.org/resource/plain : 3.19393756807467
+13 : 33 : fire : 584.319561843105 : http://dbpedia.org/resource/fire : 3.19393756807467
+13 : 34 : indonesia : 578.205799584893 : http://dbpedia.org/resource/indonesia : 3.19393756807467
+13 : 35 : north queensland : 575.919278007986 : http://dbpedia.org/resource/north_queensland : 3.83497877642908
+13 : 36 : levee : 548.101026265983 : http://dbpedia.org/resource/levee : 3.19393756807467
+13 : 37 : senate : 535.634903839123 : http://dbpedia.org/resource/senate : 3.83497877642908
+13 : 38 : dam : 519.952447361634 : http://dbpedia.org/resource/dam : 3.19393756807467
+13 : 39 : russia : 486.642774373476 : http://dbpedia.org/resource/russia : 3.19393756807467
+13 : 40 : infrastructure : 484.529033236152 : http://dbpedia.org/resource/infrastructure : 3.19393756807467
+13 : 41 : deluge : 462.267570420275 : http://dbpedia.org/resource/deluge : 3.19393756807467
+13 : 42 : flood damage : 459.983302285717 : http://dbpedia.org/resource/flood_damage : 3.19393756807467
+13 : 43 : western australia : 438.063268225296 : http://dbpedia.org/resource/western_australia : 3.83497877642908
+13 : 44 : natural disaster : 430.406185172445 : http://dbpedia.org/resource/natural_disaster : 3.19393756807467
+13 : 45 : queensland, australia : 428.461352338083 : http://dbpedia.org/resource/queensland,_australia : 3.83497877642908
+13 : 46 : emergency management : 428.240783912001 : http://dbpedia.org/resource/emergency_management : 3.19393756807467
+13 : 47 : water resources : 417.130625812382 : http://dbpedia.org/resource/water_resources : 3.19393756807467
+13 : 48 : london : 411.08696707907 : http://dbpedia.org/resource/london : 3.19393756807467
+13 : 49 : landslide : 401.816691984816 : http://dbpedia.org/resource/landslide : 3.19393756807467
+13 : 50 : state of emergency : 395.633999394082 : http://dbpedia.org/resource/state_of_emergency : 3.83497877642908
+13 : 51 : tourism : 392.38446601216 : http://dbpedia.org/resource/tourism : 3.83497877642908
+13 : 52 : south australia : 390.803955368551 : http://dbpedia.org/resource/south_australia : 3.83497877642908
+13 : 53 : debris : 381.950991808483 : http://dbpedia.org/resource/debris : 3.19393756807467
+13 : 54 : airport : 358.364743849296 : http://dbpedia.org/resource/airport : 3.19393756807467
+13 : 55 : meteorology : 345.538395982822 : http://dbpedia.org/resource/meteorology : 3.19393756807467
+13 : 56 : reservoir : 344.195761085612 : http://dbpedia.org/resource/reservoir : 3.19393756807467
+13 : 57 : cyclone : 338.158917554493 : http://dbpedia.org/resource/cyclone : 3.19393756807467
+13 : 58 : flood stage : 333.174885910574 : http://dbpedia.org/resource/flood_stage : 3.19393756807467
+13 : 59 : diversion : 329.459047701902 : http://dbpedia.org/resource/diversion : 3.19393756807467
+13 : 60 : yellow river : 320.783740550843 : http://dbpedia.org/resource/yellow_river : 3.19393756807467
+13 : 61 : cricket : 312.81832706714 : http://dbpedia.org/resource/cricket : 3.83497877642908
+13 : 62 : ganges : 304.047225139119 : http://dbpedia.org/resource/ganges : 3.19393756807467
+13 : 63 : flood prevention : 295.44386079143 : http://dbpedia.org/resource/flood_prevention : 3.19393756807467
+13 : 64 : flash flood : 291.785565543653 : http://dbpedia.org/resource/flash_flood : 3.19393756807467
+13 : 65 : new jersey : 291.762015388614 : http://dbpedia.org/resource/new_jersey : 3.19393756807467
+13 : 66 : stream : 291.233227981581 : http://dbpedia.org/resource/stream : 3.19393756807467
+13 : 67 : northern territory : 287.540495906792 : http://dbpedia.org/resource/northern_territory : 3.83497877642908
+13 : 68 : earthquake : 272.128321223569 : http://dbpedia.org/resource/earthquake : 3.19393756807467
+13 : 69 : anna bligh : 262.508331317144 : http://dbpedia.org/resource/anna_bligh : 3.83497877642908
+13 : 70 : pacific ocean : 258.156966587927 : http://dbpedia.org/resource/pacific_ocean : 3.83497877642908
+13 : 71 : great barrier reef : 257.824603695007 : http://dbpedia.org/resource/great_barrier_reef : 3.83497877642908
+13 : 72 : egypt : 257.213414086311 : http://dbpedia.org/resource/egypt : 3.19393756807467
+13 : 73 : townsville : 251.255223045382 : http://dbpedia.org/resource/townsville : 3.83497877642908
+13 : 74 : corps : 250.175531608909 : http://dbpedia.org/resource/corps : 3.83497877642908
+13 : 75 : netherlands : 244.49331405778 : http://dbpedia.org/resource/netherlands : 3.19393756807467
+13 : 76 : nile : 244.175932476248 : http://dbpedia.org/resource/nile : 3.19393756807467
+13 : 77 : 2008 : 242.016014114637 : http://dbpedia.org/resource/2008 : 3.19393756807467
+13 : 78 : floodwater : 241.887425418433 : http://dbpedia.org/resource/floodwater : 3.19393756807467
+13 : 79 : rugby league : 241.236436126006 : http://dbpedia.org/resource/rugby_league : 3.83497877642908
+13 : 80 : flood insurance : 240.59089299322 : http://dbpedia.org/resource/flood_insurance : 3.19393756807467
+13 : 81 : 1949 : 239.265214337263 : http://dbpedia.org/resource/1949 : 3.19393756807467
+13 : 82 : tide : 236.240654923539 : http://dbpedia.org/resource/tide : 3.19393756807467
+13 : 83 : snow : 221.683221103489 : http://dbpedia.org/resource/snow : 3.19393756807467
+13 : 84 : deforestation : 203.396849107735 : http://dbpedia.org/resource/deforestation : 3.19393756807467
+13 : 85 : global warming : 196.587258693749 : http://dbpedia.org/resource/global_warming : 3.19393756807467
+13 : 86 : coral : 196.407617528571 : http://dbpedia.org/resource/coral : 3.83497877642908
+13 : 87 : inundate : 194.52624856465 : http://dbpedia.org/resource/inundate : 3.19393756807467
+13 : 88 : rockhampton : 192.40682601405 : http://dbpedia.org/resource/rockhampton : 3.83497877642908
+13 : 89 : south carolina : 192.192878991491 : http://dbpedia.org/resource/south_carolina : 3.83497877642908
+13 : 90 : ditch : 187.547645617607 : http://dbpedia.org/resource/ditch : 3.19393756807467
+13 : 91 : college : 186.741119236273 : http://dbpedia.org/resource/college : 3.83497877642908
+13 : 92 : colorado : 186.637725911433 : http://dbpedia.org/resource/colorado : 3.19393756807467
+13 : 93 : culture : 183.278617793354 : http://dbpedia.org/resource/culture : 3.19393756807467
+13 : 94 : peter beattie : 180.064103679747 : http://dbpedia.org/resource/peter_beattie : 3.83497877642908
+13 : 95 : national rugby league : 177.223725423845 : http://dbpedia.org/resource/national_rugby_league : 3.83497877642908
+13 : 96 : 1988 : 172.30248274372 : http://dbpedia.org/resource/1988 : 3.83497877642908
+13 : 97 : ice : 171.42462177418 : http://dbpedia.org/resource/ice : 3.19393756807467
+13 : 98 : state government : 169.864449766988 : http://dbpedia.org/resource/state_government : 3.83497877642908
+13 : 99 : high school : 169.82006695769 : http://dbpedia.org/resource/high_school : 3.83497877642908
+13 : 100 : tim fischer : 161.474438972585 : http://dbpedia.org/resource/tim_fischer : 3.83497877642908
+14 : 0 : new york : 25892.0697098839 : http://dbpedia.org/resource/new_york : 3.40464275140421
+14 : 1 : boston marathon : 21417.34215866 : http://dbpedia.org/resource/boston_marathon : 2.7128170987226
+14 : 2 : marathon : 17170.3460498963 : http://dbpedia.org/resource/marathon : 2.65329416570646
+14 : 3 : new york city marathon : 16068.1695918103 : http://dbpedia.org/resource/new_york_city_marathon : 2.7128170987226
+14 : 4 : united states : 15544.2849448445 : http://dbpedia.org/resource/united_states : 3.40464275140421
+14 : 5 : boston : 13493.7755840743 : http://dbpedia.org/resource/boston : 2.65329416570646
+14 : 6 : kenya : 9976.26907859216 : http://dbpedia.org/resource/kenya : 2.7128170987226
+14 : 7 : running : 9085.97677868583 : http://dbpedia.org/resource/running : 2.7128170987226
+14 : 8 : sunday : 7033.90587043864 : http://dbpedia.org/resource/sunday : 2.59377123269032
+14 : 9 : new york city : 6411.62210773325 : http://dbpedia.org/resource/new_york_city : 2.59377123269032
+14 : 10 : globe : 6150.01787371382 : http://dbpedia.org/resource/globe : 2.59377123269032
+14 : 11 : marathons : 5377.49791666693 : http://dbpedia.org/resource/marathons : 2.7128170987226
+14 : 12 : the boston globe : 5293.53859484632 : http://dbpedia.org/resource/the_boston_globe : 2.59377123269032
+14 : 13 : the boston marathon : 4850.14839709304 : http://dbpedia.org/resource/the_boston_marathon : 2.65329416570646
+14 : 14 : april : 4849.62383171167 : http://dbpedia.org/resource/april : 2.65329416570646
+14 : 15 : road : 4340.82639145451 : http://dbpedia.org/resource/road : 2.65329416570646
+14 : 16 : fatuma roba : 4187.65246040184 : http://dbpedia.org/resource/fatuma_roba : 2.7128170987226
+14 : 17 : massachusetts : 3713.31906368149 : http://dbpedia.org/resource/massachusetts : 2.65329416570646
+14 : 18 : london : 3555.91379607396 : http://dbpedia.org/resource/london : 3.40464275140421
+14 : 19 : the new york times : 3416.87989202077 : http://dbpedia.org/resource/the_new_york_times : 2.59377123269032
+14 : 20 : chicago : 3384.54723044223 : http://dbpedia.org/resource/chicago : 2.59377123269032
+14 : 21 : joan benoit : 3158.62786294446 : http://dbpedia.org/resource/joan_benoit : 2.7128170987226
+14 : 22 : london marathon : 3080.64633176981 : http://dbpedia.org/resource/london_marathon : 2.7128170987226
+14 : 23 : 1997 : 2969.34084693546 : http://dbpedia.org/resource/1997 : 2.59377123269032
+14 : 24 : world record : 2901.05759356467 : http://dbpedia.org/resource/world_record : 2.7128170987226
+14 : 25 : college : 2693.64362014131 : http://dbpedia.org/resource/college : 2.59377123269032
+14 : 26 : joseph chebet : 2643.34862899463 : http://dbpedia.org/resource/joseph_chebet : 2.65329416570646
+14 : 27 : ethiopia : 2586.9901141013 : http://dbpedia.org/resource/ethiopia : 2.7128170987226
+14 : 28 : chicago marathon : 2564.38109502083 : http://dbpedia.org/resource/chicago_marathon : 2.7128170987226
+14 : 29 : bombing : 2522.34667352799 : http://dbpedia.org/resource/bombing : 3.40464275140421
+14 : 30 : alberto salazar : 2484.7742232853 : http://dbpedia.org/resource/alberto_salazar : 2.7128170987226
+14 : 31 : uta pippig : 2438.05913983933 : http://dbpedia.org/resource/uta_pippig : 2.7128170987226
+14 : 32 : 26.2 : 2430.57810366352 : http://dbpedia.org/resource/26.2 : 2.7128170987226
+14 : 33 : moses tanui : 2421.80437805491 : http://dbpedia.org/resource/moses_tanui : 2.65329416570646
+14 : 34 : name : 2407.24745384937 : http://dbpedia.org/resource/name : 2.59377123269032
+14 : 35 : half marathon : 2388.07013464885 : http://dbpedia.org/resource/half_marathon : 2.7128170987226
+14 : 36 : mary wittenberg : 2383.26208725288 : http://dbpedia.org/resource/mary_wittenberg : 2.7128170987226
+14 : 37 : police : 2280.30686190863 : http://dbpedia.org/resource/police : 2.59377123269032
+14 : 38 : train : 2208.56431616921 : http://dbpedia.org/resource/train : 3.40464275140421
+14 : 39 : nation : 2197.78240525617 : http://dbpedia.org/resource/nation : 2.65329416570646
+14 : 40 : new england : 2166.23118550057 : http://dbpedia.org/resource/new_england : 2.65329416570646
+14 : 41 : catherine ndereba : 2096.55882589354 : http://dbpedia.org/resource/catherine_ndereba : 2.7128170987226
+14 : 42 : russia : 2081.97045868256 : http://dbpedia.org/resource/russia : 3.40464275140421
+14 : 43 : manhattan : 2062.01678065471 : http://dbpedia.org/resource/manhattan : 2.59377123269032
+14 : 44 : england : 1978.12361045068 : http://dbpedia.org/resource/england : 3.40464275140421
+14 : 45 : americans : 1961.76741440782 : http://dbpedia.org/resource/americans : 2.59377123269032
+14 : 46 : athens : 1931.01698053733 : http://dbpedia.org/resource/athens : 2.7128170987226
+14 : 47 : marathoner : 1904.83876800726 : http://dbpedia.org/resource/marathoner : 2.7128170987226
+14 : 48 : high school : 1858.8867151819 : http://dbpedia.org/resource/high_school : 2.59377123269032
+14 : 49 : town : 1852.4479547861 : http://dbpedia.org/resource/town : 2.59377123269032
+14 : 50 : deena kastor : 1755.03486305291 : http://dbpedia.org/resource/deena_kastor : 2.7128170987226
+14 : 51 : weather : 1703.80794133641 : http://dbpedia.org/resource/weather : 2.65329416570646
+14 : 52 : boston athletic association : 1675.08619306966 : http://dbpedia.org/resource/boston_athletic_association : 2.7128170987226
+14 : 53 : atlanta : 1664.96372204159 : http://dbpedia.org/resource/atlanta : 2.59377123269032
+14 : 54 : south africa : 1606.84154551457 : http://dbpedia.org/resource/south_africa : 2.65329416570646
+14 : 55 : bridge : 1494.81580932431 : http://dbpedia.org/resource/bridge : 3.40464275140421
+14 : 56 : wheelchair : 1417.28252020609 : http://dbpedia.org/resource/wheelchair : 2.65329416570646
+14 : 57 : paula radcliffe : 1401.38796975905 : http://dbpedia.org/resource/paula_radcliffe : 2.7128170987226
+14 : 58 : 2004 : 1365.23723550555 : http://dbpedia.org/resource/2004 : 3.40464275140421
+14 : 59 : bomb : 1336.00661225162 : http://dbpedia.org/resource/bomb : 3.40464275140421
+14 : 60 : brooklyn : 1305.8944609412 : http://dbpedia.org/resource/brooklyn : 2.59377123269032
+14 : 61 : dallas : 1274.13440055643 : http://dbpedia.org/resource/dallas : 2.59377123269032
+14 : 62 : associated press : 1229.95141435941 : http://dbpedia.org/resource/associated_press : 2.65329416570646
+14 : 63 : hotel : 1217.60900751344 : http://dbpedia.org/resource/hotel : 2.59377123269032
+14 : 64 : tegla loroupe : 1140.98192776367 : http://dbpedia.org/resource/tegla_loroupe : 2.7128170987226
+14 : 65 : california : 1134.34700071448 : http://dbpedia.org/resource/california : 2.59377123269032
+14 : 66 : world marathon majors : 1114.82506171987 : http://dbpedia.org/resource/world_marathon_majors : 2.7128170987226
+14 : 67 : kara goucher : 1108.00562795834 : http://dbpedia.org/resource/kara_goucher : 2.7128170987226
+14 : 68 : meb keflezighi : 1090.44246466025 : http://dbpedia.org/resource/meb_keflezighi : 2.7128170987226
+14 : 69 : israel : 1020.08307177456 : http://dbpedia.org/resource/israel : 2.59377123269032
+14 : 70 : philadelphia : 1005.55303258239 : http://dbpedia.org/resource/philadelphia : 2.59377123269032
+14 : 71 : canada : 987.970326136274 : http://dbpedia.org/resource/canada : 2.65329416570646
+14 : 72 : martin lel : 963.482557662476 : http://dbpedia.org/resource/martin_lel : 2.7128170987226
+14 : 73 : jean driscoll : 928.408794696264 : http://dbpedia.org/resource/jean_driscoll : 2.7128170987226
+14 : 74 : 1990 : 924.773119298585 : http://dbpedia.org/resource/1990 : 2.59377123269032
+14 : 75 : fenway park : 920.569094833231 : http://dbpedia.org/resource/fenway_park : 2.65329416570646
+14 : 76 : wall street : 919.140707839732 : http://dbpedia.org/resource/wall_street : 2.59377123269032
+14 : 77 : colleen de reuck : 911.735857892098 : http://dbpedia.org/resource/colleen_de_reuck : 2.7128170987226
+14 : 78 : 1982 : 902.709894077871 : http://dbpedia.org/resource/1982 : 3.40464275140421
+14 : 79 : track and field : 894.162060408457 : http://dbpedia.org/resource/track_and_field : 2.7128170987226
+14 : 80 : maine : 865.274758043791 : http://dbpedia.org/resource/maine : 2.59377123269032
+14 : 81 : berlin marathon : 854.525773983645 : http://dbpedia.org/resource/berlin_marathon : 2.7128170987226
+14 : 82 : khalid khannouchi : 837.253208461876 : http://dbpedia.org/resource/khalid_khannouchi : 2.7128170987226
+14 : 83 : ingrid kristiansen : 805.943896434032 : http://dbpedia.org/resource/ingrid_kristiansen : 2.7128170987226
+14 : 84 : 2001 : 793.465169647525 : http://dbpedia.org/resource/2001 : 2.59377123269032
+14 : 85 : temperature : 776.962557405094 : http://dbpedia.org/resource/temperature : 3.40464275140421
+14 : 86 : 1983 : 768.885086806251 : http://dbpedia.org/resource/1983 : 3.40464275140421
+14 : 87 : bombings : 767.400183510573 : http://dbpedia.org/resource/bombings : 3.40464275140421
+14 : 88 : 2003 : 764.211704614196 : http://dbpedia.org/resource/2003 : 3.40464275140421
+14 : 89 : cosmas ndeti : 724.297140655743 : http://dbpedia.org/resource/cosmas_ndeti : 2.65329416570646
+14 : 90 : newspaper : 719.657162152617 : http://dbpedia.org/resource/newspaper : 2.59377123269032
+14 : 91 : new jersey : 704.484017753477 : http://dbpedia.org/resource/new_jersey : 2.59377123269032
+14 : 92 : 1980 : 669.288076841229 : http://dbpedia.org/resource/1980 : 2.65329416570646
+14 : 93 : 1972 : 666.192768412236 : http://dbpedia.org/resource/1972 : 2.65329416570646
+14 : 94 : marathon race : 654.798388963801 : http://dbpedia.org/resource/marathon_race : 2.7128170987226
+14 : 95 : 2002 : 651.865204269646 : http://dbpedia.org/resource/2002 : 3.40464275140421
+14 : 96 : 1989 : 642.688443867283 : http://dbpedia.org/resource/1989 : 3.40464275140421
+14 : 97 : haile gebrselassie : 640.606507100271 : http://dbpedia.org/resource/haile_gebrselassie : 2.7128170987226
+14 : 98 : for boston : 631.649067213668 : http://dbpedia.org/resource/for_boston : 2.59377123269032
+14 : 99 : montreal : 629.222602740779 : http://dbpedia.org/resource/montreal : 2.59377123269032
+14 : 100 : silvio guerra : 621.500585749409 : http://dbpedia.org/resource/silvio_guerra : 2.65329416570646
+15 : 0 : people : 8381.6998932215 : http://dbpedia.org/resource/people : 2.95727857451194
+15 : 1 : police : 8113.48517145727 : http://dbpedia.org/resource/police : 2.95727857451194
+15 : 2 : riots : 6289.81336563278 : http://dbpedia.org/resource/riots : 2.95727857451194
+15 : 3 : government : 5616.97998746026 : http://dbpedia.org/resource/government : 2.95727857451194
+15 : 4 : violence : 5306.36533246703 : http://dbpedia.org/resource/violence : 2.95727857451194
+15 : 5 : united states : 3312.39253225351 : http://dbpedia.org/resource/united_states : 3.84970899366948
+15 : 6 : rioting : 3250.44082963058 : http://dbpedia.org/resource/rioting : 2.95727857451194
+15 : 7 : military : 3067.72234463193 : http://dbpedia.org/resource/military : 3.84970899366948
+15 : 8 : tear gas : 2385.43705250741 : http://dbpedia.org/resource/tear_gas : 2.95727857451194
+15 : 9 : jakarta : 2273.48293531996 : http://dbpedia.org/resource/jakarta : 2.95727857451194
+15 : 10 : nation : 2239.61978483165 : http://dbpedia.org/resource/nation : 3.84970899366948
+15 : 11 : protest : 2217.90259132468 : http://dbpedia.org/resource/protest : 2.95727857451194
+15 : 12 : indonesia : 2179.46240285217 : http://dbpedia.org/resource/indonesia : 2.95727857451194
+15 : 13 : unrest : 2105.80617149241 : http://dbpedia.org/resource/unrest : 2.95727857451194
+15 : 14 : human : 1653.73208841994 : http://dbpedia.org/resource/human : 2.95727857451194
+15 : 15 : france : 1620.90641671691 : http://dbpedia.org/resource/france : 2.95727857451194
+15 : 16 : rioters : 1593.95746283531 : http://dbpedia.org/resource/rioters : 2.95727857451194
+15 : 17 : egyptian : 1401.77740197718 : http://dbpedia.org/resource/egyptian : 3.84970899366948
+15 : 18 : muslim : 1320.30237992663 : http://dbpedia.org/resource/muslim : 3.84970899366948
+15 : 19 : egypt : 1286.05669817301 : http://dbpedia.org/resource/egypt : 3.84970899366948
+15 : 20 : 19 : 1252.92158132598 : http://dbpedia.org/resource/19 : 3.84970899366948
+15 : 21 : a-group : 1203.99281064002 : http://dbpedia.org/resource/a-group : 3.84970899366948
+15 : 22 : cairo : 1198.08869541511 : http://dbpedia.org/resource/cairo : 3.84970899366948
+15 : 23 : new york : 1179.30256257913 : http://dbpedia.org/resource/new_york : 2.95727857451194
+15 : 24 : looting : 1130.49432043015 : http://dbpedia.org/resource/looting : 2.95727857451194
+15 : 25 : prison : 1099.28981835206 : http://dbpedia.org/resource/prison : 2.95727857451194
+15 : 26 : trial : 953.518675403782 : http://dbpedia.org/resource/trial : 2.95727857451194
+15 : 27 : water : 886.134670103957 : http://dbpedia.org/resource/water : 3.84970899366948
+15 : 28 : christian : 805.830159412362 : http://dbpedia.org/resource/christian : 3.84970899366948
+15 : 29 : germany : 690.400605781341 : http://dbpedia.org/resource/germany : 2.95727857451194
+15 : 30 : anonymity : 652.675541359028 : http://dbpedia.org/resource/anonymity : 2.95727857451194
+15 : 31 : israel : 641.928874430799 : http://dbpedia.org/resource/israel : 3.84970899366948
+15 : 32 : property : 599.768012477157 : http://dbpedia.org/resource/property : 2.95727857451194
+15 : 33 : hosni mubarak : 558.791398336893 : http://dbpedia.org/resource/hosni_mubarak : 3.84970899366948
+15 : 34 : rioted : 540.751625731009 : http://dbpedia.org/resource/rioted : 2.95727857451194
+15 : 35 : authority : 540.097211611229 : http://dbpedia.org/resource/authority : 2.95727857451194
+15 : 36 : europe : 517.662409676461 : http://dbpedia.org/resource/europe : 2.95727857451194
+15 : 37 : middle east : 515.248985162295 : http://dbpedia.org/resource/middle_east : 3.84970899366948
+15 : 38 : revolution : 500.067908178587 : http://dbpedia.org/resource/revolution : 2.95727857451194
+15 : 39 : africa : 455.651677666502 : http://dbpedia.org/resource/africa : 3.84970899366948
+15 : 40 : hooliganism : 439.494182225211 : http://dbpedia.org/resource/hooliganism : 2.95727857451194
+15 : 41 : italy : 348.490363178437 : http://dbpedia.org/resource/italy : 3.84970899366948
+15 : 42 : india : 344.845707759255 : http://dbpedia.org/resource/india : 2.95727857451194
+15 : 43 : beijing : 340.595337609983 : http://dbpedia.org/resource/beijing : 2.95727857451194
+15 : 44 : pierre : 339.518519415738 : http://dbpedia.org/resource/pierre : 3.84970899366948
+15 : 45 : jordan : 325.178488380621 : http://dbpedia.org/resource/jordan : 3.84970899366948
+15 : 46 : canada : 304.240208377489 : http://dbpedia.org/resource/canada : 3.84970899366948
+15 : 47 : rubber bullets : 302.660886112668 : http://dbpedia.org/resource/rubber_bullets : 2.95727857451194
+15 : 48 : gaza : 300.003996753335 : http://dbpedia.org/resource/gaza : 3.84970899366948
+15 : 49 : iraq : 297.695082579674 : http://dbpedia.org/resource/iraq : 3.84970899366948
+15 : 50 : bullet : 287.215113903261 : http://dbpedia.org/resource/bullet : 2.95727857451194
+15 : 51 : islam : 276.374676232909 : http://dbpedia.org/resource/islam : 3.84970899366948
+15 : 52 : alexandria : 264.830697947638 : http://dbpedia.org/resource/alexandria : 3.84970899366948
+15 : 53 : tax : 263.981201654164 : http://dbpedia.org/resource/tax : 2.95727857451194
+15 : 54 : 1967 : 249.798310165528 : http://dbpedia.org/resource/1967 : 2.95727857451194
+15 : 55 : attorney general : 241.629938457579 : http://dbpedia.org/resource/attorney_general : 2.95727857451194
+15 : 56 : militant : 234.080705344886 : http://dbpedia.org/resource/militant : 2.95727857451194
+15 : 57 : arab world : 224.30427571399 : http://dbpedia.org/resource/arab_world : 3.84970899366948
+15 : 58 : sport : 224.053583990845 : http://dbpedia.org/resource/sport : 2.95727857451194
+15 : 59 : rice : 223.920270065412 : http://dbpedia.org/resource/rice : 3.84970899366948
+15 : 60 : philosophy : 221.492996295957 : http://dbpedia.org/resource/philosophy : 3.84970899366948
+15 : 61 : libya : 209.847560351517 : http://dbpedia.org/resource/libya : 3.84970899366948
+15 : 62 : muhammad : 208.913802108558 : http://dbpedia.org/resource/muhammad : 3.84970899366948
+15 : 63 : new york city : 202.63255358592 : http://dbpedia.org/resource/new_york_city : 2.95727857451194
+15 : 64 : greece : 202.222391869214 : http://dbpedia.org/resource/greece : 2.95727857451194
+15 : 65 : saudi arabia : 197.347086398817 : http://dbpedia.org/resource/saudi_arabia : 3.84970899366948
+15 : 66 : terrorism : 194.469180896209 : http://dbpedia.org/resource/terrorism : 2.95727857451194
+15 : 67 : muslim brotherhood : 190.677836485484 : http://dbpedia.org/resource/muslim_brotherhood : 3.84970899366948
+15 : 68 : rebellion : 188.490678773296 : http://dbpedia.org/resource/rebellion : 2.95727857451194
+15 : 69 : kuwait : 185.811473764684 : http://dbpedia.org/resource/kuwait : 3.84970899366948
+15 : 70 : texas : 183.095131712676 : http://dbpedia.org/resource/texas : 2.95727857451194
+15 : 71 : prison riot : 169.899139938534 : http://dbpedia.org/resource/prison_riot : 2.95727857451194
+15 : 72 : russia : 169.588190011607 : http://dbpedia.org/resource/russia : 2.95727857451194
+15 : 73 : nile : 167.395652717329 : http://dbpedia.org/resource/nile : 3.84970899366948
+15 : 74 : race riot : 164.75705645536 : http://dbpedia.org/resource/race_riot : 2.95727857451194
+15 : 75 : syria : 162.175389734438 : http://dbpedia.org/resource/syria : 3.84970899366948
+15 : 76 : water cannon : 156.051142033774 : http://dbpedia.org/resource/water_cannon : 2.95727857451194
+15 : 77 : sudan : 155.45499022715 : http://dbpedia.org/resource/sudan : 3.84970899366948
+15 : 78 : religion : 149.707387033331 : http://dbpedia.org/resource/religion : 2.95727857451194
+15 : 79 : religious violence : 146.926749456569 : http://dbpedia.org/resource/religious_violence : 2.95727857451194
+15 : 80 : jews : 143.653881350559 : http://dbpedia.org/resource/jews : 3.84970899366948
+15 : 81 : vandalism : 143.481993721231 : http://dbpedia.org/resource/vandalism : 2.95727857451194
+15 : 82 : pepper spray : 138.496755394652 : http://dbpedia.org/resource/pepper_spray : 2.95727857451194
+15 : 83 : chicago : 138.138039930865 : http://dbpedia.org/resource/chicago : 2.95727857451194
+15 : 84 : riot control : 137.166321678936 : http://dbpedia.org/resource/riot_control : 2.95727857451194
+15 : 85 : viet nam : 135.628409981993 : http://dbpedia.org/resource/vietnam : 2.95727857451194
+15 : 86 : egyptian people : 132.806081368427 : http://dbpedia.org/resource/egyptian_people : 3.84970899366948
+15 : 87 : fishing : 125.585045113058 : http://dbpedia.org/resource/fishing : 3.84970899366948
+15 : 88 : dissent : 122.35885245735 : http://dbpedia.org/resource/dissent : 2.95727857451194
+15 : 89 : sweden : 117.944018452148 : http://dbpedia.org/resource/sweden : 2.95727857451194
+15 : 90 : mining : 111.569323274997 : http://dbpedia.org/resource/mining : 3.84970899366948
+15 : 91 : july 23 : 109.610120817337 : http://dbpedia.org/resource/july_23 : 2.95727857451194
+15 : 92 : tottenham : 108.591966247568 : http://dbpedia.org/resource/tottenham : 2.95727857451194
+15 : 93 : internal security : 104.865464207899 : http://dbpedia.org/resource/internal_security : 2.95727857451194
+15 : 94 : chinese indonesians : 103.492264109908 : http://dbpedia.org/resource/chinese_indonesians : 2.95727857451194
+15 : 95 : civil rights movement : 98.9345128304874 : http://dbpedia.org/resource/civil_rights_movement : 2.95727857451194
+15 : 96 : albanians : 98.0839911286529 : http://dbpedia.org/resource/albanians : 3.84970899366948
+15 : 97 : ethnic group : 90.008734743116 : http://dbpedia.org/resource/ethnic_group : 2.95727857451194
+15 : 98 : 1970 : 88.8416070343591 : http://dbpedia.org/resource/1970 : 2.95727857451194
+15 : 99 : mohamed el baradei : 81.9521460401857 : http://dbpedia.org/resource/mohamed_elbaradei : 3.84970899366948
+15 : 100 : tiananmen square : 69.6658151583107 : http://dbpedia.org/resource/tiananmen_square : 2.95727857451194
+16 : 0 : protests : 7969.62261181123 : http://dbpedia.org/resource/protests : 2.0168967239126
+16 : 1 : police : 6837.38931024075 : http://dbpedia.org/resource/police : 2.0168967239126
+16 : 2 : government : 6535.41886306414 : http://dbpedia.org/resource/government : 2.0168967239126
+16 : 3 : protesters : 6519.58890007456 : http://dbpedia.org/resource/protesters : 2.0168967239126
+16 : 4 : you : 3023.07980717435 : http://dbpedia.org/resource/you : 5.70881388755389
+16 : 5 : death : 2805.49677833476 : http://dbpedia.org/resource/death : 3.92680194787509
+16 : 6 : war : 2766.24232129422 : http://dbpedia.org/resource/war : 2.0168967239126
+16 : 7 : public : 2714.15861852739 : http://dbpedia.org/resource/public : 2.0168967239126
+16 : 8 : muslim : 2684.21128434078 : http://dbpedia.org/resource/muslim : 5.70881388755389
+16 : 9 : riot : 2518.56931100466 : http://dbpedia.org/resource/riot : 2.0168967239126
+16 : 10 : ur : 2488.8138181293 : http://dbpedia.org/resource/ur : 5.70881388755389
+16 : 11 : mosque : 2199.78668568787 : http://dbpedia.org/resource/mosque : 5.70881388755389
+16 : 12 : law : 2041.28241577403 : http://dbpedia.org/resource/law : 5.70881388755389
+16 : 13 : islam : 1464.46678883809 : http://dbpedia.org/resource/islam : 5.70881388755389
+16 : 14 : hospital : 1453.83562484389 : http://dbpedia.org/resource/hospital : 3.92680194787509
+16 : 15 : iraq : 1428.47239322093 : http://dbpedia.org/resource/iraq : 5.70881388755389
+16 : 16 : pro : 1373.52372505233 : http://dbpedia.org/resource/pro : 2.0168967239126
+16 : 17 : god : 1222.80326917286 : http://dbpedia.org/resource/god : 5.70881388755389
+16 : 18 : quran : 1197.10424050438 : http://dbpedia.org/resource/quran : 5.70881388755389
+16 : 19 : pakistan : 1179.98489756597 : http://dbpedia.org/resource/pakistan : 5.70881388755389
+16 : 20 : david : 1148.66600798559 : http://dbpedia.org/resource/david : 5.70881388755389
+16 : 21 : water : 1138.62434243711 : http://dbpedia.org/resource/water : 3.92680194787509
+16 : 22 : the new york times : 1114.00686846587 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+16 : 23 : koran : 1065.18463818794 : http://dbpedia.org/resource/koran : 5.70881388755389
+16 : 24 : taliban : 1058.70478328946 : http://dbpedia.org/resource/taliban : 5.70881388755389
+16 : 25 : ali : 1058.41571805686 : http://dbpedia.org/resource/ali : 5.70881388755389
+16 : 26 : policy : 1026.21818016642 : http://dbpedia.org/resource/policy : 2.0168967239126
+16 : 27 : iran : 991.005695695575 : http://dbpedia.org/resource/iran : 5.70881388755389
+16 : 28 : militant : 891.278870119816 : http://dbpedia.org/resource/militant : 2.0168967239126
+16 : 29 : the koran : 884.169274165329 : http://dbpedia.org/resource/thekoran : 5.70881388755389
+16 : 30 : the koran : 884.169274165329 : http://dbpedia.org/resource/the_koran : 5.70881388755389
+16 : 31 : person : 831.425319543354 : http://dbpedia.org/resource/person : 5.70881388755389
+16 : 32 : protester : 818.616624772444 : http://dbpedia.org/resource/protester : 2.0168967239126
+16 : 33 : france : 728.855652320635 : http://dbpedia.org/resource/france : 2.0168967239126
+16 : 34 : heart : 727.864719799039 : http://dbpedia.org/resource/heart : 3.92680194787509
+16 : 35 : jerusalem : 727.461836578786 : http://dbpedia.org/resource/jerusalem : 5.70881388755389
+16 : 36 : india : 723.751221528065 : http://dbpedia.org/resource/india : 5.70881388755389
+16 : 37 : green : 723.003752339308 : http://dbpedia.org/resource/green : 5.70881388755389
+16 : 38 : london : 712.570160666074 : http://dbpedia.org/resource/london : 2.0168967239126
+16 : 39 : revolution : 704.016038246468 : http://dbpedia.org/resource/revolution : 2.0168967239126
+16 : 40 : the quran : 680.981988860818 : http://dbpedia.org/resource/the_quran : 5.70881388755389
+16 : 41 : muhammad : 679.014590260802 : http://dbpedia.org/resource/muhammad : 5.70881388755389
+16 : 42 : light : 668.409810519484 : http://dbpedia.org/resource/light : 3.92680194787509
+16 : 43 : blood : 658.815364920761 : http://dbpedia.org/resource/blood : 5.70881388755389
+16 : 44 : the afghan : 641.586933323215 : http://dbpedia.org/resource/the_afghan : 5.70881388755389
+16 : 45 : bomb : 628.19717896383 : http://dbpedia.org/resource/bomb : 2.0168967239126
+16 : 46 : suicide : 626.57854833559 : http://dbpedia.org/resource/suicide : 2.0168967239126
+16 : 47 : yasser arafat : 524.399184547693 : http://dbpedia.org/resource/yasser_arafat : 5.70881388755389
+16 : 48 : faith : 513.37735861837 : http://dbpedia.org/resource/faith : 5.70881388755389
+16 : 49 : vice : 501.014101414472 : http://dbpedia.org/resource/vice : 5.70881388755389
+16 : 50 : burns : 497.473736641553 : http://dbpedia.org/resource/burns : 3.92680194787509
+16 : 51 : murder : 494.505618242374 : http://dbpedia.org/resource/murder : 5.70881388755389
+16 : 52 : prophet : 471.67831867627 : http://dbpedia.org/resource/prophet : 5.70881388755389
+16 : 53 : osama bin laden : 452.807806423879 : http://dbpedia.org/resource/osama_bin_laden : 5.70881388755389
+16 : 54 : culture : 452.366673819843 : http://dbpedia.org/resource/culture : 2.0168967239126
+16 : 55 : parade : 439.170982490764 : http://dbpedia.org/resource/parade : 2.0168967239126
+16 : 56 : inflation : 431.936785968809 : http://dbpedia.org/resource/inflation : 2.0168967239126
+16 : 57 : russia : 429.287598648887 : http://dbpedia.org/resource/russia : 5.70881388755389
+16 : 58 : blue : 427.224164674204 : http://dbpedia.org/resource/blue : 5.70881388755389
+16 : 59 : jihad : 419.391296521543 : http://dbpedia.org/resource/jihad : 5.70881388755389
+16 : 60 : electricity : 418.381609567549 : http://dbpedia.org/resource/electricity : 3.92680194787509
+16 : 61 : benjamin : 412.802523615302 : http://dbpedia.org/resource/benjamin : 5.70881388755389
+16 : 62 : saddam hussein : 392.894238418029 : http://dbpedia.org/resource/saddam_hussein : 5.70881388755389
+16 : 63 : orange order : 383.567528014987 : http://dbpedia.org/resource/orange_order : 2.0168967239126
+16 : 64 : baghdad : 381.036313951496 : http://dbpedia.org/resource/baghdad : 5.70881388755389
+16 : 65 : saudi arabia : 376.038001022526 : http://dbpedia.org/resource/saudi_arabia : 5.70881388755389
+16 : 66 : knowledge : 357.605408564315 : http://dbpedia.org/resource/knowledge : 5.70881388755389
+16 : 67 : book burning : 353.240965660566 : http://dbpedia.org/resource/book_burning : 5.70881388755389
+16 : 68 : racism : 351.610664862343 : http://dbpedia.org/resource/racism : 5.70881388755389
+16 : 69 : ramadan : 328.253905411404 : http://dbpedia.org/resource/ramadan : 5.70881388755389
+16 : 70 : muslim world : 319.736200862991 : http://dbpedia.org/resource/muslim_world : 5.70881388755389
+16 : 71 : dissent : 309.118615476755 : http://dbpedia.org/resource/dissent : 2.0168967239126
+16 : 72 : insurgency : 306.299370832831 : http://dbpedia.org/resource/insurgency : 2.0168967239126
+16 : 73 : mazar-i-sharif : 306.070890577144 : http://dbpedia.org/resource/mazar-i-sharif : 5.70881388755389
+16 : 74 : latin : 304.221211487568 : http://dbpedia.org/resource/latin : 5.70881388755389
+16 : 75 : korans : 292.267862963225 : http://dbpedia.org/resource/korans : 5.70881388755389
+16 : 76 : boycott : 281.312095199808 : http://dbpedia.org/resource/boycott : 2.0168967239126
+16 : 77 : jesus : 277.358859472063 : http://dbpedia.org/resource/jesus : 5.70881388755389
+16 : 78 : new york city : 271.507778860608 : http://dbpedia.org/resource/new_york_city : 2.0168967239126
+16 : 79 : the book : 270.422228982364 : http://dbpedia.org/resource/the_book : 5.70881388755389
+16 : 80 : mourning : 269.451205976042 : http://dbpedia.org/resource/mourning : 5.70881388755389
+16 : 81 : eve : 268.816791551037 : http://dbpedia.org/resource/eve : 5.70881388755389
+16 : 82 : religious violence : 258.511022209274 : http://dbpedia.org/resource/religious_violence : 5.70881388755389
+16 : 83 : teacher : 255.261769486194 : http://dbpedia.org/resource/teacher : 5.70881388755389
+16 : 84 : sit-in : 254.405345223392 : http://dbpedia.org/resource/sit-in : 2.0168967239126
+16 : 85 : chant : 252.837138893743 : http://dbpedia.org/resource/chant : 2.0168967239126
+16 : 86 : holy quran : 233.706413230301 : http://dbpedia.org/resource/holy_quran : 5.70881388755389
+16 : 87 : husband : 232.695745323996 : http://dbpedia.org/resource/husband : 5.70881388755389
+16 : 88 : ayatollah : 227.970383557574 : http://dbpedia.org/resource/ayatollah : 5.70881388755389
+16 : 89 : fasting : 225.460265970383 : http://dbpedia.org/resource/fasting : 5.70881388755389
+16 : 90 : devil : 220.148242211984 : http://dbpedia.org/resource/devil : 5.70881388755389
+16 : 91 : degree : 219.85505313711 : http://dbpedia.org/resource/degree : 3.92680194787509
+16 : 92 : bible : 208.781591803496 : http://dbpedia.org/resource/bible : 5.70881388755389
+16 : 93 : he at : 200.251828185894 : http://dbpedia.org/resource/heat : 3.92680194787509
+16 : 94 : muslim brotherhood : 195.450485392641 : http://dbpedia.org/resource/muslim_brotherhood : 5.70881388755389
+16 : 95 : civil disobedience : 190.736395564637 : http://dbpedia.org/resource/civil_disobedience : 2.0168967239126
+16 : 96 : pain : 190.564767577614 : http://dbpedia.org/resource/pain : 3.92680194787509
+16 : 97 : lie : 190.473092329306 : http://dbpedia.org/resource/lie : 5.70881388755389
+16 : 98 : seattle : 186.213898871334 : http://dbpedia.org/resource/seattle : 2.0168967239126
+16 : 99 : mainstream : 181.054912849734 : http://dbpedia.org/resource/mainstream : 2.0168967239126
+16 : 100 : sheikh : 179.345360751197 : http://dbpedia.org/resource/sheikh : 5.70881388755389
+17 : 0 : hostages : 13231.0166849722 : http://dbpedia.org/resource/hostages : 2.7181207441432
+17 : 1 : government : 10541.4529087073 : http://dbpedia.org/resource/government : 2.7181207441432
+17 : 2 : hostage crisis : 6656.35415069164 : http://dbpedia.org/resource/hostage_crisis : 2.7181207441432
+17 : 3 : security : 4444.36249942576 : http://dbpedia.org/resource/security : 2.07667276745856
+17 : 4 : war : 3233.69928249213 : http://dbpedia.org/resource/war : 2.07667276745856
+17 : 5 : abu sayyaf : 2435.47889439881 : http://dbpedia.org/resource/abu_sayyaf : 2.7181207441432
+17 : 6 : ransom : 1933.29205511544 : http://dbpedia.org/resource/ransom : 2.7181207441432
+17 : 7 : terrorism : 1597.28426459511 : http://dbpedia.org/resource/terrorism : 2.7181207441432
+17 : 8 : captivity : 1414.56582329985 : http://dbpedia.org/resource/captivity : 2.7181207441432
+17 : 9 : hostage-taking : 1382.42867528078 : http://dbpedia.org/resource/hostage-taking : 2.7181207441432
+17 : 10 : economy : 1379.66964296137 : http://dbpedia.org/resource/economy : 2.07667276745856
+17 : 11 : kidnapping : 1324.47325107449 : http://dbpedia.org/resource/kidnapping : 2.7181207441432
+17 : 12 : crime : 1172.49255922001 : http://dbpedia.org/resource/crime : 2.7181207441432
+17 : 13 : siege : 953.735902386976 : http://dbpedia.org/resource/siege : 2.7181207441432
+17 : 14 : politics : 877.271187387538 : http://dbpedia.org/resource/politics : 2.07667276745856
+17 : 15 : health : 830.721924082214 : http://dbpedia.org/resource/health : 2.07667276745856
+17 : 16 : 1986 : 787.217823166562 : http://dbpedia.org/resource/1986 : 2.7181207441432
+17 : 17 : threat : 776.968590007136 : http://dbpedia.org/resource/threat : 2.07667276745856
+17 : 18 : sierra leone : 759.21839783733 : http://dbpedia.org/resource/sierra_leone : 2.7181207441432
+17 : 19 : hostage-taker : 704.908802779895 : http://dbpedia.org/resource/hostage-taker : 2.7181207441432
+17 : 20 : risk : 681.136650051876 : http://dbpedia.org/resource/risk : 2.07667276745856
+17 : 21 : revolution : 660.628363229895 : http://dbpedia.org/resource/revolution : 2.07667276745856
+17 : 22 : opportunity : 571.731241967476 : http://dbpedia.org/resource/opportunity : 2.07667276745856
+17 : 23 : critical : 505.051721486189 : http://dbpedia.org/resource/critical : 2.07667276745856
+17 : 24 : affair : 472.735493965433 : http://dbpedia.org/resource/affair : 2.07667276745856
+17 : 25 : madeleine : 457.662041299913 : http://dbpedia.org/resource/madeleine : 2.7181207441432
+17 : 26 : terry waite : 448.00868150729 : http://dbpedia.org/resource/terry_waite : 2.7181207441432
+17 : 27 : 1981 : 435.916244252735 : http://dbpedia.org/resource/1981 : 2.7181207441432
+17 : 28 : prisoner : 387.564046269547 : http://dbpedia.org/resource/prisoner : 2.7181207441432
+17 : 29 : ht : 380.015453672718 : http://dbpedia.org/resource/ht : 2.7181207441432
+17 : 30 : financial crisis : 377.734434528377 : http://dbpedia.org/resource/financial_crisis : 2.07667276745856
+17 : 31 : turkey : 374.449311781485 : http://dbpedia.org/resource/turkey : 2.7181207441432
+17 : 32 : society : 368.034892344025 : http://dbpedia.org/resource/society : 2.07667276745856
+17 : 33 : latin : 305.078988205565 : http://dbpedia.org/resource/latin : 2.7181207441432
+17 : 34 : combat : 295.894147231612 : http://dbpedia.org/resource/combat : 2.07667276745856
+17 : 35 : disaster : 273.817783420309 : http://dbpedia.org/resource/disaster : 2.07667276745856
+17 : 36 : iran hostage crisis : 259.06515163559 : http://dbpedia.org/resource/iran_hostage_crisis : 2.7181207441432
+17 : 37 : terry a. anderson : 220.628925351657 : http://dbpedia.org/resource/terry_a._anderson : 2.7181207441432
+17 : 38 : piracy : 201.500583952008 : http://dbpedia.org/resource/piracy : 2.7181207441432
+17 : 39 : recession : 196.486226805328 : http://dbpedia.org/resource/recession : 2.07667276745856
+17 : 40 : crisis management : 162.001276783325 : http://dbpedia.org/resource/crisis_management : 2.07667276745856
+17 : 41 : sudan : 151.944019216059 : http://dbpedia.org/resource/sudan : 2.07667276745856
+17 : 42 : decision making : 142.657436306619 : http://dbpedia.org/resource/decision_making : 2.07667276745856
+17 : 43 : earthquake : 131.206824282606 : http://dbpedia.org/resource/earthquake : 2.07667276745856
+17 : 44 : homer : 127.466560329362 : http://dbpedia.org/resource/homer : 2.7181207441432
+17 : 45 : vulnerability : 118.926326501898 : http://dbpedia.org/resource/vulnerability : 2.07667276745856
+17 : 46 : extortion : 117.060914958082 : http://dbpedia.org/resource/extortion : 2.7181207441432
+17 : 47 : human shield : 108.826123792723 : http://dbpedia.org/resource/human_shield : 2.7181207441432
+17 : 48 : veteran : 105.295389312776 : http://dbpedia.org/resource/veteran : 2.07667276745856
+17 : 49 : sniper : 103.152080237091 : http://dbpedia.org/resource/sniper : 2.7181207441432
+17 : 50 : panama : 101.353420489959 : http://dbpedia.org/resource/panama : 2.7181207441432
+17 : 51 : hazard : 100.821556375061 : http://dbpedia.org/resource/hazard : 2.07667276745856
+17 : 52 : 1972 : 95.8000577276005 : http://dbpedia.org/resource/1972 : 2.7181207441432
+17 : 53 : the three hostages : 89.8396548982236 : http://dbpedia.org/resource/the_three_hostages : 2.7181207441432
+17 : 54 : ultimatum : 76.4732021848863 : http://dbpedia.org/resource/ultimatum : 2.7181207441432
+17 : 55 : landslide : 74.920702845296 : http://dbpedia.org/resource/landslide : 2.07667276745856
+17 : 56 : energy crisis : 73.6223831702036 : http://dbpedia.org/resource/energy_crisis : 2.07667276745856
+17 : 57 : benjamin weir : 72.4151545549613 : http://dbpedia.org/resource/benjamin_weir : 2.7181207441432
+17 : 58 : metaphor : 71.2100453652411 : http://dbpedia.org/resource/metaphor : 2.7181207441432
+17 : 59 : revolutionary armed forces of colombia : 68.130556477987 : http://dbpedia.org/resource/revolutionary_armed_forces_of_colombia : 2.7181207441432
+17 : 60 : international relations : 57.2795188112402 : http://dbpedia.org/resource/international_relations : 2.07667276745856
+17 : 61 : reprisal : 53.144068033048 : http://dbpedia.org/resource/reprisal : 2.7181207441432
+17 : 62 : oliver north : 51.6403326166337 : http://dbpedia.org/resource/oliver_north : 2.7181207441432
+17 : 63 : constitutional crisis : 51.4734554197212 : http://dbpedia.org/resource/constitutional_crisis : 2.07667276745856
+17 : 64 : midlife crisis : 46.457662276991 : http://dbpedia.org/resource/midlife_crisis : 2.07667276745856
+17 : 65 : 1964 : 39.2432330898489 : http://dbpedia.org/resource/1964 : 2.7181207441432
+17 : 66 : extinction : 39.1819888226609 : http://dbpedia.org/resource/extinction : 2.07667276745856
+17 : 67 : international crisis : 36.65913197773 : http://dbpedia.org/resource/international_crisis : 2.07667276745856
+17 : 68 : johnny and luther htoo : 36.5735818169906 : http://dbpedia.org/resource/johnny_and_luther_htoo : 2.7181207441432
+17 : 69 : probability : 25.0086840499532 : http://dbpedia.org/resource/probability : 2.07667276745856
+17 : 70 : federal bureau of investigation : 24.7712112525947 : http://dbpedia.org/resource/federal_bureau_of_investigation : 2.7181207441432
+17 : 71 : yellow ribbon : 24.3931070894219 : http://dbpedia.org/resource/yellow_ribbon : 2.7181207441432
+17 : 72 : gsg 9 : 23.765867336546 : http://dbpedia.org/resource/gsg_9 : 2.7181207441432
+17 : 73 : procrastination : 23.6966431822421 : http://dbpedia.org/resource/procrastination : 2.07667276745856
+17 : 74 : ponchai wilkerson : 23.4182404607279 : http://dbpedia.org/resource/ponchai_wilkerson : 2.7181207441432
+17 : 75 : duress : 20.399344219298 : http://dbpedia.org/resource/duress : 2.7181207441432
+17 : 76 : tribute : 17.672009588655 : http://dbpedia.org/resource/tribute : 2.7181207441432
+17 : 77 : stockholm syndrome : 16.6924243180546 : http://dbpedia.org/resource/stockholm_syndrome : 2.7181207441432
+17 : 78 : foreclosure : 14.500685557732 : http://dbpedia.org/resource/foreclosure : 2.07667276745856
+17 : 79 : sultan : 13.0812936310193 : http://dbpedia.org/resource/sultan : 2.7181207441432
+17 : 80 : werner mauss : 12.8588723735679 : http://dbpedia.org/resource/werner_mauss : 2.7181207441432
+17 : 81 : french language : 12.6203179565488 : http://dbpedia.org/resource/french_language : 2.7181207441432
+17 : 82 : hank earl carr : 12.5960974295714 : http://dbpedia.org/resource/hank_earl_carr : 2.7181207441432
+17 : 83 : false imprisonment : 12.5687121121934 : http://dbpedia.org/resource/false_imprisonment : 2.7181207441432
+17 : 84 : species : 12.4843988432944 : http://dbpedia.org/resource/species : 2.07667276745856
+17 : 85 : crisis intervention : 12.2934952398752 : http://dbpedia.org/resource/crisis_intervention : 2.07667276745856
+17 : 86 : ramzan kadyrov : 12.2865850811669 : http://dbpedia.org/resource/ramzan_kadyrov : 2.7181207441432
+17 : 87 : ecosystem : 12.1663545167634 : http://dbpedia.org/resource/ecosystem : 2.07667276745856
+17 : 88 : indian airlines flight 814 : 11.8909144516647 : http://dbpedia.org/resource/indian_airlines_flight_814 : 2.7181207441432
+17 : 89 : death threat : 11.8789789062874 : http://dbpedia.org/resource/death_threat : 2.7181207441432
+17 : 90 : fourth geneva convention : 11.7335917082744 : http://dbpedia.org/resource/fourth_geneva_convention : 2.7181207441432
+17 : 91 : blindfold : 11.6277370226696 : http://dbpedia.org/resource/blindfold : 2.7181207441432
+17 : 92 : carjacking : 11.278518274409 : http://dbpedia.org/resource/carjacking : 2.7181207441432
+17 : 93 : dennis jett : 10.6736181345184 : http://dbpedia.org/resource/dennis_jett : 2.7181207441432
+17 : 94 : unexploded : 10.1440751206104 : http://dbpedia.org/resource/unexploded : 2.07667276745856
+17 : 95 : japanese red army : 10.0619789789994 : http://dbpedia.org/resource/japanese_red_army : 2.7181207441432
+17 : 96 : prisoner exchange : 9.14690837699203 : http://dbpedia.org/resource/prisoner_exchange : 2.7181207441432
+17 : 97 : clark olofsson : 7.44167895429744 : http://dbpedia.org/resource/clark_olofsson : 2.7181207441432
+17 : 98 : proof of life : 6.78136339916167 : http://dbpedia.org/resource/proof_of_life : 2.7181207441432
+17 : 99 : old english : 5.86942132330085 : http://dbpedia.org/resource/old_english : 2.7181207441432
+17 : 100 : distress signal : 5.65107504002316 : http://dbpedia.org/resource/distress_signal : 2.07667276745856
+18 : 0 : russian : 12921.9162999935 : http://dbpedia.org/resource/russian : 3.26027488193676
+18 : 1 : russia : 11277.6772593864 : http://dbpedia.org/resource/russia : 3.26027488193676
+18 : 2 : government : 9042.31017597651 : http://dbpedia.org/resource/government : 2.0168967239126
+18 : 3 : protests : 7416.05871472419 : http://dbpedia.org/resource/protests : 2.0168967239126
+18 : 4 : war : 5318.45557726966 : http://dbpedia.org/resource/war : 2.0168967239126
+18 : 5 : police : 5257.66904331827 : http://dbpedia.org/resource/police : 2.0168967239126
+18 : 6 : protesters : 4286.28898048723 : http://dbpedia.org/resource/protesters : 2.0168967239126
+18 : 7 : united states : 3964.60773755116 : http://dbpedia.org/resource/united_states : 3.26027488193676
+18 : 8 : public : 3522.44838962815 : http://dbpedia.org/resource/public : 2.0168967239126
+18 : 9 : boris yeltsin : 3286.74074256183 : http://dbpedia.org/resource/boris_yeltsin : 3.26027488193676
+18 : 10 : chechnya : 3160.06970789785 : http://dbpedia.org/resource/chechnya : 3.26027488193676
+18 : 11 : asia : 3135.98896351644 : http://dbpedia.org/resource/asia : 3.26027488193676
+18 : 12 : europe : 2609.63375941024 : http://dbpedia.org/resource/europe : 3.26027488193676
+18 : 13 : nation : 2587.97525688832 : http://dbpedia.org/resource/nation : 3.26027488193676
+18 : 14 : kosovo : 2278.19409429506 : http://dbpedia.org/resource/kosovo : 3.26027488193676
+18 : 15 : policy : 2268.75110987335 : http://dbpedia.org/resource/policy : 2.0168967239126
+18 : 16 : soviet union : 2225.31573481929 : http://dbpedia.org/resource/soviet_union : 3.26027488193676
+18 : 17 : grozny : 1891.98740957306 : http://dbpedia.org/resource/grozny : 3.26027488193676
+18 : 18 : pro : 1734.74112169093 : http://dbpedia.org/resource/pro : 2.0168967239126
+18 : 19 : the new york times : 1602.2850734966 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+18 : 20 : caucasus : 1418.93483911584 : http://dbpedia.org/resource/caucasus : 3.26027488193676
+18 : 21 : vladimir putin : 1416.11388393378 : http://dbpedia.org/resource/vladimir_putin : 3.26027488193676
+18 : 22 : radio : 1382.14932579408 : http://dbpedia.org/resource/radio : 3.26027488193676
+18 : 23 : united nations : 1282.19901302337 : http://dbpedia.org/resource/united_nations : 3.26027488193676
+18 : 24 : germany : 1277.95653779528 : http://dbpedia.org/resource/germany : 3.26027488193676
+18 : 25 : china : 1263.4819278315 : http://dbpedia.org/resource/china : 3.26027488193676
+18 : 26 : revolution : 1167.95627709718 : http://dbpedia.org/resource/revolution : 2.0168967239126
+18 : 27 : israel : 1163.63739546153 : http://dbpedia.org/resource/israel : 3.26027488193676
+18 : 28 : london : 1135.37709888516 : http://dbpedia.org/resource/london : 2.0168967239126
+18 : 29 : france : 1131.00841259042 : http://dbpedia.org/resource/france : 2.0168967239126
+18 : 30 : riot : 1080.07076577429 : http://dbpedia.org/resource/riot : 2.0168967239126
+18 : 31 : serbs : 972.579221284006 : http://dbpedia.org/resource/serbs : 3.26027488193676
+18 : 32 : japan : 945.714891131117 : http://dbpedia.org/resource/japan : 3.26027488193676
+18 : 33 : bomb : 926.243900957278 : http://dbpedia.org/resource/bomb : 2.0168967239126
+18 : 34 : ukraine : 903.108972827696 : http://dbpedia.org/resource/ukraine : 3.26027488193676
+18 : 35 : stock : 847.662783642588 : http://dbpedia.org/resource/stock : 2.0168967239126
+18 : 36 : european union : 792.067448481021 : http://dbpedia.org/resource/european_union : 3.26027488193676
+18 : 37 : culture : 773.912568797049 : http://dbpedia.org/resource/culture : 2.0168967239126
+18 : 38 : los angeles : 730.328102699449 : http://dbpedia.org/resource/los_angeles : 3.26027488193676
+18 : 39 : new york city : 717.661299819746 : http://dbpedia.org/resource/new_york_city : 3.26027488193676
+18 : 40 : world war ii : 693.281722099187 : http://dbpedia.org/resource/world_war_ii : 3.26027488193676
+18 : 41 : gennady zyuganov : 666.017737726467 : http://dbpedia.org/resource/gennady_zyuganov : 3.26027488193676
+18 : 42 : terrorism : 658.557861386153 : http://dbpedia.org/resource/terrorism : 3.26027488193676
+18 : 43 : poland : 628.340756098287 : http://dbpedia.org/resource/poland : 3.26027488193676
+18 : 44 : inflation : 626.184011900803 : http://dbpedia.org/resource/inflation : 2.0168967239126
+18 : 45 : black sea : 603.382733753643 : http://dbpedia.org/resource/black_sea : 3.26027488193676
+18 : 46 : canada : 545.388586993037 : http://dbpedia.org/resource/canada : 3.26027488193676
+18 : 47 : music : 542.855901427725 : http://dbpedia.org/resource/music : 3.26027488193676
+18 : 48 : protester : 525.703103529516 : http://dbpedia.org/resource/protester : 2.0168967239126
+18 : 49 : vladivostok : 510.767229273103 : http://dbpedia.org/resource/vladivostok : 3.26027488193676
+18 : 50 : siberia : 506.834542668814 : http://dbpedia.org/resource/siberia : 3.26027488193676
+18 : 51 : belarus : 474.973880359828 : http://dbpedia.org/resource/belarus : 3.26027488193676
+18 : 52 : russian orthodox church : 447.011899619192 : http://dbpedia.org/resource/russian_orthodox_church : 3.26027488193676
+18 : 53 : tbilisi : 435.10168020326 : http://dbpedia.org/resource/tbilisi : 3.26027488193676
+18 : 54 : kiriyenko : 426.69290535889 : http://dbpedia.org/resource/kiriyenko : 3.26027488193676
+18 : 55 : brooklyn : 423.007494090495 : http://dbpedia.org/resource/brooklyn : 3.26027488193676
+18 : 56 : refugee : 409.021334307954 : http://dbpedia.org/resource/refugee : 3.26027488193676
+18 : 57 : communism : 402.3833484834 : http://dbpedia.org/resource/communism : 3.26027488193676
+18 : 58 : science : 399.276327863452 : http://dbpedia.org/resource/science : 3.26027488193676
+18 : 59 : parade : 378.602359225887 : http://dbpedia.org/resource/parade : 2.0168967239126
+18 : 60 : south ossetia : 368.436969756695 : http://dbpedia.org/resource/south_ossetia : 3.26027488193676
+18 : 61 : abkhazia : 360.538754681789 : http://dbpedia.org/resource/abkhazia : 3.26027488193676
+18 : 62 : russian people : 358.544541212701 : http://dbpedia.org/resource/russian_people : 3.26027488193676
+18 : 63 : cuba : 353.597898187196 : http://dbpedia.org/resource/cuba : 3.26027488193676
+18 : 64 : brazil : 352.521392920783 : http://dbpedia.org/resource/brazil : 3.26027488193676
+18 : 65 : kiev : 346.786876956106 : http://dbpedia.org/resource/kiev : 3.26027488193676
+18 : 66 : czech republic : 343.159513451888 : http://dbpedia.org/resource/czech_republic : 3.26027488193676
+18 : 67 : mexico : 340.229507891306 : http://dbpedia.org/resource/mexico : 3.26027488193676
+18 : 68 : satellite : 340.092513065459 : http://dbpedia.org/resource/satellite : 3.26027488193676
+18 : 69 : seattle : 339.708522275573 : http://dbpedia.org/resource/seattle : 2.0168967239126
+18 : 70 : the five : 335.509300634494 : http://dbpedia.org/resource/the_five : 3.26027488193676
+18 : 71 : super power : 332.173984327947 : http://dbpedia.org/resource/superpower : 3.26027488193676
+18 : 72 : dialogue : 331.968223702071 : http://dbpedia.org/resource/dialogue : 3.26027488193676
+18 : 73 : civil disobedience : 329.891096914483 : http://dbpedia.org/resource/civil_disobedience : 2.0168967239126
+18 : 74 : latvia : 328.609984216965 : http://dbpedia.org/resource/latvia : 3.26027488193676
+18 : 75 : russian language : 327.99370308804 : http://dbpedia.org/resource/russian_language : 3.26027488193676
+18 : 76 : balkans : 322.623105439496 : http://dbpedia.org/resource/balkans : 3.26027488193676
+18 : 77 : azerbaijan : 321.156296701481 : http://dbpedia.org/resource/azerbaijan : 3.26027488193676
+18 : 78 : republic of dagestan : 308.507538929358 : http://dbpedia.org/resource/republic_of_dagestan : 3.26027488193676
+18 : 79 : eastern europe : 307.614792803515 : http://dbpedia.org/resource/eastern_europe : 3.26027488193676
+18 : 80 : dissent : 304.14526087843 : http://dbpedia.org/resource/dissent : 2.0168967239126
+18 : 81 : sport : 294.793042674658 : http://dbpedia.org/resource/sport : 3.26027488193676
+18 : 82 : grigory yavlinsky : 293.405696716323 : http://dbpedia.org/resource/grigory_yavlinsky : 3.26027488193676
+18 : 83 : lithuania : 279.174522982322 : http://dbpedia.org/resource/lithuania : 3.26027488193676
+18 : 84 : central asia : 275.357809958915 : http://dbpedia.org/resource/central_asia : 3.26027488193676
+18 : 85 : citizenship : 274.716931384911 : http://dbpedia.org/resource/citizenship : 3.26027488193676
+18 : 86 : estonia : 269.92269257645 : http://dbpedia.org/resource/estonia : 3.26027488193676
+18 : 87 : militant : 265.204300459609 : http://dbpedia.org/resource/militant : 2.0168967239126
+18 : 88 : bolshevik : 258.871406952552 : http://dbpedia.org/resource/bolshevik : 3.26027488193676
+18 : 89 : william cohen : 258.632483421447 : http://dbpedia.org/resource/william_cohen : 3.26027488193676
+18 : 90 : south korea : 253.924947789106 : http://dbpedia.org/resource/south_korea : 3.26027488193676
+18 : 91 : mainstream : 246.252859710448 : http://dbpedia.org/resource/mainstream : 2.0168967239126
+18 : 92 : san francisco : 242.996972574123 : http://dbpedia.org/resource/san_francisco : 3.26027488193676
+18 : 93 : mosque : 236.553749962012 : http://dbpedia.org/resource/mosque : 2.0168967239126
+18 : 94 : kazakhstan : 236.430296890933 : http://dbpedia.org/resource/kazakhstan : 3.26027488193676
+18 : 95 : mikhail gorbachev : 230.347850676095 : http://dbpedia.org/resource/mikhail_gorbachev : 3.26027488193676
+18 : 96 : republic of ingushetia : 226.185589975728 : http://dbpedia.org/resource/republic_of_ingushetia : 3.26027488193676
+18 : 97 : alexander lebed : 214.613824849528 : http://dbpedia.org/resource/alexander_lebed : 3.26027488193676
+18 : 98 : ruslan : 213.234409925477 : http://dbpedia.org/resource/ruslan : 3.26027488193676
+18 : 99 : vladimir zhirinovsky : 206.474378186167 : http://dbpedia.org/resource/vladimir_zhirinovsky : 3.26027488193676
+18 : 100 : hollywood : 206.243304196983 : http://dbpedia.org/resource/hollywood : 3.26027488193676
+19 : 0 : romanian : 13301.5149122027 : http://dbpedia.org/resource/romanian : 4.23760470193646
+19 : 1 : romania : 10622.0892538707 : http://dbpedia.org/resource/romania : 4.23760470193646
+19 : 2 : bucharest : 8815.4725479536 : http://dbpedia.org/resource/bucharest : 4.23760470193646
+19 : 3 : government : 4455.91641786908 : http://dbpedia.org/resource/government : 2.0168967239126
+19 : 4 : france : 2856.33452894829 : http://dbpedia.org/resource/france : 4.23760470193646
+19 : 5 : emil constantinescu : 1967.46234473904 : http://dbpedia.org/resource/emil_constantinescu : 4.23760470193646
+19 : 6 : police : 1786.25230550837 : http://dbpedia.org/resource/police : 2.0168967239126
+19 : 7 : nato : 1782.14796985073 : http://dbpedia.org/resource/nato : 4.23760470193646
+19 : 8 : united states : 1603.18534836695 : http://dbpedia.org/resource/united_states : 4.23760470193646
+19 : 9 : hungary : 1511.48858588093 : http://dbpedia.org/resource/hungary : 4.23760470193646
+19 : 10 : war : 1408.8377847536 : http://dbpedia.org/resource/war : 2.0168967239126
+19 : 11 : germany : 1370.29629906809 : http://dbpedia.org/resource/germany : 4.23760470193646
+19 : 12 : public : 1306.20175874765 : http://dbpedia.org/resource/public : 2.0168967239126
+19 : 13 : european union : 1276.94747706837 : http://dbpedia.org/resource/european_union : 4.23760470193646
+19 : 14 : policy : 1173.95721332508 : http://dbpedia.org/resource/policy : 2.0168967239126
+19 : 15 : nation : 1004.61905926416 : http://dbpedia.org/resource/nation : 4.23760470193646
+19 : 16 : protests : 964.088370235815 : http://dbpedia.org/resource/protests : 2.0168967239126
+19 : 17 : spain : 862.793639644925 : http://dbpedia.org/resource/spain : 4.23760470193646
+19 : 18 : italy : 788.290259445875 : http://dbpedia.org/resource/italy : 4.23760470193646
+19 : 19 : culture : 633.00020077368 : http://dbpedia.org/resource/culture : 2.0168967239126
+19 : 20 : poland : 597.761729731181 : http://dbpedia.org/resource/poland : 4.23760470193646
+19 : 21 : budapest : 546.676291543477 : http://dbpedia.org/resource/budapest : 4.23760470193646
+19 : 22 : revolution : 544.547416438008 : http://dbpedia.org/resource/revolution : 2.0168967239126
+19 : 23 : ion iliescu : 539.72483200564 : http://dbpedia.org/resource/ion_iliescu : 4.23760470193646
+19 : 24 : ukraine : 538.571398620793 : http://dbpedia.org/resource/ukraine : 4.23760470193646
+19 : 25 : london : 524.020139299984 : http://dbpedia.org/resource/london : 2.0168967239126
+19 : 26 : transylvania : 473.209867304509 : http://dbpedia.org/resource/transylvania : 4.23760470193646
+19 : 27 : christian : 468.352743675483 : http://dbpedia.org/resource/christian : 4.23760470193646
+19 : 28 : austria : 464.751500183389 : http://dbpedia.org/resource/austria : 4.23760470193646
+19 : 29 : greece : 460.933442821653 : http://dbpedia.org/resource/greece : 4.23760470193646
+19 : 30 : cross : 399.896540199608 : http://dbpedia.org/resource/cross : 4.23760470193646
+19 : 31 : moldova : 390.363876615045 : http://dbpedia.org/resource/moldova : 4.23760470193646
+19 : 32 : romanian people : 381.303466610133 : http://dbpedia.org/resource/romanian_people : 4.23760470193646
+19 : 33 : czech republic : 376.988510979625 : http://dbpedia.org/resource/czech_republic : 4.23760470193646
+19 : 34 : secret police : 376.252969454211 : http://dbpedia.org/resource/secret_police : 2.0168967239126
+19 : 35 : croatia : 325.136373670589 : http://dbpedia.org/resource/croatia : 4.23760470193646
+19 : 36 : protesters : 321.836917035158 : http://dbpedia.org/resource/protesters : 2.0168967239126
+19 : 37 : balkans : 319.430361395151 : http://dbpedia.org/resource/balkans : 4.23760470193646
+19 : 38 : canada : 311.512125120598 : http://dbpedia.org/resource/canada : 4.23760470193646
+19 : 39 : madrid : 310.543815052895 : http://dbpedia.org/resource/madrid : 4.23760470193646
+19 : 40 : gheorghe hagi : 303.314682297834 : http://dbpedia.org/resource/gheorghe_hagi : 4.23760470193646
+19 : 41 : pro : 299.800012563662 : http://dbpedia.org/resource/pro : 2.0168967239126
+19 : 42 : serbia : 299.525427031397 : http://dbpedia.org/resource/serbia : 4.23760470193646
+19 : 43 : sport : 286.099323569815 : http://dbpedia.org/resource/sport : 2.0168967239126
+19 : 44 : stock : 266.75076154024 : http://dbpedia.org/resource/stock : 2.0168967239126
+19 : 45 : netherlands : 263.594037523939 : http://dbpedia.org/resource/netherlands : 4.23760470193646
+19 : 46 : switzerland : 262.349025085369 : http://dbpedia.org/resource/switzerland : 4.23760470193646
+19 : 47 : albania : 257.839119988906 : http://dbpedia.org/resource/albania : 4.23760470193646
+19 : 48 : science : 219.898352579544 : http://dbpedia.org/resource/science : 4.23760470193646
+19 : 49 : romanian orthodox church : 213.829816487217 : http://dbpedia.org/resource/romanian_orthodox_church : 4.23760470193646
+19 : 50 : sweden : 212.472205410352 : http://dbpedia.org/resource/sweden : 4.23760470193646
+19 : 51 : the new york times : 201.318019506545 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+19 : 52 : ionescu : 200.400238097344 : http://dbpedia.org/resource/ionescu : 4.23760470193646
+19 : 53 : inflation : 195.816169920287 : http://dbpedia.org/resource/inflation : 2.0168967239126
+19 : 54 : latin : 192.187775088291 : http://dbpedia.org/resource/latin : 4.23760470193646
+19 : 55 : god : 190.844016009386 : http://dbpedia.org/resource/god : 4.23760470193646
+19 : 56 : bomb : 155.489803335957 : http://dbpedia.org/resource/bomb : 2.0168967239126
+19 : 57 : craiova : 139.131093292788 : http://dbpedia.org/resource/craiova : 4.23760470193646
+19 : 58 : dracula : 134.108761209487 : http://dbpedia.org/resource/dracula : 4.23760470193646
+19 : 59 : portugal : 127.396384553226 : http://dbpedia.org/resource/portugal : 4.23760470193646
+19 : 60 : dorinel munteanu : 124.598830966052 : http://dbpedia.org/resource/dorinel_munteanu : 4.23760470193646
+19 : 61 : baia mare : 108.784913799679 : http://dbpedia.org/resource/baia_mare : 4.23760470193646
+19 : 62 : queens : 107.128791704103 : http://dbpedia.org/resource/queens : 4.23760470193646
+19 : 63 : central europe : 103.106568427684 : http://dbpedia.org/resource/central_europe : 4.23760470193646
+19 : 64 : president of romania : 102.935212673914 : http://dbpedia.org/resource/president_of_romania : 4.23760470193646
+19 : 65 : suicide : 102.415466773002 : http://dbpedia.org/resource/suicide : 2.0168967239126
+19 : 66 : romanian language : 102.299708554819 : http://dbpedia.org/resource/romanian_language : 4.23760470193646
+19 : 67 : gabriel popescu : 101.742298536355 : http://dbpedia.org/resource/gabriel_popescu : 4.23760470193646
+19 : 68 : cluj-napoca : 100.27724032849 : http://dbpedia.org/resource/cluj-napoca : 4.23760470193646
+19 : 69 : riot : 96.8638758561172 : http://dbpedia.org/resource/riot : 2.0168967239126
+19 : 70 : lucian marinescu : 91.050137282227 : http://dbpedia.org/resource/lucian_marinescu : 4.23760470193646
+19 : 71 : catholic church : 87.7137188258547 : http://dbpedia.org/resource/catholic_church : 4.23760470193646
+19 : 72 : hungarian language : 87.651975336586 : http://dbpedia.org/resource/hungarian_language : 4.23760470193646
+19 : 73 : engineering : 86.2091915567227 : http://dbpedia.org/resource/engineering : 4.23760470193646
+19 : 74 : greater romania : 86.1248719054254 : http://dbpedia.org/resource/greater_romania : 4.23760470193646
+19 : 75 : north america : 84.1412072763398 : http://dbpedia.org/resource/north_america : 2.0168967239126
+19 : 76 : bulgarians : 83.4758319499081 : http://dbpedia.org/resource/bulgarians : 4.23760470193646
+19 : 77 : world war i : 82.2155948050313 : http://dbpedia.org/resource/world_war_i : 4.23760470193646
+19 : 78 : cristi puiu : 81.1354471523073 : http://dbpedia.org/resource/cristi_puiu : 4.23760470193646
+19 : 79 : united kingdom : 80.7788371576213 : http://dbpedia.org/resource/united_kingdom : 4.23760470193646
+19 : 80 : tinca : 72.6887431855828 : http://dbpedia.org/resource/tinca : 4.23760470193646
+19 : 81 : venezuela : 72.4826750429381 : http://dbpedia.org/resource/venezuela : 2.0168967239126
+19 : 82 : greater romania party : 71.171959158809 : http://dbpedia.org/resource/greater_romania_party : 4.23760470193646
+19 : 83 : sibiu : 69.1209501042462 : http://dbpedia.org/resource/sibiu : 4.23760470193646
+19 : 84 : dacia : 68.8949659768942 : http://dbpedia.org/resource/dacia : 4.23760470193646
+19 : 85 : boycott : 68.0480009603108 : http://dbpedia.org/resource/boycott : 2.0168967239126
+19 : 86 : hunedoara : 66.2151803147617 : http://dbpedia.org/resource/hunedoara : 4.23760470193646
+19 : 87 : romanian television : 65.0352291711169 : http://dbpedia.org/resource/romanian_television : 4.23760470193646
+19 : 88 : petroleum : 64.7817948692381 : http://dbpedia.org/resource/petroleum : 4.23760470193646
+19 : 89 : moldavia : 64.2151167634684 : http://dbpedia.org/resource/moldavia : 4.23760470193646
+19 : 90 : radu niculescu : 63.9410342009102 : http://dbpedia.org/resource/radu_niculescu : 4.23760470193646
+19 : 91 : bessarabia : 63.6953441361382 : http://dbpedia.org/resource/bessarabia : 4.23760470193646
+19 : 92 : romanian communist party : 63.3828153109637 : http://dbpedia.org/resource/romanian_communist_party : 4.23760470193646
+19 : 93 : vladimir voronin : 62.8923321314942 : http://dbpedia.org/resource/vladimir_voronin : 4.23760470193646
+19 : 94 : emigration : 61.7878579148405 : http://dbpedia.org/resource/emigration : 2.0168967239126
+19 : 95 : radu muntean : 59.3551970613659 : http://dbpedia.org/resource/radu_muntean : 4.23760470193646
+19 : 96 : citizenship : 59.0832687241319 : http://dbpedia.org/resource/citizenship : 4.23760470193646
+19 : 97 : ethnic romanians : 58.4099228998325 : http://dbpedia.org/resource/ethnic_romanians : 4.23760470193646
+19 : 98 : new york city : 57.9861928020741 : http://dbpedia.org/resource/new_york_city : 2.0168967239126
+19 : 99 : cristian mungiu : 56.3024919755322 : http://dbpedia.org/resource/cristian_mungiu : 4.23760470193646
+19 : 100 : mihai eminescu : 54.0993290647484 : http://dbpedia.org/resource/mihai_eminescu : 4.23760470193646
+20 : 0 : egyptian : 15782.2824866233 : http://dbpedia.org/resource/egyptian : 3.84970899366948
+20 : 1 : cairo : 13721.3113168207 : http://dbpedia.org/resource/cairo : 3.84970899366948
+20 : 2 : egypt : 13646.200805875 : http://dbpedia.org/resource/egypt : 3.84970899366948
+20 : 3 : hosni mubarak : 9409.27501548889 : http://dbpedia.org/resource/hosni_mubarak : 3.84970899366948
+20 : 4 : government : 8142.11972070192 : http://dbpedia.org/resource/government : 2.0168967239126
+20 : 5 : middle east : 6145.15789932439 : http://dbpedia.org/resource/middle_east : 3.84970899366948
+20 : 6 : protests : 5874.832929582 : http://dbpedia.org/resource/protests : 2.0168967239126
+20 : 7 : protesters : 5111.68412882828 : http://dbpedia.org/resource/protesters : 2.0168967239126
+20 : 8 : israel : 4817.50309342065 : http://dbpedia.org/resource/israel : 3.84970899366948
+20 : 9 : military : 4494.5873804262 : http://dbpedia.org/resource/military : 3.84970899366948
+20 : 10 : police : 4411.47822393071 : http://dbpedia.org/resource/police : 2.0168967239126
+20 : 11 : united states : 4066.33513251299 : http://dbpedia.org/resource/united_states : 3.84970899366948
+20 : 12 : the egyptian gazette : 3773.04234469008 : http://dbpedia.org/resource/the_egyptian_gazette : 3.84970899366948
+20 : 13 : public : 3572.11574188892 : http://dbpedia.org/resource/public : 2.0168967239126
+20 : 14 : revolution : 2923.19262778101 : http://dbpedia.org/resource/revolution : 2.0168967239126
+20 : 15 : muslim : 2804.35311030106 : http://dbpedia.org/resource/muslim : 3.84970899366948
+20 : 16 : war : 2468.67672052222 : http://dbpedia.org/resource/war : 2.0168967239126
+20 : 17 : iraq : 2173.35758286223 : http://dbpedia.org/resource/iraq : 3.84970899366948
+20 : 18 : arab world : 2034.04868891606 : http://dbpedia.org/resource/arab_world : 3.84970899366948
+20 : 19 : muslim brotherhood : 1912.98721221811 : http://dbpedia.org/resource/muslim_brotherhood : 3.84970899366948
+20 : 20 : policy : 1873.20539252068 : http://dbpedia.org/resource/policy : 2.0168967239126
+20 : 21 : alexandria : 1773.33590072745 : http://dbpedia.org/resource/alexandria : 3.84970899366948
+20 : 22 : syria : 1698.06501913048 : http://dbpedia.org/resource/syria : 3.84970899366948
+20 : 23 : nation : 1694.13578710518 : http://dbpedia.org/resource/nation : 3.84970899366948
+20 : 24 : jordan : 1604.43769283691 : http://dbpedia.org/resource/jordan : 3.84970899366948
+20 : 25 : water : 1565.54811071565 : http://dbpedia.org/resource/water : 3.84970899366948
+20 : 26 : africa : 1538.50553654399 : http://dbpedia.org/resource/africa : 3.84970899366948
+20 : 27 : saudi arabia : 1499.92462595817 : http://dbpedia.org/resource/saudi_arabia : 3.84970899366948
+20 : 28 : libya : 1414.77164175486 : http://dbpedia.org/resource/libya : 3.84970899366948
+20 : 29 : 19 : 1411.0558150521 : http://dbpedia.org/resource/19 : 3.84970899366948
+20 : 30 : pro : 1390.72288340157 : http://dbpedia.org/resource/pro : 2.0168967239126
+20 : 31 : gaza : 1342.05164787586 : http://dbpedia.org/resource/gaza : 3.84970899366948
+20 : 32 : a-group : 1299.39418582032 : http://dbpedia.org/resource/a-group : 3.84970899366948
+20 : 33 : egyptian people : 1283.58649469817 : http://dbpedia.org/resource/egyptian_people : 3.84970899366948
+20 : 34 : nile : 1188.39403354408 : http://dbpedia.org/resource/nile : 3.84970899366948
+20 : 35 : the new york times : 1176.07115343471 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+20 : 36 : culture : 1087.32589293744 : http://dbpedia.org/resource/culture : 2.0168967239126
+20 : 37 : france : 1085.53012727407 : http://dbpedia.org/resource/france : 2.0168967239126
+20 : 38 : sudan : 1069.33688482071 : http://dbpedia.org/resource/sudan : 3.84970899366948
+20 : 39 : arab league : 1024.33485205273 : http://dbpedia.org/resource/arab_league : 3.84970899366948
+20 : 40 : islam : 1002.51340352812 : http://dbpedia.org/resource/islam : 3.84970899366948
+20 : 41 : riot : 949.055910112602 : http://dbpedia.org/resource/riot : 2.0168967239126
+20 : 42 : london : 846.07396801525 : http://dbpedia.org/resource/london : 2.0168967239126
+20 : 43 : mohamed el baradei : 834.616038090757 : http://dbpedia.org/resource/mohamed_elbaradei : 3.84970899366948
+20 : 44 : kuwait : 802.6595937001 : http://dbpedia.org/resource/kuwait : 3.84970899366948
+20 : 45 : protester : 704.288386949121 : http://dbpedia.org/resource/protester : 2.0168967239126
+20 : 46 : christian : 691.068544508344 : http://dbpedia.org/resource/christian : 3.84970899366948
+20 : 47 : militant : 645.355924474031 : http://dbpedia.org/resource/militant : 2.0168967239126
+20 : 48 : mosque : 634.214915761512 : http://dbpedia.org/resource/mosque : 2.0168967239126
+20 : 49 : north africa : 620.269457386056 : http://dbpedia.org/resource/north_africa : 3.84970899366948
+20 : 50 : peace treaty : 546.742470845063 : http://dbpedia.org/resource/peace_treaty : 3.84970899366948
+20 : 51 : sit-in : 511.838862034786 : http://dbpedia.org/resource/sit-in : 2.0168967239126
+20 : 52 : italy : 505.642458751401 : http://dbpedia.org/resource/italy : 3.84970899366948
+20 : 53 : dissent : 473.351765559359 : http://dbpedia.org/resource/dissent : 2.0168967239126
+20 : 54 : zine : 442.226860546571 : http://dbpedia.org/resource/zine : 2.0168967239126
+20 : 55 : suez canal : 429.511022561882 : http://dbpedia.org/resource/suez_canal : 3.84970899366948
+20 : 56 : amman : 424.347693743942 : http://dbpedia.org/resource/amman : 2.0168967239126
+20 : 57 : egyptian museum : 420.651898717608 : http://dbpedia.org/resource/egyptian_museum : 3.84970899366948
+20 : 58 : jews : 413.027712463379 : http://dbpedia.org/resource/jews : 3.84970899366948
+20 : 59 : stock : 406.348479157456 : http://dbpedia.org/resource/stock : 2.0168967239126
+20 : 60 : bomb : 396.227510743085 : http://dbpedia.org/resource/bomb : 2.0168967239126
+20 : 61 : muhammad : 394.04241184854 : http://dbpedia.org/resource/muhammad : 3.84970899366948
+20 : 62 : chant : 366.311029892036 : http://dbpedia.org/resource/chant : 2.0168967239126
+20 : 63 : mohamed hussein tantawi : 356.652920190136 : http://dbpedia.org/resource/mohamed_hussein_tantawi : 3.84970899366948
+20 : 64 : suicide : 348.893690582043 : http://dbpedia.org/resource/suicide : 2.0168967239126
+20 : 65 : gulf war : 347.494524055275 : http://dbpedia.org/resource/gulf_war : 3.84970899366948
+20 : 66 : egyptian american : 339.035092140091 : http://dbpedia.org/resource/egyptian_american : 3.84970899366948
+20 : 67 : cotton : 316.073544033518 : http://dbpedia.org/resource/cotton : 3.84970899366948
+20 : 68 : boycott : 313.860734217007 : http://dbpedia.org/resource/boycott : 2.0168967239126
+20 : 69 : sharm el-sheikh : 280.856161960178 : http://dbpedia.org/resource/sharm_el-sheikh : 3.84970899366948
+20 : 70 : ethiopia : 276.299869805404 : http://dbpedia.org/resource/ethiopia : 3.84970899366948
+20 : 71 : rafah : 259.001011417201 : http://dbpedia.org/resource/rafah : 3.84970899366948
+20 : 72 : activism : 241.146513426894 : http://dbpedia.org/resource/activism : 2.0168967239126
+20 : 73 : graffiti : 238.080107741239 : http://dbpedia.org/resource/graffiti : 2.0168967239126
+20 : 74 : sinai peninsula : 235.985155966008 : http://dbpedia.org/resource/sinai_peninsula : 3.84970899366948
+20 : 75 : gamal abdel nasser : 230.557280942045 : http://dbpedia.org/resource/gamal_abdel_nasser : 3.84970899366948
+20 : 76 : nobel prize : 226.610527579184 : http://dbpedia.org/resource/nobel_prize : 3.84970899366948
+20 : 77 : inflation : 219.333372920899 : http://dbpedia.org/resource/inflation : 2.0168967239126
+20 : 78 : people of egypt : 209.576909753762 : http://dbpedia.org/resource/people_of_egypt : 3.84970899366948
+20 : 79 : ayman nour : 208.318303977967 : http://dbpedia.org/resource/ayman_nour : 3.84970899366948
+20 : 80 : anwar sadat : 202.519489528114 : http://dbpedia.org/resource/anwar_sadat : 3.84970899366948
+20 : 81 : monopoly : 191.093404174279 : http://dbpedia.org/resource/monopoly : 2.0168967239126
+20 : 82 : eritrea : 184.600148656912 : http://dbpedia.org/resource/eritrea : 3.84970899366948
+20 : 83 : copts : 183.564906167322 : http://dbpedia.org/resource/copts : 3.84970899366948
+20 : 84 : palestinian people : 181.739574901664 : http://dbpedia.org/resource/palestinian_people : 3.84970899366948
+20 : 85 : canada : 180.473109675778 : http://dbpedia.org/resource/canada : 3.84970899366948
+20 : 86 : zahi hawass : 178.089852984465 : http://dbpedia.org/resource/zahi_hawass : 3.84970899366948
+20 : 87 : sarah : 174.235904568871 : http://dbpedia.org/resource/sarah : 3.84970899366948
+20 : 88 : rice : 172.618254987173 : http://dbpedia.org/resource/rice : 3.84970899366948
+20 : 89 : new york city : 167.353705909278 : http://dbpedia.org/resource/new_york_city : 2.0168967239126
+20 : 90 : nonviolence : 167.108757038365 : http://dbpedia.org/resource/nonviolence : 2.0168967239126
+20 : 91 : secret police : 159.321188717634 : http://dbpedia.org/resource/secret_police : 2.0168967239126
+20 : 92 : mahdi : 156.842873219159 : http://dbpedia.org/resource/mahdi : 3.84970899366948
+20 : 93 : injustice : 154.206747554519 : http://dbpedia.org/resource/injustice : 2.0168967239126
+20 : 94 : colonialism : 153.638977816199 : http://dbpedia.org/resource/colonialism : 3.84970899366948
+20 : 95 : evolution : 152.231993968427 : http://dbpedia.org/resource/evolution : 3.84970899366948
+20 : 96 : mask : 144.979794831475 : http://dbpedia.org/resource/mask : 2.0168967239126
+20 : 97 : iraqi people : 136.582733577501 : http://dbpedia.org/resource/iraqi_people : 3.84970899366948
+20 : 98 : arabic language : 131.166207403555 : http://dbpedia.org/resource/arabic_language : 3.84970899366948
+20 : 99 : supreme council of antiquities : 129.159709142555 : http://dbpedia.org/resource/supreme_council_of_antiquities : 3.84970899366948
+20 : 100 : mainstream : 125.572196115715 : http://dbpedia.org/resource/mainstream : 2.0168967239126
+21 : 0 : most : 3645.25920709046 : http://dbpedia.org/resource/most : 2.0608391033354
+21 : 1 : 1998 : 3538.06426568634 : http://dbpedia.org/resource/1998 : 2.0608391033354
+21 : 2 : russia : 3207.86907798931 : http://dbpedia.org/resource/russia : 2.0608391033354
+21 : 3 : russian : 2429.61878140977 : http://dbpedia.org/resource/russian : 2.0608391033354
+21 : 4 : president : 2404.31556940788 : http://dbpedia.org/resource/president : 2.0608391033354
+21 : 5 : united states : 2198.20497492182 : http://dbpedia.org/resource/united_states : 2.0608391033354
+21 : 6 : earth : 2172.16920877055 : http://dbpedia.org/resource/earth : 2.0608391033354
+21 : 7 : country : 2157.31426876074 : http://dbpedia.org/resource/country : 2.0608391033354
+21 : 8 : moscow : 2116.16308114087 : http://dbpedia.org/resource/moscow : 2.0608391033354
+21 : 9 : 1999 : 1992.75607208992 : http://dbpedia.org/resource/1999 : 2.0608391033354
+21 : 10 : space : 1965.90137299314 : http://dbpedia.org/resource/space : 2.0608391033354
+21 : 11 : asia : 1724.16970910825 : http://dbpedia.org/resource/asia : 2.0608391033354
+21 : 12 : friday : 1415.62457763048 : http://dbpedia.org/resource/friday : 2.0608391033354
+21 : 13 : east : 1325.3135923715 : http://dbpedia.org/resource/east : 2.0608391033354
+21 : 14 : leonid : 1108.51867988049 : http://dbpedia.org/resource/leonid : 2.0608391033354
+21 : 15 : europe : 1073.15493574244 : http://dbpedia.org/resource/europe : 2.0608391033354
+21 : 16 : future : 1032.38936414805 : http://dbpedia.org/resource/future : 2.0608391033354
+21 : 17 : nasa : 865.015398557799 : http://dbpedia.org/resource/nasa : 2.0608391033354
+21 : 18 : television : 860.617748687805 : http://dbpedia.org/resource/television : 2.0608391033354
+21 : 19 : france : 834.600780397209 : http://dbpedia.org/resource/france : 2.0608391033354
+21 : 20 : 1997 : 829.474893959587 : http://dbpedia.org/resource/1997 : 2.0608391033354
+21 : 21 : chelyabinsk : 810.74019148266 : http://dbpedia.org/resource/chelyabinsk : 2.0608391033354
+21 : 22 : satellite : 805.232550849935 : http://dbpedia.org/resource/satellite : 2.0608391033354
+21 : 23 : japan : 787.938239220966 : http://dbpedia.org/resource/japan : 2.0608391033354
+21 : 24 : 1996 : 772.438773411389 : http://dbpedia.org/resource/1996 : 2.0608391033354
+21 : 25 : trade : 748.007925878281 : http://dbpedia.org/resource/trade : 2.0608391033354
+21 : 26 : russians : 706.445317075082 : http://dbpedia.org/resource/russians : 2.0608391033354
+21 : 27 : vladimir : 705.769743164014 : http://dbpedia.org/resource/vladimir : 2.0608391033354
+21 : 28 : republic : 686.883165938284 : http://dbpedia.org/resource/republic : 2.0608391033354
+21 : 29 : parliament : 605.755224770481 : http://dbpedia.org/resource/parliament : 2.0608391033354
+21 : 30 : boris yeltsin : 598.569547786462 : http://dbpedia.org/resource/boris_yeltsin : 2.0608391033354
+21 : 31 : nato : 597.371644466194 : http://dbpedia.org/resource/nato : 2.0608391033354
+21 : 32 : paris : 587.922203953783 : http://dbpedia.org/resource/paris : 2.0608391033354
+21 : 33 : missile : 543.105480053038 : http://dbpedia.org/resource/missile : 2.0608391033354
+21 : 34 : shooting : 497.10630987107 : http://dbpedia.org/resource/shooting : 2.0608391033354
+21 : 35 : observatory : 494.998279649597 : http://dbpedia.org/resource/observatory : 2.0608391033354
+21 : 36 : blue : 480.38005375187 : http://dbpedia.org/resource/blue : 2.0608391033354
+21 : 37 : soviet union : 457.15365630699 : http://dbpedia.org/resource/soviet_union : 2.0608391033354
+21 : 38 : note : 452.818658394793 : http://dbpedia.org/resource/note : 2.0608391033354
+21 : 39 : interfax : 438.9639488433 : http://dbpedia.org/resource/interfax : 2.0608391033354
+21 : 40 : army : 433.731828113671 : http://dbpedia.org/resource/army : 2.0608391033354
+21 : 41 : congress : 424.488844461727 : http://dbpedia.org/resource/congress : 2.0608391033354
+21 : 42 : bear : 423.634809000354 : http://dbpedia.org/resource/bear : 2.0608391033354
+21 : 43 : kosovo : 422.004550785555 : http://dbpedia.org/resource/kosovo : 2.0608391033354
+21 : 44 : space station : 420.169122401761 : http://dbpedia.org/resource/space_station : 2.0608391033354
+21 : 45 : iran : 412.90530147377 : http://dbpedia.org/resource/iran : 2.0608391033354
+21 : 46 : cold war : 410.867025375148 : http://dbpedia.org/resource/cold_war : 2.0608391033354
+21 : 47 : chechnya : 402.549310653823 : http://dbpedia.org/resource/chechnya : 2.0608391033354
+21 : 48 : ukraine : 400.107333862471 : http://dbpedia.org/resource/ukraine : 2.0608391033354
+21 : 49 : ural : 381.839320852464 : http://dbpedia.org/resource/ural : 2.0608391033354
+21 : 50 : beijing : 374.376304984477 : http://dbpedia.org/resource/beijing : 2.0608391033354
+21 : 51 : 1991 : 373.499969962611 : http://dbpedia.org/resource/1991 : 2.0608391033354
+21 : 52 : chicago : 371.599021446106 : http://dbpedia.org/resource/chicago : 2.0608391033354
+21 : 53 : province : 371.388622394928 : http://dbpedia.org/resource/province : 2.0608391033354
+21 : 54 : 1994 : 362.373951343535 : http://dbpedia.org/resource/1994 : 2.0608391033354
+21 : 55 : mexico : 358.002224597772 : http://dbpedia.org/resource/mexico : 2.0608391033354
+21 : 56 : 1993 : 351.377929975929 : http://dbpedia.org/resource/1993 : 2.0608391033354
+21 : 57 : poland : 342.171618966594 : http://dbpedia.org/resource/poland : 2.0608391033354
+21 : 58 : kremlin : 340.586975101298 : http://dbpedia.org/resource/kremlin : 2.0608391033354
+21 : 59 : ural mountains : 338.887274284107 : http://dbpedia.org/resource/ural_mountains : 2.0608391033354
+21 : 60 : fair : 335.736179234449 : http://dbpedia.org/resource/fair : 2.0608391033354
+21 : 61 : european union : 333.322521312844 : http://dbpedia.org/resource/european_union : 2.0608391033354
+21 : 62 : world war : 315.586066137644 : http://dbpedia.org/resource/world_war : 2.0608391033354
+21 : 63 : spacecraft : 313.28198447906 : http://dbpedia.org/resource/spacecraft : 2.0608391033354
+21 : 64 : wall street : 295.336720281954 : http://dbpedia.org/resource/wall_street : 2.0608391033354
+21 : 65 : academy : 294.789991006599 : http://dbpedia.org/resource/academy : 2.0608391033354
+21 : 66 : ship : 293.546987790654 : http://dbpedia.org/resource/ship : 2.0608391033354
+21 : 67 : tokyo : 291.753131935271 : http://dbpedia.org/resource/tokyo : 2.0608391033354
+21 : 68 : yevgeny primakov : 279.63555196174 : http://dbpedia.org/resource/yevgeny_primakov : 2.0608391033354
+21 : 69 : world war ii : 279.094980149822 : http://dbpedia.org/resource/world_war_ii : 2.0608391033354
+21 : 70 : violence : 276.51508426259 : http://dbpedia.org/resource/violence : 2.0608391033354
+21 : 71 : aerospace : 276.41398370969 : http://dbpedia.org/resource/aerospace : 2.0608391033354
+21 : 72 : international monetary fund : 271.209256724703 : http://dbpedia.org/resource/international_monetary_fund : 2.0608391033354
+21 : 73 : impeachment : 270.437255284706 : http://dbpedia.org/resource/impeachment : 2.0608391033354
+21 : 74 : 2008 : 266.706646072132 : http://dbpedia.org/resource/2008 : 2.0608391033354
+21 : 75 : vladimir putin : 259.849497450208 : http://dbpedia.org/resource/vladimir_putin : 2.0608391033354
+21 : 76 : bomb : 255.892725812607 : http://dbpedia.org/resource/bomb : 2.0608391033354
+21 : 77 : norway : 250.301796099477 : http://dbpedia.org/resource/norway : 2.0608391033354
+21 : 78 : vehicle : 245.128964591026 : http://dbpedia.org/resource/vehicle : 2.0608391033354
+21 : 79 : mir : 240.228699433633 : http://dbpedia.org/resource/mir : 2.0608391033354
+21 : 80 : seat : 236.376974440786 : http://dbpedia.org/resource/seat : 2.0608391033354
+21 : 81 : czech republic : 234.419953132695 : http://dbpedia.org/resource/czech_republic : 2.0608391033354
+21 : 82 : 1992 : 233.878605381466 : http://dbpedia.org/resource/1992 : 2.0608391033354
+21 : 83 : democracy : 232.775654423258 : http://dbpedia.org/resource/democracy : 2.0608391033354
+21 : 84 : murder : 231.854889603554 : http://dbpedia.org/resource/murder : 2.0608391033354
+21 : 85 : turkey : 228.745148707257 : http://dbpedia.org/resource/turkey : 2.0608391033354
+21 : 86 : truck : 226.737538837578 : http://dbpedia.org/resource/truck : 2.0608391033354
+21 : 87 : november 18 : 224.921441062022 : http://dbpedia.org/resource/november_18 : 2.0608391033354
+21 : 88 : fish : 224.542496661151 : http://dbpedia.org/resource/fish : 2.0608391033354
+21 : 89 : 20th century : 221.997502489401 : http://dbpedia.org/resource/20th_century : 2.0608391033354
+21 : 90 : 2001 : 220.530251957338 : http://dbpedia.org/resource/2001 : 2.0608391033354
+21 : 91 : 1990 : 217.915845244269 : http://dbpedia.org/resource/1990 : 2.0608391033354
+21 : 92 : 2006 : 217.738533855285 : http://dbpedia.org/resource/2006 : 2.0608391033354
+21 : 93 : brazil : 217.423377706316 : http://dbpedia.org/resource/brazil : 2.0608391033354
+21 : 94 : apartment : 215.657992411151 : http://dbpedia.org/resource/apartment : 2.0608391033354
+21 : 95 : unit : 214.162791625711 : http://dbpedia.org/resource/unit : 2.0608391033354
+21 : 96 : korea : 214.06531975671 : http://dbpedia.org/resource/korea : 2.0608391033354
+21 : 97 : 1995 : 212.317048054146 : http://dbpedia.org/resource/1995 : 2.0608391033354
+21 : 98 : far east : 211.517195766006 : http://dbpedia.org/resource/far_east : 2.0608391033354
+21 : 99 : apple : 209.170000815142 : http://dbpedia.org/resource/apple : 2.0608391033354
+21 : 100 : 2007 : 208.621116203819 : http://dbpedia.org/resource/2007 : 2.0608391033354
+22 : 0 : bulgarian : 12477.4457579258 : http://dbpedia.org/resource/bulgarian : 4.7419708765169
+22 : 1 : bulgaria : 9163.54799208047 : http://dbpedia.org/resource/bulgaria : 4.7419708765169
+22 : 2 : sofia : 7988.63297819211 : http://dbpedia.org/resource/sofia : 4.7419708765169
+22 : 3 : government : 4301.39664039513 : http://dbpedia.org/resource/government : 2.0168967239126
+22 : 4 : police : 1775.92734061874 : http://dbpedia.org/resource/police : 2.0168967239126
+22 : 5 : european union : 1704.25294269782 : http://dbpedia.org/resource/european_union : 4.7419708765169
+22 : 6 : united states : 1500.34589221924 : http://dbpedia.org/resource/united_states : 4.7419708765169
+22 : 7 : romania : 1442.62071002974 : http://dbpedia.org/resource/romania : 4.7419708765169
+22 : 8 : war : 1361.90338228785 : http://dbpedia.org/resource/war : 2.0168967239126
+22 : 9 : germany : 1260.20253630808 : http://dbpedia.org/resource/germany : 4.7419708765169
+22 : 10 : public : 1227.30211035447 : http://dbpedia.org/resource/public : 2.0168967239126
+22 : 11 : france : 1144.4557035172 : http://dbpedia.org/resource/france : 2.0168967239126
+22 : 12 : turkey : 1134.69520029035 : http://dbpedia.org/resource/turkey : 4.7419708765169
+22 : 13 : policy : 1108.83910877371 : http://dbpedia.org/resource/policy : 2.0168967239126
+22 : 14 : greece : 1036.94526980915 : http://dbpedia.org/resource/greece : 4.7419708765169
+22 : 15 : protests : 963.234476901775 : http://dbpedia.org/resource/protests : 2.0168967239126
+22 : 16 : nation : 911.91885921621 : http://dbpedia.org/resource/nation : 4.7419708765169
+22 : 17 : balkans : 715.014101820849 : http://dbpedia.org/resource/balkans : 4.7419708765169
+22 : 18 : italy : 708.278119137323 : http://dbpedia.org/resource/italy : 4.7419708765169
+22 : 19 : writer : 704.495354877516 : http://dbpedia.org/resource/writer : 4.7419708765169
+22 : 20 : new york : 688.694873955502 : http://dbpedia.org/resource/new_york : 4.7419708765169
+22 : 21 : albania : 671.316947355802 : http://dbpedia.org/resource/albania : 4.7419708765169
+22 : 22 : spain : 540.91785321157 : http://dbpedia.org/resource/spain : 4.7419708765169
+22 : 23 : protesters : 536.732339379526 : http://dbpedia.org/resource/protesters : 2.0168967239126
+22 : 24 : london : 489.138209214506 : http://dbpedia.org/resource/london : 2.0168967239126
+22 : 25 : czech republic : 487.521537873128 : http://dbpedia.org/resource/czech_republic : 4.7419708765169
+22 : 26 : culture : 476.993579796807 : http://dbpedia.org/resource/culture : 2.0168967239126
+22 : 27 : ukraine : 449.388962635722 : http://dbpedia.org/resource/ukraine : 4.7419708765169
+22 : 28 : player : 419.545302053449 : http://dbpedia.org/resource/player : 4.7419708765169
+22 : 29 : soviet union : 406.327791541493 : http://dbpedia.org/resource/soviet_union : 4.7419708765169
+22 : 30 : nadezhda mihailova : 383.7830669541 : http://dbpedia.org/resource/nadezhda_mihailova : 4.7419708765169
+22 : 31 : danube : 372.871193540729 : http://dbpedia.org/resource/danube : 4.7419708765169
+22 : 32 : serbia : 363.975232734539 : http://dbpedia.org/resource/serbia : 4.7419708765169
+22 : 33 : inflation : 359.494614899206 : http://dbpedia.org/resource/inflation : 2.0168967239126
+22 : 34 : pro : 335.929191675551 : http://dbpedia.org/resource/pro : 2.0168967239126
+22 : 35 : varna : 333.572636010291 : http://dbpedia.org/resource/varna : 4.7419708765169
+22 : 36 : austria : 304.081010782887 : http://dbpedia.org/resource/austria : 4.7419708765169
+22 : 37 : space : 302.447758104042 : http://dbpedia.org/resource/space : 4.7419708765169
+22 : 38 : muslim : 299.537492115254 : http://dbpedia.org/resource/muslim : 4.7419708765169
+22 : 39 : football : 271.895128134214 : http://dbpedia.org/resource/football : 4.7419708765169
+22 : 40 : revolution : 270.72384644345 : http://dbpedia.org/resource/revolution : 2.0168967239126
+22 : 41 : canada : 269.078396389923 : http://dbpedia.org/resource/canada : 4.7419708765169
+22 : 42 : hristo stoichkov : 262.922670778316 : http://dbpedia.org/resource/hristo_stoichkov : 4.7419708765169
+22 : 43 : bulgarian people : 247.853395145747 : http://dbpedia.org/resource/bulgarian_people : 4.7419708765169
+22 : 44 : western europe : 240.527527052717 : http://dbpedia.org/resource/western_europe : 4.7419708765169
+22 : 45 : the new york times : 232.961624407062 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+22 : 46 : serbs : 226.837285305825 : http://dbpedia.org/resource/serbs : 4.7419708765169
+22 : 47 : plovdiv : 200.031022489116 : http://dbpedia.org/resource/plovdiv : 4.7419708765169
+22 : 48 : sport : 175.076925454102 : http://dbpedia.org/resource/sport : 2.0168967239126
+22 : 49 : brazil : 171.071754544251 : http://dbpedia.org/resource/brazil : 4.7419708765169
+22 : 50 : bomb : 168.891770617503 : http://dbpedia.org/resource/bomb : 2.0168967239126
+22 : 51 : riot : 160.381197090692 : http://dbpedia.org/resource/riot : 2.0168967239126
+22 : 52 : argentina : 160.235388220596 : http://dbpedia.org/resource/argentina : 4.7419708765169
+22 : 53 : magdalena maleeva : 159.49990263042 : http://dbpedia.org/resource/magdalena_maleeva : 4.7419708765169
+22 : 54 : chancellor : 149.508387671592 : http://dbpedia.org/resource/chancellor : 4.7419708765169
+22 : 55 : ivan slavkov : 149.199075879472 : http://dbpedia.org/resource/ivan_slavkov : 4.7419708765169
+22 : 56 : moldova : 139.603853873693 : http://dbpedia.org/resource/moldova : 4.7419708765169
+22 : 57 : stock : 126.876788731599 : http://dbpedia.org/resource/stock : 2.0168967239126
+22 : 58 : iran : 114.412304638246 : http://dbpedia.org/resource/iran : 4.7419708765169
+22 : 59 : islam : 106.794361716411 : http://dbpedia.org/resource/islam : 4.7419708765169
+22 : 60 : veselin topalov : 106.387554149296 : http://dbpedia.org/resource/veselin_topalov : 4.7419708765169
+22 : 61 : central asia : 100.797383094322 : http://dbpedia.org/resource/central_asia : 4.7419708765169
+22 : 62 : protester : 96.538435204311 : http://dbpedia.org/resource/protester : 2.0168967239126
+22 : 63 : los angeles : 95.1500544709658 : http://dbpedia.org/resource/los_angeles : 4.7419708765169
+22 : 64 : dissent : 94.6137877677034 : http://dbpedia.org/resource/dissent : 2.0168967239126
+22 : 65 : romanians : 90.2613420597181 : http://dbpedia.org/resource/romanians : 4.7419708765169
+22 : 66 : chicago : 87.8003623206701 : http://dbpedia.org/resource/chicago : 4.7419708765169
+22 : 67 : blagovest sendov : 82.9429343025959 : http://dbpedia.org/resource/blagovest_sendov : 4.7419708765169
+22 : 68 : disarmament : 82.6947042754622 : http://dbpedia.org/resource/disarmament : 2.0168967239126
+22 : 69 : world trade organization : 80.4786423132613 : http://dbpedia.org/resource/world_trade_organization : 2.0168967239126
+22 : 70 : sit-in : 79.2512396442771 : http://dbpedia.org/resource/sit-in : 2.0168967239126
+22 : 71 : singer : 77.620085582793 : http://dbpedia.org/resource/singer : 4.7419708765169
+22 : 72 : mosque : 72.3871430398534 : http://dbpedia.org/resource/mosque : 2.0168967239126
+22 : 73 : georgiev : 72.020657285285 : http://dbpedia.org/resource/georgiev : 4.7419708765169
+22 : 74 : mainstream : 71.8894373403081 : http://dbpedia.org/resource/mainstream : 2.0168967239126
+22 : 75 : militant : 71.6134970532613 : http://dbpedia.org/resource/militant : 2.0168967239126
+22 : 76 : ottoman empire : 71.1291073602792 : http://dbpedia.org/resource/ottoman_empire : 4.7419708765169
+22 : 77 : on the eve : 69.8401001466318 : http://dbpedia.org/resource/on_the_eve : 4.7419708765169
+22 : 78 : ivo : 68.5203594506469 : http://dbpedia.org/resource/ivo : 4.7419708765169
+22 : 79 : secret police : 67.7534722405588 : http://dbpedia.org/resource/secret_police : 2.0168967239126
+22 : 80 : cem : 64.8259631710462 : http://dbpedia.org/resource/cem : 4.7419708765169
+22 : 81 : mask : 64.3167563651534 : http://dbpedia.org/resource/mask : 4.7419708765169
+22 : 82 : 19th century : 62.7780509420381 : http://dbpedia.org/resource/19th_century : 4.7419708765169
+22 : 83 : boycott : 62.0364121051625 : http://dbpedia.org/resource/boycott : 2.0168967239126
+22 : 84 : central europe : 61.6304530961544 : http://dbpedia.org/resource/central_europe : 4.7419708765169
+22 : 85 : suicide : 61.1478893510556 : http://dbpedia.org/resource/suicide : 2.0168967239126
+22 : 86 : zine : 60.890830322965 : http://dbpedia.org/resource/zine : 2.0168967239126
+22 : 87 : monopoly : 60.1552279591004 : http://dbpedia.org/resource/monopoly : 2.0168967239126
+22 : 88 : revolutionary : 60.0777987930739 : http://dbpedia.org/resource/revolutionary : 4.7419708765169
+22 : 89 : may 13 : 59.2846363821774 : http://dbpedia.org/resource/may_13 : 2.0168967239126
+22 : 90 : amman : 58.1676211258727 : http://dbpedia.org/resource/amman : 2.0168967239126
+22 : 91 : california : 53.3840185423412 : http://dbpedia.org/resource/california : 4.7419708765169
+22 : 92 : april 14 : 53.1631219546928 : http://dbpedia.org/resource/april_14 : 4.7419708765169
+22 : 93 : poet : 53.1619067664701 : http://dbpedia.org/resource/poet : 4.7419708765169
+22 : 94 : parade : 52.1517581719492 : http://dbpedia.org/resource/parade : 2.0168967239126
+22 : 95 : dimitar penev : 48.6746168887891 : http://dbpedia.org/resource/dimitar_penev : 4.7419708765169
+22 : 96 : north america : 47.9459849915919 : http://dbpedia.org/resource/north_america : 2.0168967239126
+22 : 97 : october 23 : 45.1376040115926 : http://dbpedia.org/resource/october_23 : 2.0168967239126
+22 : 98 : macedonian language : 44.9762524891873 : http://dbpedia.org/resource/macedonian_language : 4.7419708765169
+22 : 99 : opera : 44.7196259929087 : http://dbpedia.org/resource/opera : 4.7419708765169
+22 : 100 : venezuela : 43.7361525575693 : http://dbpedia.org/resource/venezuela : 2.0168967239126
+23 : 0 : protests : 8029.77502838986 : http://dbpedia.org/resource/protests : 2.0168967239126
+23 : 1 : protesters : 7157.23889793922 : http://dbpedia.org/resource/protesters : 2.0168967239126
+23 : 2 : police : 5919.51362131482 : http://dbpedia.org/resource/police : 2.0168967239126
+23 : 3 : government : 4933.75847643303 : http://dbpedia.org/resource/government : 2.0168967239126
+23 : 4 : public : 2257.48911836265 : http://dbpedia.org/resource/public : 2.0168967239126
+23 : 5 : associated press : 2184.83023711757 : http://dbpedia.org/resource/associated_press : 10.9505609026135
+23 : 6 : riot : 1805.01929581841 : http://dbpedia.org/resource/riot : 2.0168967239126
+23 : 7 : protester : 1433.91750775018 : http://dbpedia.org/resource/protester : 2.0168967239126
+23 : 8 : pro : 1274.89585061427 : http://dbpedia.org/resource/pro : 2.0168967239126
+23 : 9 : war : 1175.33932715013 : http://dbpedia.org/resource/war : 2.0168967239126
+23 : 10 : the new york times : 864.658245780466 : http://dbpedia.org/resource/the_new_york_times : 2.0168967239126
+23 : 11 : policy : 812.520690474631 : http://dbpedia.org/resource/policy : 2.0168967239126
+23 : 12 : muslim : 742.171490960733 : http://dbpedia.org/resource/muslim : 10.9505609026135
+23 : 13 : revolution : 740.933199302025 : http://dbpedia.org/resource/revolution : 2.0168967239126
+23 : 14 : seattle : 623.884962033996 : http://dbpedia.org/resource/seattle : 2.0168967239126
+23 : 15 : france : 617.941281378362 : http://dbpedia.org/resource/france : 2.0168967239126
+23 : 16 : london : 501.341621560937 : http://dbpedia.org/resource/london : 2.0168967239126
+23 : 17 : sit-in : 492.02285782744 : http://dbpedia.org/resource/sit-in : 2.0168967239126
+23 : 18 : dissent : 453.025286707466 : http://dbpedia.org/resource/dissent : 2.0168967239126
+23 : 19 : world trade organization : 428.681693582035 : http://dbpedia.org/resource/world_trade_organization : 2.0168967239126
+23 : 20 : civil disobedience : 402.068586742494 : http://dbpedia.org/resource/civil_disobedience : 2.0168967239126
+23 : 21 : chant : 352.171549745853 : http://dbpedia.org/resource/chant : 2.0168967239126
+23 : 22 : mosque : 327.506290120651 : http://dbpedia.org/resource/mosque : 2.0168967239126
+23 : 23 : globalization : 308.112890912756 : http://dbpedia.org/resource/globalization : 2.0168967239126
+23 : 24 : inflation : 299.759586738541 : http://dbpedia.org/resource/inflation : 2.0168967239126
+23 : 25 : new york city : 295.780153519271 : http://dbpedia.org/resource/new_york_city : 2.0168967239126
+23 : 26 : parade : 272.741730855341 : http://dbpedia.org/resource/parade : 2.0168967239126
+23 : 27 : militant : 266.839613511513 : http://dbpedia.org/resource/militant : 2.0168967239126
+23 : 28 : fair : 258.459660234308 : http://dbpedia.org/resource/fair : 10.9505609026135
+23 : 29 : bomb : 257.792784706069 : http://dbpedia.org/resource/bomb : 2.0168967239126
+23 : 30 : culture : 247.885917074501 : http://dbpedia.org/resource/culture : 2.0168967239126
+23 : 31 : orange order : 206.616773018368 : http://dbpedia.org/resource/orange_order : 2.0168967239126
+23 : 32 : stock : 204.366329908863 : http://dbpedia.org/resource/stock : 2.0168967239126
+23 : 33 : mainstream : 194.323249635029 : http://dbpedia.org/resource/mainstream : 2.0168967239126
+23 : 34 : graffiti : 179.003751035294 : http://dbpedia.org/resource/graffiti : 2.0168967239126
+23 : 35 : activism : 155.186959835431 : http://dbpedia.org/resource/activism : 2.0168967239126
+23 : 36 : nonviolence : 138.439174342226 : http://dbpedia.org/resource/nonviolence : 2.0168967239126
+23 : 37 : tent city : 127.601084359663 : http://dbpedia.org/resource/tent_city : 2.0168967239126
+23 : 38 : boycott : 125.297559320449 : http://dbpedia.org/resource/boycott : 2.0168967239126
+23 : 39 : direct action : 123.790249969542 : http://dbpedia.org/resource/direct_action : 2.0168967239126
+23 : 40 : zine : 121.975273641962 : http://dbpedia.org/resource/zine : 2.0168967239126
+23 : 41 : right to protest : 112.927145318265 : http://dbpedia.org/resource/right_to_protest : 2.0168967239126
+23 : 42 : mask : 107.734270653318 : http://dbpedia.org/resource/mask : 2.0168967239126
+23 : 43 : poster : 105.478821869736 : http://dbpedia.org/resource/poster : 2.0168967239126
+23 : 44 : political protest : 104.771715946684 : http://dbpedia.org/resource/political_protest : 2.0168967239126
+23 : 45 : injustice : 97.0727604109016 : http://dbpedia.org/resource/injustice : 2.0168967239126
+23 : 46 : stay away : 91.7103641129834 : http://dbpedia.org/resource/stay_away : 2.0168967239126
+23 : 47 : amman : 91.6122434225527 : http://dbpedia.org/resource/amman : 2.0168967239126
+23 : 48 : suicide : 90.8125561375239 : http://dbpedia.org/resource/suicide : 2.0168967239126
+23 : 49 : student protest : 89.8700522656778 : http://dbpedia.org/resource/student_protest : 2.0168967239126
+23 : 50 : petition : 89.3217584235514 : http://dbpedia.org/resource/petition : 2.0168967239126
+23 : 51 : political protests : 88.1176912351307 : http://dbpedia.org/resource/political_protests : 2.0168967239126
+23 : 52 : protest movements : 86.3255275601788 : http://dbpedia.org/resource/protest_movements : 2.0168967239126
+23 : 53 : shah : 80.5106373274237 : http://dbpedia.org/resource/shah : 10.9505609026135
+23 : 54 : hunger strike : 74.2630232730486 : http://dbpedia.org/resource/hunger_strike : 2.0168967239126
+23 : 55 : die-in : 72.7544398624699 : http://dbpedia.org/resource/die-in : 2.0168967239126
+23 : 56 : pakistan : 71.978289023338 : http://dbpedia.org/resource/pakistan : 10.9505609026135
+23 : 57 : thoroughfare : 71.5882430258378 : http://dbpedia.org/resource/thoroughfare : 10.9505609026135
+23 : 58 : racism : 69.2884715102927 : http://dbpedia.org/resource/racism : 2.0168967239126
+23 : 59 : protest camp : 68.2141735868745 : http://dbpedia.org/resource/protest_camp : 2.0168967239126
+23 : 60 : critical mass : 56.173515444602 : http://dbpedia.org/resource/critical_mass : 2.0168967239126
+23 : 61 : pennsylvania avenue : 53.6973993627294 : http://dbpedia.org/resource/pennsylvania_avenue : 2.0168967239126
+23 : 62 : convergence center : 52.7641159009074 : http://dbpedia.org/resource/convergence_center : 2.0168967239126
+23 : 63 : bangladesh : 51.6633533470032 : http://dbpedia.org/resource/bangladesh : 10.9505609026135
+23 : 64 : adbusters : 51.573032099676 : http://dbpedia.org/resource/adbusters : 2.0168967239126
+23 : 65 : venezuela : 50.9515162710442 : http://dbpedia.org/resource/venezuela : 2.0168967239126
+23 : 66 : martin luther king, jr. : 50.7772647241104 : http://dbpedia.org/resource/martin_luther_king,_jr. : 2.0168967239126
+23 : 67 : fasting : 49.7967434264397 : http://dbpedia.org/resource/fasting : 2.0168967239126
+23 : 68 : cochabamba : 44.7689960254145 : http://dbpedia.org/resource/cochabamba : 2.0168967239126
+23 : 69 : sedition : 44.727152208777 : http://dbpedia.org/resource/sedition : 2.0168967239126
+23 : 70 : monopoly : 41.6043601653552 : http://dbpedia.org/resource/monopoly : 2.0168967239126
+23 : 71 : public transport : 40.5891294309313 : http://dbpedia.org/resource/public_transport : 10.9505609026135
+23 : 72 : insurgency : 39.08556198653 : http://dbpedia.org/resource/insurgency : 2.0168967239126
+23 : 73 : sport : 37.8854175773663 : http://dbpedia.org/resource/sport : 2.0168967239126
+23 : 74 : secret police : 36.2846848829025 : http://dbpedia.org/resource/secret_police : 2.0168967239126
+23 : 75 : political movement : 34.9053366434239 : http://dbpedia.org/resource/political_movement : 2.0168967239126
+23 : 76 : the washington post : 32.5964722428315 : http://dbpedia.org/resource/the_washington_post : 10.9505609026135
+23 : 77 : teach-in : 32.4891591315184 : http://dbpedia.org/resource/teach-in : 2.0168967239126
+23 : 78 : self-immolation : 31.042375613249 : http://dbpedia.org/resource/self-immolation : 2.0168967239126
+23 : 79 : north america : 30.3244114513077 : http://dbpedia.org/resource/north_america : 2.0168967239126
+23 : 80 : subversion : 30.0521964740953 : http://dbpedia.org/resource/subversion : 2.0168967239126
+23 : 81 : walkout : 29.9047184189041 : http://dbpedia.org/resource/walkout : 2.0168967239126
+23 : 82 : civil rights movement : 29.4191694624194 : http://dbpedia.org/resource/civil_rights_movement : 2.0168967239126
+23 : 83 : publicity stunt : 28.6597506893779 : http://dbpedia.org/resource/publicity_stunt : 2.0168967239126
+23 : 84 : march 28 : 28.4706308709844 : http://dbpedia.org/resource/march_28 : 2.0168967239126
+23 : 85 : tea party protests : 27.7518422967598 : http://dbpedia.org/resource/tea_party_protests : 2.0168967239126
+23 : 86 : social movement : 26.9212942185574 : http://dbpedia.org/resource/social_movement : 2.0168967239126
+23 : 87 : march 21 : 26.8235303027633 : http://dbpedia.org/resource/march_21 : 2.0168967239126
+23 : 88 : hindu : 26.6793791028754 : http://dbpedia.org/resource/hindu : 10.9505609026135
+23 : 89 : ted hayes : 25.1767239448414 : http://dbpedia.org/resource/ted_hayes : 2.0168967239126
+23 : 90 : service employees international union : 24.3574138166786 : http://dbpedia.org/resource/service_employees_international_union : 2.0168967239126
+23 : 91 : political dissent : 24.2320056096883 : http://dbpedia.org/resource/political_dissent : 2.0168967239126
+23 : 92 : lockdown : 23.7442891072101 : http://dbpedia.org/resource/lockdown : 2.0168967239126
+23 : 93 : disarmament : 23.6944994396554 : http://dbpedia.org/resource/disarmament : 2.0168967239126
+23 : 94 : united kingdom : 23.5924060246049 : http://dbpedia.org/resource/united_kingdom : 10.9505609026135
+23 : 95 : economic inequality : 23.0615499643916 : http://dbpedia.org/resource/economic_inequality : 2.0168967239126
+23 : 96 : zimbabwe : 22.3399679350699 : http://dbpedia.org/resource/zimbabwe : 2.0168967239126
+23 : 97 : raging grannies : 21.7874061043592 : http://dbpedia.org/resource/raging_grannies : 2.0168967239126
+23 : 98 : political statement : 21.1907874104186 : http://dbpedia.org/resource/political_statement : 2.0168967239126
+23 : 99 : the new yorker : 21.1237169597329 : http://dbpedia.org/resource/the_new_yorker : 2.0168967239126
+23 : 100 : 1960 : 19.981999136067 : http://dbpedia.org/resource/1960 : 10.9505609026135
+25 : 0 : people : 6987.07742291316 : http://dbpedia.org/resource/people : 2.85587725391472
+25 : 1 : shot : 6480.31609874111 : http://dbpedia.org/resource/shot : 2.49843970794101
+25 : 2 : los angeles : 6208.51286535452 : http://dbpedia.org/resource/los_angeles : 2.85587725391472
+25 : 3 : shootings : 5550.17132415741 : http://dbpedia.org/resource/shootings : 2.49843970794101
+25 : 4 : california : 4530.45826902214 : http://dbpedia.org/resource/california : 2.51090831084375
+25 : 5 : new york : 4398.75299046478 : http://dbpedia.org/resource/new_york : 2.85587725391472
+25 : 6 : 1999 : 4117.37750789488 : http://dbpedia.org/resource/1999 : 2.85587725391472
+25 : 7 : city : 4076.74711325678 : http://dbpedia.org/resource/city : 2.85587725391472
+25 : 8 : united states : 3222.46208131683 : http://dbpedia.org/resource/united_states : 2.85587725391472
+25 : 9 : county : 3064.76770600977 : http://dbpedia.org/resource/county : 2.85587725391472
+25 : 10 : next : 2651.22158477376 : http://dbpedia.org/resource/next : 2.85587725391472
+25 : 11 : murder : 2553.86458082953 : http://dbpedia.org/resource/murder : 2.85587725391472
+25 : 12 : house : 2479.65644043323 : http://dbpedia.org/resource/house : 2.85587725391472
+25 : 13 : texas : 2241.03614747768 : http://dbpedia.org/resource/texas : 2.85587725391472
+25 : 14 : crime : 2180.57070668672 : http://dbpedia.org/resource/crime : 2.49843970794101
+25 : 15 : information : 1822.49611198034 : http://dbpedia.org/resource/information : 2.85587725391472
+25 : 16 : southern california : 1794.04167278924 : http://dbpedia.org/resource/southern_california : 2.85587725391472
+25 : 17 : the man : 1707.29161743765 : http://dbpedia.org/resource/the_man : 2.85587725391472
+25 : 18 : town : 1689.04703278005 : http://dbpedia.org/resource/town : 2.85587725391472
+25 : 19 : arrest : 1444.01703390562 : http://dbpedia.org/resource/arrest : 2.85587725391472
+25 : 20 : boston : 1414.87857231398 : http://dbpedia.org/resource/boston : 2.85587725391472
+25 : 21 : international : 1366.72740299514 : http://dbpedia.org/resource/international : 2.51090831084375
+25 : 22 : weapon : 1351.53162133354 : http://dbpedia.org/resource/weapon : 2.49843970794101
+25 : 23 : calif : 1311.79089921382 : http://dbpedia.org/resource/calif : 2.85587725391472
+25 : 24 : calif. : 1311.79089921382 : http://dbpedia.org/resource/calif. : 2.85587725391472
+25 : 25 : themselves : 1251.33451178011 : http://dbpedia.org/resource/themselves : 2.85587725391472
+25 : 26 : handgun : 1239.93732785663 : http://dbpedia.org/resource/handgun : 2.49843970794101
+25 : 27 : 1997 : 1238.84256854443 : http://dbpedia.org/resource/1997 : 2.85587725391472
+25 : 28 : plans : 1223.84817557283 : http://dbpedia.org/resource/plans : 2.85587725391472
+25 : 29 : arizona : 1217.16855144818 : http://dbpedia.org/resource/arizona : 2.85587725391472
+25 : 30 : rifle : 1216.24424070319 : http://dbpedia.org/resource/rifle : 2.49843970794101
+25 : 31 : 1996 : 1201.05826137714 : http://dbpedia.org/resource/1996 : 2.85587725391472
+25 : 32 : war : 1199.87992879581 : http://dbpedia.org/resource/war : 2.49843970794101
+25 : 33 : basketball : 1184.57089982303 : http://dbpedia.org/resource/basketball : 2.85587725391472
+25 : 34 : hollywood : 1137.63905093808 : http://dbpedia.org/resource/hollywood : 2.85587725391472
+25 : 35 : judge : 1102.91775923757 : http://dbpedia.org/resource/judge : 2.85587725391472
+25 : 36 : anyone : 1051.00672224023 : http://dbpedia.org/resource/anyone : 2.51090831084375
+25 : 37 : mexico : 980.570529051002 : http://dbpedia.org/resource/mexico : 2.85587725391472
+25 : 38 : driving : 969.302861182302 : http://dbpedia.org/resource/driving : 2.85587725391472
+25 : 39 : class : 913.342533278604 : http://dbpedia.org/resource/class : 2.85587725391472
+25 : 40 : gang : 905.923909603558 : http://dbpedia.org/resource/gang : 2.85587725391472
+25 : 41 : quickly : 853.996744242621 : http://dbpedia.org/resource/quickly : 2.85587725391472
+25 : 42 : los angeles daily news : 852.539051074781 : http://dbpedia.org/resource/los_angeles_daily_news : 2.85587725391472
+25 : 43 : policy : 848.593566332186 : http://dbpedia.org/resource/policy : 2.85587725391472
+25 : 44 : new york city : 831.193164089851 : http://dbpedia.org/resource/new_york_city : 2.51090831084375
+25 : 45 : traffic : 826.464639624007 : http://dbpedia.org/resource/traffic : 2.85587725391472
+25 : 46 : americans : 804.10221011615 : http://dbpedia.org/resource/americans : 2.85587725391472
+25 : 47 : san francisco : 803.811700105472 : http://dbpedia.org/resource/san_francisco : 2.85587725391472
+25 : 48 : university of southern california : 779.973826040917 : http://dbpedia.org/resource/university_of_southern_california : 2.85587725391472
+25 : 49 : light : 766.493282531111 : http://dbpedia.org/resource/light : 2.85587725391472
+25 : 50 : blue : 755.408693530525 : http://dbpedia.org/resource/blue : 2.85587725391472
+25 : 51 : jewish community center : 746.758490220273 : http://dbpedia.org/resource/jewish_community_center : 2.51090831084375
+25 : 52 : border : 728.379432930075 : http://dbpedia.org/resource/border : 2.85587725391472
+25 : 53 : 1995 : 723.124114627201 : http://dbpedia.org/resource/1995 : 2.85587725391472
+25 : 54 : shooter : 716.556786412773 : http://dbpedia.org/resource/shooter : 2.49843970794101
+25 : 55 : university of california : 707.361457711081 : http://dbpedia.org/resource/university_of_california : 2.85587725391472
+25 : 56 : colorado : 701.496454830458 : http://dbpedia.org/resource/colorado : 2.85587725391472
+25 : 57 : 1994 : 696.58255413386 : http://dbpedia.org/resource/1994 : 2.85587725391472
+25 : 58 : beach : 654.859120031634 : http://dbpedia.org/resource/beach : 2.51090831084375
+25 : 59 : virginia : 650.253198051885 : http://dbpedia.org/resource/virginia : 2.85587725391472
+25 : 60 : dallas : 641.429325261849 : http://dbpedia.org/resource/dallas : 2.85587725391472
+25 : 61 : suburb : 631.883797526321 : http://dbpedia.org/resource/suburb : 2.51090831084375
+25 : 62 : san diego : 629.28876276351 : http://dbpedia.org/resource/san_diego : 2.85587725391472
+25 : 63 : industry : 620.81833018715 : http://dbpedia.org/resource/industry : 2.85587725391472
+25 : 64 : florida : 617.292041102075 : http://dbpedia.org/resource/florida : 2.85587725391472
+25 : 65 : baseball : 613.678749606112 : http://dbpedia.org/resource/baseball : 2.85587725391472
+25 : 66 : commissioner : 611.815952128101 : http://dbpedia.org/resource/commissioner : 2.85587725391472
+25 : 67 : determine : 601.629326194747 : http://dbpedia.org/resource/determine : 2.85587725391472
+25 : 68 : 1993 : 581.131860656528 : http://dbpedia.org/resource/1993 : 2.85587725391472
+25 : 69 : shootout : 579.228558287349 : http://dbpedia.org/resource/shootout : 2.85587725391472
+25 : 70 : nevada : 531.106891632799 : http://dbpedia.org/resource/nevada : 2.85587725391472
+25 : 71 : shotgun : 529.362289140628 : http://dbpedia.org/resource/shotgun : 2.49843970794101
+25 : 72 : september : 527.549979829509 : http://dbpedia.org/resource/september : 2.85587725391472
+25 : 73 : swat : 526.194806278191 : http://dbpedia.org/resource/swat : 2.85587725391472
+25 : 74 : bus : 462.793516775827 : http://dbpedia.org/resource/bus : 2.85587725391472
+25 : 75 : hunting : 447.924830774584 : http://dbpedia.org/resource/hunting : 2.49843970794101
+25 : 76 : stock : 445.179691328121 : http://dbpedia.org/resource/stock : 2.85587725391472
+25 : 77 : technology : 439.76399220508 : http://dbpedia.org/resource/technology : 2.85587725391472
+25 : 78 : lake : 435.918159165157 : http://dbpedia.org/resource/lake : 2.85587725391472
+25 : 79 : san fernando valley : 434.017238922724 : http://dbpedia.org/resource/san_fernando_valley : 2.51090831084375
+25 : 80 : grand jury : 418.688725344611 : http://dbpedia.org/resource/grand_jury : 2.85587725391472
+25 : 81 : education : 411.190000687082 : http://dbpedia.org/resource/education : 2.85587725391472
+25 : 82 : highway : 407.150072433577 : http://dbpedia.org/resource/highway : 2.85587725391472
+25 : 83 : hispanic : 405.99456811989 : http://dbpedia.org/resource/hispanic : 2.85587725391472
+25 : 84 : republic : 403.940650055875 : http://dbpedia.org/resource/republic : 2.85587725391472
+25 : 85 : queens : 397.699369563842 : http://dbpedia.org/resource/queens : 2.85587725391472
+25 : 86 : washington, d.c. : 383.046344424253 : http://dbpedia.org/resource/washington,_d.c. : 2.85587725391472
+25 : 87 : 1990s : 369.559111873449 : http://dbpedia.org/resource/1990s : 2.85587725391472
+25 : 88 : denver : 368.333822391125 : http://dbpedia.org/resource/denver : 2.85587725391472
+25 : 89 : iraq : 350.649589252333 : http://dbpedia.org/resource/iraq : 2.85587725391472
+25 : 90 : pennsylvania : 350.28184875007 : http://dbpedia.org/resource/pennsylvania : 2.85587725391472
+25 : 91 : airport : 349.451380051685 : http://dbpedia.org/resource/airport : 2.85587725391472
+25 : 92 : downtown los angeles : 344.794353998869 : http://dbpedia.org/resource/downtown_los_angeles : 2.85587725391472
+25 : 93 : cocaine : 335.068174165114 : http://dbpedia.org/resource/cocaine : 2.85587725391472
+25 : 94 : city council : 330.196446142648 : http://dbpedia.org/resource/city_council : 2.85587725391472
+25 : 95 : england : 317.700528826338 : http://dbpedia.org/resource/england : 2.85587725391472
+25 : 96 : mountain : 311.710260217951 : http://dbpedia.org/resource/mountain : 2.85587725391472
+25 : 97 : north carolina : 305.321265553937 : http://dbpedia.org/resource/north_carolina : 2.85587725391472
+25 : 98 : squad : 302.831176654523 : http://dbpedia.org/resource/squad : 2.85587725391472
+25 : 99 : northern california : 293.607474762718 : http://dbpedia.org/resource/northern_california : 2.85587725391472
+25 : 100 : 1986 : 290.724612340953 : http://dbpedia.org/resource/1986 : 2.85587725391472
