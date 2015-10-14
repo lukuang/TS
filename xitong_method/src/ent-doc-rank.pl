@@ -20,9 +20,9 @@ my $query_desc_file = "query/desc";
 #my $query_desc_file = "query/ent";
 my $query_ent_map_file = "data/query-ent-doc.map";
 
-my $raw_file = "corpus/top.2000";
+my $raw_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/top.2000";
 my $stop_list_file = "data/stoplist";
-my $idf_hash_file = "corpus/idf.hash.2000";
+my $idf_hash_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/idf.hash.2000";
 
 my $doc_dbpedia_map_in_file = "data/doc-dbpedia-map/in";
 my $doc_dbpedia_map_out_file = "data/doc-dbpedia-map/out";
