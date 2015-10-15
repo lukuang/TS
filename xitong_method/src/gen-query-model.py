@@ -6,7 +6,7 @@ import re,sys,os
 import json
 import lxml.etree as ET
 import argparse
-
+from myStemmer import pstem as stem
 
 def rep(match):
     return match.group(1)+" "+match.group(2)
@@ -27,7 +27,7 @@ def read_query(query_file):
         all_words = re.findall("\w+",word_string)
         length[qid] = len(all_words)
         for word in all_words:
-            word = word.lower()
+            word = stem( word.lower() )
             if word not in models[qid]:
                 models[qid][word] = 0.0
             models[qid][word] += 1.0/length[qid]
