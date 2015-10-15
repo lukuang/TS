@@ -24,7 +24,7 @@ my $decay = 0;
 my $term_num = 100;
 
 my $ret_list_file = "/lustre/scratch/lukuang/Temporal_Summerization/TS/xitong_method/ret/top.2000";
-my $corpus_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/raw_stem";
+my $corpus_file = "/lustre/scratch/lukuang/Temporal_Summerization/xitong_method_data/transform";
 
 my $doc_dbpedia_map_in_file = "data/doc-dbpedia-map/in";
 my $doc_dbpedia_map_out_file = "data/doc-dbpedia-map/out";
