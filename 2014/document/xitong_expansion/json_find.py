@@ -280,7 +280,7 @@ def get_matches(match_file):
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     parser.add_argument("para_file")
-    parser.add_argument("--model", "-m", default = "NEED TO CHANGE")
+    parser.add_argument("model")
     parser.add_argument("--background", "-b", default = "NEED TO CHANGE")
     parser.add_argument("qid")
     parser.add_argument("mu",type=int)
