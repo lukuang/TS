@@ -168,13 +168,13 @@ def prepare_data(model, background):
     query_model = {}
     with open(model) as f:
         for line in f:
-            line = line.rstrip
+            line = line.rstrip()
             m = re.search("(^\d+)\s+\d+$",line)
             if m is not None:
                 qid = m.group(1)
                 query_model[qid] = {}
             else:
-                m = re.search("^(.+?)\s+(\d+\.\d+)$",line)
+                m = re.search("^(.+?)\s+([\d\.]+)$",line)
                 if m is None:
                     print "error line in model file"
                     print "line is:",line
