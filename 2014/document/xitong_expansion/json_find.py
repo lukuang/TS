@@ -289,7 +289,8 @@ def main():
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
     para = parse_args(args.para_file,args.data_dir, args.qid)
-    para["output_dir"] = os.path.join("./",args.model+"_"+str(args.mu),args.qid)
+    parts = args.model.split("/")
+    para["output_dir"] = os.path.join("./",parts[len(parts)-1]+"_"+str(args.mu),args.qid)
     para["mu"]=args.mu*2000
     #para["alpha"]=args.alpha*0.2
 
