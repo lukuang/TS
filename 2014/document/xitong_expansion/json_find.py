@@ -210,7 +210,7 @@ def compute_score(query_model,document_model):
     #print "return score",score
     return score       
 
-def parse_args(para_file, data_dir,qid):
+def parse_args(para_file,qid):
     tree = ET.parse(para_file)
     root = tree.getroot()
     para = {}
@@ -218,8 +218,6 @@ def parse_args(para_file, data_dir,qid):
     #para["all_distribution_file"] = root.find("all_distribution_file").text
     para["query_file"] = root.find("query_file").text
     para["doc_dir_path"] = root.find("doc_dir_path").text
-    para["distribution"] = os.path.join(data_dir,qid,root.find("distribution").text)
-    para["background"] = os.path.join(data_dir,qid,root.find("background").text)
     #para["output_dir"] = root.find("output_dir").text
     #para["alpha"] = float(root.find("alpha").text)
     #para["mu"] = float(root.find("mu").text)
@@ -288,7 +286,7 @@ def main():
     args = parser.parse_args()
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
-    para = parse_args(args.para_file,args.data_dir, args.qid)
+    para = parse_args(args.para_file, args.qid)
     parts = args.model.split("/")
     para["output_dir"] = os.path.join("./",parts[len(parts)-1]+"_"+str(args.mu),args.qid)
     para["mu"]=args.mu*2000
