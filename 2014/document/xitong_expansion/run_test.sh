@@ -3,7 +3,7 @@
 #$ -l m_mem_free=5G,h_rt=4:00:00
 # -m eas
 # -M lukuang@udel.edu
-#$ -t 1-59
+#$ -t 1-2
 vpkg_require python
 source /home/1546/myEV/bin/activate
 # When a single command in the array job is sent to a compute node,

@@ -296,6 +296,7 @@ def main():
     
     query_model, background_model = prepare_data(args.model, args.background)
 
+    print "start time: %s" %(time.strftime("%Y-%m-%d %H:%M:%S"))
     #result_dirs = 
     for qid in queries:
         
@@ -308,15 +309,16 @@ def main():
         #print "len is", len(queries[qid]._dirs)
         index = 0
         size = len(queries[qid]._dirs)
-        gap = size//59
-        for i in range(1,60):
+        num_job = 2
+        gap = size//2
+        for i in range(1,num_job+1):
             dirs_needed[i] = []
-            if i != 59:
+            if i != num_job:
                 for j in range(gap):
                     dirs_needed[i].append(queries[qid]._dirs[index])
                     index += 1
             else:
-                for j in range(size - gap*58):
+                for j in range(size - gap*5(num_job-1)):
                     dirs_needed[i].append(queries[qid]._dirs[index])
                     index += 1
         print "size is", len(dirs_needed[int(args.run_id)])
@@ -345,12 +347,12 @@ def main():
                 #f.write(score_string)
             gc.collect()
         break
-    print "finished"
+    print "finished at time %s" %(time.strftime("%Y-%m-%d %H:%M:%S"))
 
 
 if __name__ == '__main__':
   try:
-    main()
+    main()g
   except KeyboardInterrupt:
     print '\nGoodbye!'
 
