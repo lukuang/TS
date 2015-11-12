@@ -132,8 +132,9 @@ def main():
         for l in run_ids:
             if k!=l:
                 t,p = performances.calc_ttest(k,l)
-                #print t
+                print "for %s and %s:" %(k,l)
                 print p
+                print "-"*20
                 #sys.exit(0) #for debugging purpose, end the program 
 
 if __name__ == "__main__":
