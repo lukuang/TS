@@ -497,7 +497,7 @@ def main():
         for d in queries[qid]._dirs:
             print d
         query_model, background_model, stopwords = prepare_data(args.model, args.background, para["stopwords"])
-        statistics = Statistics(query_model, background_model, para["mu"], a, b,\
+        statistics = Statistics(query_model[qid], background_model, para["mu"], a, b,\
             sentence_mu, top_percent, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
             string_time = single_dir + "-59-59"
