@@ -114,8 +114,8 @@ class Performances:
         return self._performance_array.keys()
 
     def calc_ttest(self, id1, id2):
-        print "shape of %s is %d" %(id1, len(self._performance_array[id1]["array"]))
-        print "shape of %s is %d" %(id2, len(self._performance_array[id2]["array"]))
+        #print "shape of %s is %d" %(id1, len(self._performance_array[id1]["array"]))
+        #print "shape of %s is %d" %(id2, len(self._performance_array[id2]["array"]))
         return stats.ttest_rel(self._performance_array[id1]["array"], self._performance_array[id2]["array"])
 
 
@@ -132,9 +132,9 @@ def main():
         for l in run_ids:
             if k!=l:
                 t,p = performances.calc_ttest(k,l)
-                print t
+                #print t
                 print p
-                sys.exit(0) #for debugging purpose, end the program 
+                #sys.exit(0) #for debugging purpose, end the program 
 
 if __name__ == "__main__":
     main()
