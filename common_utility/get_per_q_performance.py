@@ -36,18 +36,22 @@ class Performances:
 
     def __init__(self,args):
         self._performance_array = {}
-        if args.run_dir is not None:
-            if args.all_dir is None:
-                self.insert_run(args.run_dir)
+        if not args.compare:
+            if args.run_dir is not None:
+                if args.all_dir is None:
+                    self.insert_run(args.run_dir)
+                else:
+                    raise Performances.InstanceCreationError(args)
+
+            elif args.all_dir is not None:
+                for single_dir in os.walk(args.all_dir).next()[1]:
+                    self.insert_run(os.path.join(args.all_dir,single_dir) )
+
             else:
-                raise Performances.InstanceCreationError(args)
-
-        elif args.all_dir is not None:
-            for single_dir in os.walk(args.all_dir).next()[1]:
-                self.insert_run(os.path.join(args.all_dir,single_dir) )
-
+                raise Performances.InstanceCreationError()
         else:
-            raise Performances.InstanceCreationError()
+            self.insert_run(args.run_dir)
+            self.insert_run(args.run_dir2)
 
 
     def insert_run(self,run_dir):
@@ -123,6 +127,8 @@ def main():
     parser = argparse.ArgumentParser(description = __doc__)
     parser.add_argument("--all_dir","-a",default=None)
     parser.add_argument("--run_dir","-r",default=None)
+    parser.add_argument("--compare","-c",action ='store_true')
+    parser.add_argument("--run_dir2","-r2",default=None)
     args = parser.parse_args()
     performance_array={}
     performances = Performances(args)
