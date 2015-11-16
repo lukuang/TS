@@ -49,7 +49,7 @@ def main():
         query_body+=query_template.substitute(qid=qid,q_string=queries[qid])
 
     with open(args.output_file, 'w') as f:
-        f.write(structure_template.substitue(query_body=query_body))
+        f.write(structure_template.substitute(query_body=query_body))
 
 
 
