@@ -5,7 +5,7 @@ generate indri queries for TS track queries
 import lxml.etree as ET
 from string import Template
 import argparse
-
+import re
 
 def get_queries(query_file):
     tree = ET.parse(query_file)
