@@ -46,7 +46,7 @@ def main():
     query_body = ""
     queries = get_queries(args.query_file)
     for qid in queries:
-        query_body+=query_template.substitute(qid=qid,q_string=queries[qid])
+        query_body+=query_template.substitute(qid=qid,q_string=queries[qid].lower())
 
     with open(args.output_file, 'w') as f:
         f.write(structure_template.substitute(query_body=query_body))
