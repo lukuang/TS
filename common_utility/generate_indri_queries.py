@@ -27,11 +27,14 @@ def main():
     query_template = Template("""
     <query>
         <number>$qid</number>
-        <text>$q_string</text>
+        <text>
+            #scoreif( $q_string)
+        </text>
     </query>
     """)
     structure_template = Template("""
     <parameters>
+    <index>/lustre/scratch/lukuang/all_index/p_index/</index>
     <trecFormat>true</trecFormat>
     <runID>UDInfoW2</runID>
     <count>10000</count>
