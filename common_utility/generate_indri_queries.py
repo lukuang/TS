@@ -30,7 +30,7 @@ def main():
     <query>
         <number>$qid</number>
         <text>
-            #scoreif( $q_string)
+            #combine( $q_string)
         </text>
     </query>
     """)
