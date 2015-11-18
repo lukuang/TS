@@ -39,9 +39,9 @@ def main():
     #print queries
     with open(args.output_file,"w") as f:
         for qid in queries:
-            f.write("%s %d" %(qid,len(queries[qid])))
-            for w in queries:
-                f.write("%s %f" %(w,queries[qid][w]) )
+            f.write("%s %d\n" %(qid,len(queries[qid])))
+            for w in queries[qid]:
+                f.write("%s %f\n" %(w,queries[qid][w]) )
     with open(os.path.join(args.background_dir,"temp"),'w') as f:
         for qid in queries:
             for w in queries[qid]:
