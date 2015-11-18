@@ -36,11 +36,12 @@ def main():
     parser.add_argument("output_file")
     args = parser.parse_args()
     queries = get_queries(args.query_file)
-    print queries
-    #with open(args.output_file,"w") as f:
-    #    for qid in queries:
-    #        for w in queries:
-    #            pass
+    #print queries
+    with open(args.output_file,"w") as f:
+        for qid in queries:
+            f.write("%s %d" %(qid,len(queries[qid])))
+            for w in queries:
+                f.write("%s %f" %(w,queries[qid][w]) )
     with open(os.path.join(args.background_dir,"temp"),'w') as f:
         for qid in queries:
             for w in queries[qid]:
