@@ -36,5 +36,5 @@ def main():
     queries = get_queries(args.query_file)
     print queries
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
