@@ -22,7 +22,7 @@ def get_queries(query_file):
         if m is not None:
             word_string = m.group(1)
             for it in re.finditer("(\d+\.\d+) [a-z]+",word_string):
-                queries[qid][m.group(2)] = float(m.group(1))
+                queries[qid][it.group(2)] = float(it.group(1))
         else:
             print "error text field"
             print word_string
