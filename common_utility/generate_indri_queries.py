@@ -29,9 +29,7 @@ def main():
     query_template = Template("""
     <query>
         <number>$qid</number>
-        <text>
-            $q_string
-        </text>
+        <text>$q_string</text>
     </query>
     """)
     structure_template = Template("""
