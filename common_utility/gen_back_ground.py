@@ -21,7 +21,7 @@ def get_queries(query_file):
         m= re.search("weight\((.+?)\)",word_string)
         if m is not None:
             word_string = m.group(1)
-            for it in re.finditer("(\d+\.\d+) [a-z]+",word_string):
+            for it in re.finditer("(\d+\.\d+) ([a-z]+)",word_string):
                 queries[qid][it.group(2)] = float(it.group(1))
         else:
             print "error text field"
