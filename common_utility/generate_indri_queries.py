@@ -30,7 +30,7 @@ def main():
     <query>
         <number>$qid</number>
         <text>
-            #combine( $q_string)
+            $q_string
         </text>
     </query>
     """)
