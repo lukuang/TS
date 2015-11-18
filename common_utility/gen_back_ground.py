@@ -3,7 +3,7 @@ read result indri query file from the axiomatic approach and generate a file for
 file for my method
 """
 
-import re
+import re,os
 import json,argparse
 import lxml.etree as ET
 
