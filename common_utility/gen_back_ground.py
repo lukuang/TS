@@ -17,11 +17,12 @@ def get_queries(query_file):
     for event in root.iter("query"):
         qid = event.find("number").text
         word_string =event.find("text").text
+        queries[qid] = {}
         m= re.search("weight\((.+?)\)",word_string)
         if m is not None:
             word_string = m.group(1)
-            all_words = re.findall("[a-z]+",word_string)
-            queries[qid] = all_words
+            for it in re.finditer("(\d+\.\d+) [a-z]+",word_string)
+                queries[qid][m.group(2)] = float(m.group(1))
         else:
             print "error text field"
             print word_string
@@ -31,14 +32,19 @@ def get_queries(query_file):
 def main():
     parser =  argparse.ArgumentParser(description=__doc__)
     parser.add_argument("query_file")
-    parser.add_argument("dest_dir")
+    parser.add_argument("background_dir")
+    parser.add_argument("output_file")
     args = parser.parse_args()
     queries = get_queries(args.query_file)
-    #print queries
-    with open(os.path.join(args.dest_dir,"temp"),'w') as f:
+    print queries
+    #with open(args.output_file,"w") as f:
+    #    for qid in queries:
+    #        for w in queries:
+    #            pass
+    with open(os.path.join(args.background_dir,"temp"),'w') as f:
         for qid in queries:
             for w in queries[qid]:
-                f.write("%s 0.1\n" %w)
+                f.write("%s %f\n" %(w,queries[qid][w]) )
 
 if __name__ == "__main__":
     main()
