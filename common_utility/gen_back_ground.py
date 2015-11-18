@@ -38,7 +38,7 @@ def main():
     with open(os.path.join(args.dest_dir,"temp"),'w') as f:
         for qid in queries:
             for w in queries[qid]:
-                f.wrtie("%s 0.1" %w)
+                f.write("%s 0.1" %w)
 
 if __name__ == "__main__":
     main()
