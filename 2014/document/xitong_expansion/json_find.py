@@ -352,7 +352,7 @@ def main():
 
 if __name__ == '__main__':
   try:
-    main()g
+    main()
   except KeyboardInterrupt:
     print '\nGoodbye!'
 
