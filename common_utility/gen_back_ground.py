@@ -20,7 +20,7 @@ def get_queries(query_file):
         m= re.search("weight\((.+?)\)",word_string)
         if m is not None:
             word_string = m.group(1)
-            all_words = re.findall("\w+",word_string)
+            all_words = re.findall("[a-z]+",word_string)
             queries[qid] = all_words
         else:
             print "error text field"
