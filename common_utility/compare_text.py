@@ -21,7 +21,7 @@ def find_text_in_doc(si, document_id):
         return None ,None
     # unique document id
     did = si.stream_id
-    if did != document_id
+    if did != document_id:
         return None ,None
 
     # get original text
