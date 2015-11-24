@@ -318,7 +318,7 @@ def main():
                     dirs_needed[i].append(queries[qid]._dirs[index])
                     index += 1
             else:
-                for j in range(size - gap*5(num_job-1)):
+                for j in range(size - gap*(num_job-1)):
                     dirs_needed[i].append(queries[qid]._dirs[index])
                     index += 1
         print "size is", len(dirs_needed[int(args.run_id)])
@@ -352,7 +352,7 @@ def main():
 
 if __name__ == '__main__':
   try:
-    main()g
+    main()
   except KeyboardInterrupt:
     print '\nGoodbye!'
 
