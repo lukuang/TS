@@ -194,5 +194,5 @@ class GoldModels(object):
                     continue
                 for sentence in sentences:
                     update_model(sentence,self._document_model[qid])
-        normalize_model(self._document_model[qid])
+            normalize_model(self._document_model[qid])
         return self._document_model[qid]
