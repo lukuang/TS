@@ -2,7 +2,7 @@
 commonly used functions
 """
 from myStemmer import pstem as stem 
-
+import re
 
 def process_qid(qid):
     if qid.find("TS") == -1:
