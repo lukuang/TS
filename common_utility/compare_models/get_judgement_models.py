@@ -56,7 +56,6 @@ class GoldModels(object):
         m = re.search("^(\d+)-", doc_name)
         if m is None:
             print "doc name error", doc_name
-            return None
 
         else:
             file_name = time.strftime('%Y-%m-%d-%H', time.gmtime(float(m.group(1))))
@@ -74,6 +73,7 @@ class GoldModels(object):
                     for sid in sentence_struct:
                         sentences.append(sentences[sid]["text"])
                     return sentences
+        return None
 
 
     def get_update_id(self,qid):
@@ -179,7 +179,13 @@ class GoldModels(object):
             self.get_update_id(qid)
             self.get_document_id(qid)
             for did in self._document_ids[qid]:
-                print "for did %s" %did
-                for sentence in self.get_sentences_from_documents(did):
+                #print "for did %s" %did
+                sentences = self.get_sentences_from_documents(did)
+
+                #skip when did not find the document or the document
+                #name is in error format
+                if sentences is None:
+                    continue
+                for sentence in sentences:
                     update_model(sentence,self._document_model[qid])
         return self._document_model[qid]
