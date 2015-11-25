@@ -88,14 +88,15 @@ class GoldModels(object):
             self._sentence_model[qid] = {}
             self.get_update_id(qid)
             with open(self._update_file) as f:
-                parts = line.rstrip().split()
-                if parts[0] == qid:
-                    uid = parts[1]
+                for line in f:
+                    parts = line.rstrip().split()
+                    if parts[0] == qid:
+                        uid = parts[1]
 
-                    if uid in self._update_ids[qid]:
-                        sentence = parts[6]
-                        update_model(sentence,self._sentence_model[qid])
-            normalize_model(self._sentence_model[qid])
+                        if uid in self._update_ids[qid]:
+                            sentence = parts[6]
+                            update_model(sentence,self._sentence_model[qid])
+                normalize_model(self._sentence_model[qid])
         return self._sentence_model[qid]
 
 
@@ -108,13 +109,14 @@ class GoldModels(object):
             self._sentence_model_discounted[qid] = {}
             self.get_update_id(qid)
             with open(self._update_file) as f:
-                parts = line.rstrip().split()
-                if parts[0] == qid:
-                    uid = parts[1]
+                for line in f:
+                    parts = line.rstrip().split()
+                    if parts[0] == qid:
+                        uid = parts[1]
 
-                    if uid in self._update_ids[qid]:
-                        sentence = parts[6]
-                        update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
+                        if uid in self._update_ids[qid]:
+                            sentence = parts[6]
+                            update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
             normalize_model(self._sentence_model_discounted[qid])
         return self._sentence_model_discounted[qid]
 
