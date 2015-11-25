@@ -86,7 +86,7 @@ class GoldModels(object):
         qid = process_qid(qid)
         if qid not in self._sentence_model:
             self._sentence_model[qid] = {}
-            self.get_update_id(self,qid)
+            self.get_update_id(qid)
             with open(self._update_file) as f:
                 parts = line.rstrip().split()
                 if parts[0] == qid:
@@ -106,7 +106,7 @@ class GoldModels(object):
         qid = process_qid(qid)
         if qid not in self._sentence_model_discounted:
             self._sentence_model_discounted[qid] = {}
-            self.get_update_id(self,qid)
+            self.get_update_id(qid)
             with open(self._update_file) as f:
                 parts = line.rstrip().split()
                 if parts[0] == qid:
