@@ -179,6 +179,7 @@ class GoldModels(object):
             self.get_update_id(qid)
             self.get_document_id(qid)
             for did in self._document_ids[qid]:
+                print "for did %s" %did
                 for sentence in self.get_sentences_from_documents(did):
                     update_model(sentence,self._document_model[qid])
         return self._document_model[qid]
