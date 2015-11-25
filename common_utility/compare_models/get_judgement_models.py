@@ -5,7 +5,7 @@ get model for nuggests of a given query id
 import re
 import os
 from myStemmer import pstem as stem 
-
+import sys
 
 def process_qid(qid):
     if qid.find("TS") == -1:
