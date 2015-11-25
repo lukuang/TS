@@ -5,7 +5,7 @@ get model for nuggests of a given query id
 import re
 import os
 from myStemmer import pstem as stem 
-import sys
+import sys,time,json
 
 def process_qid(qid):
     if qid.find("TS") == -1:
@@ -56,7 +56,7 @@ class GoldModels(object):
         m = re.search("^(\d+)-", doc_name)
         if m is None:
             print "doc name error", doc_name
-            sys.exit(-1)
+            return None
 
         else:
             file_name = time.strftime('%Y-%m-%d-%H', time.gmtime(float(m.group(1))))
