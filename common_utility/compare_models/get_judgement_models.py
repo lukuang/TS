@@ -60,18 +60,24 @@ class GoldModels(object):
         else:
             file_name = time.strftime('%Y-%m-%d-%H', time.gmtime(float(m.group(1))))
             print "file_name is", file_name
-            documents = json.load(open(os.path.join( self._corpus_dir,file_name) ) )
-            for did in documents:
+            data = json.load(open(os.path.join( self._corpus_dir,file_name) ) )
+            for single_doc in data:
+                did = single_doc[0]
                 if doc_name != did:
                     continue
                 else:
                     print "Found!"
-                    doc = documents[did]
-                    #print "sentences:"
-                    sentence_struct = doc["sentences"]
+                    sub_data = single_doc[1]
                     sentences = []
-                    for sid in sentence_struct:
-                        sentences.append(sentences[sid]["text"])
+                    for sid in sub_data["sentences"]:
+                        sentences.append(sub_data["sentences"][sid])
+                    
+                    # doc = documents[did]
+                    
+                    # sentence_struct = doc["sentences"]
+                    
+                    # for sid in sentence_struct:
+                    #     sentences.append(sentences[sid]["text"])
                     return sentences
         return None
 
