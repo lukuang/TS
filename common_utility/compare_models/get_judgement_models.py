@@ -18,14 +18,14 @@ def update_model(sentence,model,factor=1):
     words = map(stem,words)
     if factor==1:
         for w in words:
-            if w.isdigits():
+            if w.isdigit():
                 continue
             if w not in model:
                 model[w] = 0 
             model[w] += 1
     else:
         for w in words:
-            if w.isdigits():
+            if w.isdigit():
                 continue
             if w not in model:
                 model[w] = 0 
