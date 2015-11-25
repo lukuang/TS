@@ -14,7 +14,7 @@ def process_qid(qid):
 
 
 def update_model(sentence,model,factor=1):
-    words = re.findall("\w+",setence)
+    words = re.findall("\w+",sentence)
     words = map(stem,words)
     if factor==1:
         for w in words:
@@ -49,7 +49,7 @@ class GoldModels(object):
                 for line in f: 
                     parts = line.rstrip().split()
                     if parts[0]==qid:
-                        setence = parts[5]
+                        sentence = parts[5]
                         update_model(sentence,self._nuggests_model[qid])
         return self._nuggests_model[qid]
 
