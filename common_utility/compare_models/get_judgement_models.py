@@ -59,14 +59,14 @@ class GoldModels(object):
 
         else:
             file_name = time.strftime('%Y-%m-%d-%H', time.gmtime(float(m.group(1))))
-            print "file_name is", file_name
+            #print "file_name is", file_name
             data = json.load(open(os.path.join( self._corpus_dir,file_name) ) )
             for single_doc in data:
                 did = single_doc[0]
                 if doc_name != did:
                     continue
                 else:
-                    print "Found!"
+                    #print "Found!"
                     sub_data = single_doc[1]
                     sentences = []
                     for sid in sub_data["sentences"]:
@@ -194,4 +194,5 @@ class GoldModels(object):
                     continue
                 for sentence in sentences:
                     update_model(sentence,self._document_model[qid])
+        normalize_model(self._document_model[qid])
         return self._document_model[qid]
