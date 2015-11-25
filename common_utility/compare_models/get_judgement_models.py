@@ -14,7 +14,7 @@ def process_qid(qid):
 
 
 def update_model(sentence,model,factor=1):
-    words = re.findall("\w+",sentence)
+    words = re.findall("\w+",sentence.lower())
     words = map(stem,words)
     if factor==1:
         for w in words:
