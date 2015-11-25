@@ -54,7 +54,7 @@ class GoldModels(object):
                     if parts[0]==qid:
                         sentence = parts[5]
                         update_model(sentence,self._nuggests_model[qid])
-            normalize_model(self._nuggests_model)
+            normalize_model(self._nuggests_model[qid])
         return self._nuggests_model[qid]
 
 
@@ -91,7 +91,7 @@ class GoldModels(object):
                     if uid in self._update_ids[qid]:
                         sentence = parts[6]
                         update_model(sentence,self._sentence_model[qid])
-            normalize_model(self._sentence_model)
+            normalize_model(self._sentence_model[qid])
         return self._sentence_model[qid]
 
 
@@ -111,6 +111,6 @@ class GoldModels(object):
                     if uid in self._update_ids[qid]:
                         sentence = parts[6]
                         update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
-            normalize_model(self._sentence_model_discounted)
+            normalize_model(self._sentence_model_discounted[qid])
         return self._sentence_model_discounted[qid]
 
