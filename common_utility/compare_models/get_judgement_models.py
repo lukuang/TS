@@ -178,7 +178,7 @@ class GoldModels(object):
             self._document_model[qid] = {}
             self.get_update_id(qid)
             self.get_document_id(qid)
-            for did in self._document_ids:
+            for did in self._document_ids[qid]:
                 for sentence in self.get_sentences_from_documents(did):
                     update_model(sentence,self._document_model[qid])
         return self._document_model[qid]
