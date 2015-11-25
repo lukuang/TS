@@ -27,7 +27,10 @@ def update_model(sentence,model,factor=1):
                 model[w] = 0 
             model[w] += 1.0/factor 
 
-
+def normalize_model(model):
+    occurance = sum(model.values())
+    for w in model:
+        model[w] /= 1.0*occurance
 
 class GoldModels(object):
     def __init__(self, judgement_files_dir):
@@ -51,20 +54,10 @@ class GoldModels(object):
                     if parts[0]==qid:
                         sentence = parts[5]
                         update_model(sentence,self._nuggests_model[qid])
+            normalize_model(self._nuggests_model)
         return self._nuggests_model[qid]
 
 
-    def get_update_id_with_nid(self,qid):
-        if len(self._update_ids_with_nid[qid]) != 0:
-            for uid in self._update_ids[qid]:
-                self._update_ids[qid][uid] = False
-        else:
-            self._update_ids[qid]= {}
-            with open(self._match_file) as f:
-                    for line in f:
-                        parts = line.rstrip().split()
-                        if parts[0] == qid:
-                            self._update_ids[qid][parts[1]] = False
 
     def get_update_id(self,qid):
         nugget_matches = {}
@@ -98,7 +91,7 @@ class GoldModels(object):
                     if uid in self._update_ids[qid]:
                         sentence = parts[6]
                         update_model(sentence,self._sentence_model[qid])
-
+            normalize_model(self._sentence_model)
         return self._sentence_model[qid]
 
 
@@ -118,6 +111,6 @@ class GoldModels(object):
                     if uid in self._update_ids[qid]:
                         sentence = parts[6]
                         update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
-
+            normalize_model(self._sentence_model_discounted)
         return self._sentence_model_discounted[qid]
 
