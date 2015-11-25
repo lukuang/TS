@@ -112,12 +112,12 @@ class GoldModels(object):
             self.get_update_id(self,qid)
             with open(self._update_file) as f:
                 parts = line.rstrip().split()
-                    if parts[0] == qid:
-                        uid = parts[1]
+                if parts[0] == qid:
+                    uid = parts[1]
 
-                        if uid in self._update_ids[qid]:
-                            sentence = parts[6]
-                            update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
+                    if uid in self._update_ids[qid]:
+                        sentence = parts[6]
+                        update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
 
         return self._sentence_model_discounted[qid]
 
