@@ -4,7 +4,7 @@ get model for nuggests of a given query id
 
 import re
 import os
-from myStemmer import p_stem as stem 
+from myStemmer import pstem as stem 
 
 
 def process_qid(qid):
