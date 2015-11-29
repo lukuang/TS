@@ -168,19 +168,35 @@ class GoldModels(object):
 
     def get_document_model(self,qid):
         qid = process_qid(qid)
+        
+        
         if qid not in self._document_model:
-            self._document_model[qid] = {}
-            self.get_update_id(qid)
-            self.get_document_id(qid)
-            for did in self._document_ids[qid]:
-                #print "for did %s" %did
-                sentences = self.get_sentences_from_documents(did)
+            file_name = os.path.join(os.path.dirname(__file__),qid+".json" )
+            if os.path.exists(file_name):
+                self.load_document_model()
 
-                #skip when did not find the document or the document
-                #name is in error format
-                if sentences is None:
-                    continue
-                for sentence in sentences:
-                    update_model(sentence,self._document_model[qid])
-            normalize_model(self._document_model[qid],self._stopwords)
+            else:
+                self._document_model[qid] = {}
+                self.get_update_id(qid)
+                self.get_document_id(qid)
+                for did in self._document_ids[qid]:
+                    #print "for did %s" %did
+                    sentences = self.get_sentences_from_documents(did)
+
+                    #skip when did not find the document or the document
+                    #name is in error format
+                    if sentences is None:
+                        continue
+                    for sentence in sentences:
+                        update_model(sentence,self._document_model[qid])
+                normalize_model(self._document_model[qid],self._stopwords)
         return self._document_model[qid]
+
+    def load_document_model(self):
+        dirname = os.path.dirname(__file__)
+        for model_file in os.walk(dirname).next():
+            m = re.search("(TS14\.\d+)\.json",model_file)
+            if m is not None:
+                qid = m.group(1)
+                self._document_model[qid] = json.loads(open(os.path.join(dirname,model_file)))
+
