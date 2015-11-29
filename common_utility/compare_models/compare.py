@@ -20,7 +20,7 @@ def numerical_compare_models(model1,model2,entropy=False):
         return score
     else:
         count = 0
-        for w in model1
+        for w in model1:
             if w in model2:
                 count += 1
         return count*1.0/len(model1) 
