@@ -198,5 +198,5 @@ class GoldModels(object):
             m = re.search("(TS14\.\d+)\.json",model_file)
             if m is not None:
                 qid = m.group(1)
-                self._document_model[qid] = json.loads(open(os.path.join(dirname,model_file)))
+                self._document_model[qid] = json.load(open(os.path.join(dirname,model_file)))
 
