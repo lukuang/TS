@@ -91,8 +91,8 @@ def main():
             continue
 
         if query_model == "o":
-            expansion_path = raw_input("expansion_path",qid)
-            model2 = get_other_query_model(expansion_path)    
+            expansion_path = raw_input("expansion_path")
+            model2 = get_other_query_model(expansion_path,qid)    
         elif query_model == "s":
             expansion_path = raw_input("expansion_path")
             expansion_model = get_my_expansion_model(expansion_path)
