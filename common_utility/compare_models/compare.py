@@ -8,6 +8,7 @@ import os
 import math
 import sys,time,json,argparse
 from common import *
+from get_query_model import *
 from get_judgement_models import GoldModels
 
 
