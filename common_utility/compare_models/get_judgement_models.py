@@ -194,7 +194,7 @@ class GoldModels(object):
 
     def load_document_model(self):
         dirname = os.path.dirname(__file__)
-        for model_file in os.walk(dirname).next():
+        for model_file in os.walk(dirname).next()[2]:
             m = re.search("(TS14\.\d+)\.json",model_file)
             if m is not None:
                 qid = m.group(1)
