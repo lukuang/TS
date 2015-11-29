@@ -27,7 +27,7 @@ class GoldModels(object):
         self._update_ids = {}
         self._document_ids = {}
         self._update_ids_with_nid = {}
-        parse_query_file()
+        self.parse_query_file()
 
     def get_sentences_from_documents(self,doc_name):
         m = re.search("^(\d+)-", doc_name)
