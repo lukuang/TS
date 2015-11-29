@@ -4,7 +4,7 @@ get model for nuggests of a given query id
 
 import re
 import os
-
+import lxml.etree as ET
 import sys,time,json
 from common import *
 
@@ -12,18 +12,22 @@ from common import *
 
 
 class GoldModels(object):
-    def __init__(self, judgement_files_dir,corpus_dir):
+    def __init__(self, judgement_files_dir,corpus_dir,stopwords):
         self._nuggest_file = os.path.join(judgement_files_dir,"nuggets.tsv")
         self._match_file = os.path.join(judgement_files_dir,"matches.tsv")
         self._update_file = os.path.join(judgement_files_dir,"updates_sampled.extended.tsv")
+        self._query_file = os.path.join(judgement_files_dir,"trec2014-ts-topics-test.xml")
         self._corpus_dir = corpus_dir
+        self._stopwords = stopwords
         self._document_model = {}
+        self._original_query_model = {}
         self._sentence_model = {}
         self._sentence_model_discounted = {}
         self._nuggests_model = {}
         self._update_ids = {}
         self._document_ids = {}
         self._update_ids_with_nid = {}
+        parse_query_file()
 
     def get_sentences_from_documents(self,doc_name):
         m = re.search("^(\d+)-", doc_name)
@@ -91,6 +95,22 @@ class GoldModels(object):
                             self._document_ids[qid].add(did)
 
 
+    def get_original_query_model(self,qid):
+        
+        qid = process_qid(qid)
+
+        return self._original_query_model[qid]
+
+    def parse_query_file(self):
+        tree = ET.parse(self._query_file)
+        root = tree.getroot()
+        for event in root.iter("event"):
+            qid = process_qid(event.find("id").text)
+            self._original_query_model[qid] = {}
+            word_string = event.find("title").text + " "+ event.find("query").text
+            word_string = " ".join( set(word_string.findall("\w+",word_string.lower()) ) )
+            update_model(word_string,self._original_query_model[qid])
+            normalize_model(self._original_query_model[qid],self._stopwords)
 
 
     def get_nuggest_model(self,qid):
@@ -103,13 +123,8 @@ class GoldModels(object):
                     if parts[0]==qid:
                         sentence = parts[5]
                         update_model(sentence,self._nuggests_model[qid])
-            normalize_model(self._nuggests_model[qid])
+            normalize_model(self._nuggests_model[qid],self._stopwords)
         return self._nuggests_model[qid]
-
-
-
-    
-
 
 
     def get_sentence_model(self,qid):
@@ -126,7 +141,7 @@ class GoldModels(object):
                         if uid in self._update_ids[qid]:
                             sentence = parts[6]
                             update_model(sentence,self._sentence_model[qid])
-                normalize_model(self._sentence_model[qid])
+                normalize_model(self._sentence_model[qid],self._stopwords)
         return self._sentence_model[qid]
 
 
@@ -147,7 +162,7 @@ class GoldModels(object):
                         if uid in self._update_ids[qid]:
                             sentence = parts[6]
                             update_model(sentence,self._sentence_model_discounted[qid],self._update_ids[qid][uid])
-            normalize_model(self._sentence_model_discounted[qid])
+            normalize_model(self._sentence_model_discounted[qid],self._stopwords)
         return self._sentence_model_discounted[qid]
 
 
@@ -167,5 +182,5 @@ class GoldModels(object):
                     continue
                 for sentence in sentences:
                     update_model(sentence,self._document_model[qid])
-            normalize_model(self._document_model[qid])
+            normalize_model(self._document_model[qid],self._stopwords)
         return self._document_model[qid]

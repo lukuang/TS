@@ -39,7 +39,6 @@ def main():
     parser.add_argument("--judgement_files_dir",'-j',default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data")
     parser.add_argument("--corpus_dir","-c",default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/json_corpus")
     parser.add_argument("--stopword_file","-s",default = "/home/1546/data/new_stopwords")
-    parser.add_argument("qid")
 
     args=parser.parse_args()
     stopwords = read_stopwords(args.stopword_file)
