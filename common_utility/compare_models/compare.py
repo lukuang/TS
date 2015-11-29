@@ -93,18 +93,18 @@ def main():
 
         if query_model == "o":
             expansion_path = raw_input("expansion_path")
-            model2 = get_other_query_model(expansion_path)    
+            model2 = get_other_query_model(expansion_path,stopwords)    
         elif query_model == "s":
             expansion_path = raw_input("expansion_path")
-            expansion_model = get_my_expansion_model(expansion_path)
+            expansion_model = get_my_expansion_model(expansion_path,stopwords)
             alpha = float(raw_input("alpha"))
             model2 =  get_single_expansion_query_model(judgement_models.get_original_query_model(qid),expansion_model,alpha) 
         else:
             expansion_path1 = raw_input("expansion_path1")
-            expansion_model1 = get_my_expansion_model(expansion_path1)
+            expansion_model1 = get_my_expansion_model(expansion_path1,stopwords)
             alpha = float(raw_input("alpha"))
             expansion_path2 = raw_input("expansion_path2")
-            expansion_model2 = get_my_expansion_model(expansion_path2)
+            expansion_model2 = get_my_expansion_model(expansion_path2,stopwords)
             beta = float(raw_input("beta"))
             model2 = get_double_expansion_query_model(judgement_models.get_original_query_model(qid),expansion_model1,
        alpha,expansion_model2,beta)  
