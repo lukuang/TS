@@ -62,7 +62,7 @@ def main():
 
         #get model from judgement files
         judgement_model = raw_input("judgement_model:")
-        if judgement_model not in judgement_candidates
+        if judgement_model not in judgement_candidates:
             print "wrong input, need to be one of the:"
             for k in judgement_candidates:
                 print "%s: %s" %(k,judgement_candidates[k])
@@ -83,7 +83,7 @@ def main():
 
         #get query expansion model
         query_model = raw_input("query_model:")
-        if query_model not in query_candidates
+        if query_model not in query_candidates:
             print "wrong input, need to be one of the:"
             for k in query_candidates:
                 print "%s: %s" %(k,query_candidates[k])
