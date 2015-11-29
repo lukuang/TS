@@ -7,7 +7,7 @@ import os,json,re
 from common import *
 
 
-def get_other_query_model(query_model_file,required_qid):
+def get_other_query_model(query_model_file,required_qid,stopwords):
     """
     get expanded query model for xitong's method and
     axiomatic method
@@ -37,6 +37,7 @@ def get_other_query_model(query_model_file,required_qid):
                             print "key %s occur twice in query %s" %(m.group.qid)
                             sys.exit(-1)
                         query_model[m.group(1)] = float(m.group(2))
+    remove_stopwords(query_model,stopwords)
     return query_model
 
 
