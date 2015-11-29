@@ -108,7 +108,7 @@ class GoldModels(object):
             qid = process_qid(event.find("id").text)
             self._original_query_model[qid] = {}
             word_string = event.find("title").text + " "+ event.find("query").text
-            word_string = " ".join( set(word_string.findall("\w+",word_string.lower()) ) )
+            word_string = " ".join( set(re.findall("\w+",word_string.lower()) ) )
             update_model(word_string,self._original_query_model[qid])
             normalize_model(self._original_query_model[qid],self._stopwords)
 
