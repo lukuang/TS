@@ -110,8 +110,10 @@ def main():
        alpha,expansion_model2,beta)  
 
         entropy = raw_input("entropy?")
-        print numerical_compare_models(model1,model2)
-        if entropy.lower() == "n":
+        if entropy.lower() == "y":
+            print numerical_compare_models(model1,model2,True)
+        else:
+            print numerical_compare_models(model1,model2)
             show = raw_input("show?")
             if show.lower() == "y":
                 result = show_common_words(model1,model2)
