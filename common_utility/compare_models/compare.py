@@ -30,7 +30,7 @@ def show_common_words(model1,model2):
     results = []
     for w in model1:
         if w in model2:
-            results.append[w]
+            results.append(w)
     return results
 
 
