@@ -160,9 +160,9 @@ def get_best_map_per_file(result_file,matches,nuggets):
                     recall = .0
                     needed = True
                     for qid in local_nugget:
-                        if num_of_result[qid] == 0:
-                            needed = False
-                            continue
+                        #if num_of_result[qid] == 0:
+                        #    needed = False
+                        #    continue
                         precision += (len(local_nugget[qid])*1.0/num_of_result[qid]) / 15
                         recall += (len(local_nugget[qid])*1.0/len(nuggets[qid])) / 15
                     #now_map = 2.0/(1.0/precision + 1.0/recall)
