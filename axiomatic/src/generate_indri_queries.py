@@ -13,9 +13,9 @@ def get_queries(query_file):
     queries = {}
     for event in root.iter("event"):
         qid = event.find("id").text
-        word_string =event.find("title").text
-        all_words = re.findall("\w+",word_string)
-        query_string = " ".join(all_words)
+        word_string =event.find("title").text +" "+  event.find("query").text
+        all_words = re.findall("\w+",word_string.lower())
+        query_string = " ".join(set(all_words) )
         queries[qid] = query_string
     return queries
 
