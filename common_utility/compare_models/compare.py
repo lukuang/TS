@@ -17,7 +17,7 @@ def numerical_compare_models(model1,model2,entropy=False):
         score = .0
         for w in model1:
             if w in model2:
-                score += math.log(model2[w]) * model1   
+                score += math.log(model2[w]) * model1[w]   
         return score
     else:
         count = 0
