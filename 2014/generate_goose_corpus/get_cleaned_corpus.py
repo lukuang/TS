@@ -77,7 +77,7 @@ def get_doc(si):
         sentence=""
         for token in sentence_tokens:
             sentence = "%s%s "%(sentence,token.token)
-        document["sentences"][sentence_index_string] = sentence
+        document["sentences"][sentence_index_string] = unicode(sentence)
     document["time"]=int(si.stream_time.epoch_ticks)
 
     raw_html = si.body.clean_html
