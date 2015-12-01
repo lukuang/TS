@@ -91,6 +91,7 @@ def clean_document(document,sentences):
         max_score = 0.0
         max_index = -1
         for index in document["sentences"]:
+            print "types are %s %s" %(type(s),type(document["sentences"][index]))
             score = Levenshtein.ratio(s,document["sentences"][index])
             if score > max_score:
                 max_score = score
@@ -153,7 +154,7 @@ def main():
                         clean_document(document,sentences)
                         docs[document_id] = document
                     if args.debug:
-                        
+
                         print "new document:"
                         dids=document["sentences"].keys()
                         dids.sort()
