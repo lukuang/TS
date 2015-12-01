@@ -119,7 +119,8 @@ def main():
     args=parser.parse_args()
 
     #set up generator
-    generator = Sentence_generator(args.corenlp_path)
+    os.chdir(args.corenlp_path)
+    generator = Sentence_generator()
 
     #get document list needed to be generated
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))

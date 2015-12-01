@@ -14,7 +14,7 @@ class Sentence_generator(object):
     use goose to parse raw html and
     use corenlp to tokenize text to sentences
     """
-    def __init__(self,corenlp_path):
+    def __init__(self):
 
         #set up goose
         config = Configuration()
@@ -22,7 +22,7 @@ class Sentence_generator(object):
         self._g = Goose(config)
 
         #set up corenlp
-        self._corenlp = StanfordCoreNLP(corenlp_path = corenlp_path)
+        self._corenlp = StanfordCoreNLP()
 
     def get_sentences(self,raw_html):
         #get cleaned text
