@@ -92,7 +92,7 @@ def clean_document(document,sentences):
         max_score = 0.0
         max_index = -1
         for index in document["sentences"]:
-            print "types are %s %s" %(type(s),type(document["sentences"][index]))
+            #print "types are %s %s" %(type(s),type(document["sentences"][index]))
             score = Levenshtein.ratio(s,document["sentences"][index])
             if score > max_score:
                 max_score = score
@@ -147,11 +147,11 @@ def main():
                     if document_id is not None:
                         if args.debug:
                             print "there are %d sentences in original document %s" %(len(document["sentences"]),document_id)
-                            #print "original document:",document_id
-                            #dids=document["sentences"].keys()
-                            #dids.sort()
-                            #for key in dids:
-                            #    print "%s: %s" %(key, document["sentences"][key]) 
+                            print "original document:",document_id
+                            dids=document["sentences"].keys()
+                            dids.sort()
+                            for key in dids:
+                                print "%s: %s" %(key, document["sentences"][key]) 
                         sentences = generator.get_sentences(raw_html)
 
                         clean_document(document,sentences)
@@ -163,11 +163,11 @@ def main():
                     if args.debug:
                         print "there are %d sentences in new document %s" %(len(document["sentences"]),document_id)
 
-                        #print "new document:",document_id
-                        #dids=document["sentences"].keys()
-                        #dids.sort()
-                        #for key in dids:
-                        #    print "%s: %s" %(key, document["sentences"][key])
+                        print "new document:",document_id
+                        dids=document["sentences"].keys()
+                        dids.sort()
+                        for key in dids:
+                           print "%s: %s" %(key, document["sentences"][key])
         if args.debug:
             sys.exit(-1)
 

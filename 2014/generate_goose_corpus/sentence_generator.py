@@ -30,10 +30,11 @@ class Sentence_generator(object):
         text = article.cleaned_text
         text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         
-        #print "clean text is:"
-        #print text
+        print "clean text is:"
+        print text
+        
         #get sentences using corenlp
-        print type(text)
+        
         temp_data = self._corenlp.parse(text)
         
         nlp_data = json.loads( temp_data)
