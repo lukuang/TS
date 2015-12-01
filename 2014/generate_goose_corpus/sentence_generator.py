@@ -30,8 +30,8 @@ class Sentence_generator(object):
         text = article.cleaned_text
         text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
-        print "clean text is:"
-        print text
+        #print "clean text is:"
+        #print text
 
         #get sentences using corenlp
         

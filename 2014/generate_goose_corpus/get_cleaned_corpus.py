@@ -42,7 +42,7 @@ def get_sub_doc_list(doc_list,run_id,total,done_list,debug):
     if debug:
         print "there are %d dirs" %len(all_list)
         print "%d dirs need to be processed" %len(required_doc_list)
-    return required_doc_list
+    return set(required_doc_list) - set(done_list)
 
 
 def get_doc_list(record_file,doc_list,run_id,total,debug):
@@ -104,6 +104,13 @@ def clean_document(document,sentences):
         document["sentences"].pop(index,None)
 
 
+def write_docs(dest_file,docs,record_file,source_file):
+    with open(dest_file,"w") as f:
+        f.write(json.dumps(docs))
+
+    with open(record_file,"a") as f:
+        f.write(source_file+"\n")
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -140,7 +147,8 @@ def main():
                 #print "discard",doc
                 pass
             else:
-                for si in streamcorpus.Chunk(path = os.path.join(dir_name,doc_name) ):
+                source_file = os.path.join(dir_name,doc_name)
+                for si in streamcorpus.Chunk(path = source_file ):
                     document_id, document, raw_html = get_doc(si)
                     #debug purpose
                     
@@ -171,7 +179,8 @@ def main():
         if args.debug:
             sys.exit(-1)
 
-        write_docs(dest_file,docs)
+        write_docs(dest_file,docs,record_file,source_file)
+        sys.exit(-1)
 
 
 
