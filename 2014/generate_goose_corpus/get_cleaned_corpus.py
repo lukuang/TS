@@ -98,7 +98,7 @@ def clean_document(document,sentences):
                 max_score = score
                 max_index = index
         indecis.add(max_index)
-        document["sentences"][max_index] = s
+        #document["sentences"][max_index] = s
 
     for index in (all_indecis - indecis):
         document["sentences"].pop(index,None)
