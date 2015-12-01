@@ -74,12 +74,11 @@ def get_doc(si):
         # sentence tokens
         sentence_tokens = si.body.sentences[tag][sentence_index].tokens
         # concatenate token strings into a sentence
-        sentence=u""
+        sentence=""
         for token in sentence_tokens:
-            print type(token.token)
             sentence += token.token+" "
         #print type(sentence)
-        document["sentences"][sentence_index_string] = sentence
+        document["sentences"][sentence_index_string] = sentence.encode("utf-8",'ignore')
     document["time"]=int(si.stream_time.epoch_ticks)
 
     raw_html = si.body.clean_html
