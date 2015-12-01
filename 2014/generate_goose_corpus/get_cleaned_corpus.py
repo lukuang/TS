@@ -151,7 +151,7 @@ def main():
                         sentences = generator.get_sentences(raw_html)
 
                         clean_document(document,sentences)
-                        docs[did] = document
+                        docs[document_id] = document
                     if args.debug:
                         print "new document:"
                         dids=document["sentences"].keys().sort()
