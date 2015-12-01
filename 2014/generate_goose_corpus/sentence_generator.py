@@ -27,7 +27,7 @@ class Sentence_generator(object):
     def get_sentences(self,raw_html):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
-        text = article.cleaned_text.decode("utf-8",'ignore')
+        text = article.cleaned_text.encode("utf-8",'ignore')
         print "clean text is:"
         print text
         #get sentences using corenlp
