@@ -153,6 +153,7 @@ def main():
                         clean_document(document,sentences)
                         docs[document_id] = document
                     if args.debug:
+                        
                         print "new document:"
                         dids=document["sentences"].keys()
                         dids.sort()

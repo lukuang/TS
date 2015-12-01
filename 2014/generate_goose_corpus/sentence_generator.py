@@ -28,7 +28,8 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
-
+        print "clean text is:"
+        print text
         #get sentences using corenlp
         nlp_data = json.loads( self._corenlp.parse(text) )
 
