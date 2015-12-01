@@ -105,7 +105,7 @@ def clean_document(document,sentences):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--corenlp_path","-c",
-        default = '/home/1546/myEV/lib/python2.7/site-packages/corenlp/stanford-corenlp-full-2014-08-27')
+        default = '/home/1546/myEV/lib/python2.7/site-packages/corenlp')
     parser.add_argument("--doc_list","-l",
         default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/d_name.list")
     parser.add_argument("--source_dir","-s",
