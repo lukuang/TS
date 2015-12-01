@@ -151,9 +151,9 @@ def main():
                         docs[did] = document
                     if args.debug:
                         print "new document:"
-                            dids=document["sentences"].keys().sort()
-                            for key in dids:
-                                print "%s: %s" %(key, document["sentences"][key])
+                        dids=document["sentences"].keys().sort()
+                        for key in dids:
+                            print "%s: %s" %(key, document["sentences"][key])
         if args.debug:
             sys.exit(-1)
 
