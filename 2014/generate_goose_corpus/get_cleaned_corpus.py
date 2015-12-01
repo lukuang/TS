@@ -126,7 +126,7 @@ def main():
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))
     required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total,args.debug)
 
-    with dir_name in required_doc_list:
+    for dir_name in required_doc_list:
         docs = {}
         dest_file = os.path.join(args.dest_dir,dir_name)
         for doc_name in os.listdir(dir_name):
