@@ -140,7 +140,7 @@ def main():
                     document_id, document, raw_html = get_doc(si)
                     #debug purpose
                     if args.debug:
-                        print "original document":
+                        print "original document:"
                             dids=document["sentences"].keys().sort()
                             for key in dids:
                                 print "%s: %s" %(key, document["sentences"][key]) 
@@ -150,7 +150,7 @@ def main():
                         clean_document(document,sentences)
                         docs[did] = document
                     if args.debug:
-                        print "new document":
+                        print "new document:"
                             dids=document["sentences"].keys().sort()
                             for key in dids:
                                 print "%s: %s" %(key, document["sentences"][key])
