@@ -28,11 +28,12 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text.encode("utf-8",'ignore')
-        print "clean text is:"
-        print text
+        #print "clean text is:"
+        #print text
         #get sentences using corenlp
-        temp_data = self._corenlp.parse(text)
         print type(temp_data)
+        temp_data = self._corenlp.parse(text)
+        
         nlp_data = json.loads( temp_data.encode("utf-8",'ignore'))
 
         sentences = [x["text"] for x in nlp_data["sentences"]]
