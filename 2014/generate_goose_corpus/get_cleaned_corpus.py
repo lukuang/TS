@@ -76,7 +76,7 @@ def get_doc(si):
         # concatenate token strings into a sentence
         sentence=u""
         for token in sentence_tokens:
-            print type(token)
+            print type(token.token)
             sentence += unicode(token.token)+" "
         #print type(sentence)
         document["sentences"][sentence_index_string] = sentence
