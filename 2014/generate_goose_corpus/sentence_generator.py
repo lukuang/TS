@@ -30,7 +30,7 @@ class Sentence_generator(object):
         text = article.cleaned_text
 
         #get sentences using corenlp
-        nlp_data = json.loads( corenlp.parse(text) )
+        nlp_data = json.loads( self._corenlp.parse(text) )
 
         sentences = [x["text"] for x in nlp_data["sentences"]]
 
