@@ -142,13 +142,14 @@ def main():
                 for si in streamcorpus.Chunk(path = os.path.join(dir_name,doc_name) ):
                     document_id, document, raw_html = get_doc(si)
                     #debug purpose
-                    if args.debug:
-                        print "original document:"
-                        dids=document["sentences"].keys()
-                        dids.sort()
-                        for key in dids:
-                            print "%s: %s" %(key, document["sentences"][key]) 
+                    
                     if document_id is not None:
+                        if args.debug:
+                            print "original document:",document_id
+                            dids=document["sentences"].keys()
+                            dids.sort()
+                            for key in dids:
+                                print "%s: %s" %(key, document["sentences"][key]) 
                         sentences = generator.get_sentences(raw_html)
 
                         clean_document(document,sentences)
@@ -156,9 +157,10 @@ def main():
                     else:
                         print "skip no did document"
                         print "-"*20
+                        continue
                     if args.debug:
 
-                        print "new document:"
+                        print "new document:",document_id
                         dids=document["sentences"].keys()
                         dids.sort()
                         for key in dids:
