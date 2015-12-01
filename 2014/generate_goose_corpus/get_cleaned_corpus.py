@@ -154,7 +154,8 @@ def main():
                         docs[document_id] = document
                     if args.debug:
                         print "new document:"
-                        dids=document["sentences"].keys().sort()
+                        dids=document["sentences"].keys()
+                        dids.sort()
                         for key in dids:
                             print "%s: %s" %(key, document["sentences"][key])
         if args.debug:
