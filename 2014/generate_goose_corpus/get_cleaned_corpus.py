@@ -7,6 +7,7 @@ import json
 import sys
 import re
 import argparse
+import streamcorpus
 import Levenshtein
 from sentence_generator import Sentence_generator
 
