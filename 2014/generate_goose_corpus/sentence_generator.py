@@ -29,10 +29,10 @@ class Sentence_generator(object):
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
         text = ''.join([i if ord(i) < 128 else ' ' for i in text])
-        
+        text = re.sub("\s+"," ",text)
         print "clean text is:"
         print text
-        
+
         #get sentences using corenlp
         
         temp_data = self._corenlp.parse(text)
