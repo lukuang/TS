@@ -87,7 +87,7 @@ def get_doc(si):
 def clean_document(document,sentences):
     indecis = set()
     all_indecis = set(document["sentences"].keys())
-    for s in senteces:
+    for s in sentences:
         max_score = 0.0
         max_index = -1
         for index in document["sentences"]:
