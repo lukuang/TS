@@ -145,11 +145,12 @@ def main():
                     
                     if document_id is not None:
                         if args.debug:
-                            print "original document:",document_id
-                            dids=document["sentences"].keys()
-                            dids.sort()
-                            for key in dids:
-                                print "%s: %s" %(key, document["sentences"][key]) 
+                            print "there are %d sentences in original document %s" %(len(document["sentences"]),document_id)
+                            #print "original document:",document_id
+                            #dids=document["sentences"].keys()
+                            #dids.sort()
+                            #for key in dids:
+                            #    print "%s: %s" %(key, document["sentences"][key]) 
                         sentences = generator.get_sentences(raw_html)
 
                         clean_document(document,sentences)
@@ -159,12 +160,13 @@ def main():
                         print "-"*20
                         continue
                     if args.debug:
+                        print "there are %d sentences in new document %s" %(len(document["sentences"]),document_id)
 
-                        print "new document:",document_id
-                        dids=document["sentences"].keys()
-                        dids.sort()
-                        for key in dids:
-                            print "%s: %s" %(key, document["sentences"][key])
+                        #print "new document:",document_id
+                        #dids=document["sentences"].keys()
+                        #dids.sort()
+                        #for key in dids:
+                        #    print "%s: %s" %(key, document["sentences"][key])
         if args.debug:
             sys.exit(-1)
 
