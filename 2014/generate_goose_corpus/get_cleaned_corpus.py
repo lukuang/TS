@@ -153,6 +153,9 @@ def main():
 
                         clean_document(document,sentences)
                         docs[document_id] = document
+                    else:
+                        print "skip no did document"
+                        print "-"*20
                     if args.debug:
 
                         print "new document:"
