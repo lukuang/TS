@@ -78,7 +78,7 @@ def get_doc(si):
         for token in sentence_tokens:
             sentence += token.token+" "
         #print type(sentence)
-        document["sentences"][sentence_index_string] = sentence.encode("utf-8",'ignore')
+        document["sentences"][sentence_index_string] = sentence.decode("utf-8",'ignore')
     document["time"]=int(si.stream_time.epoch_ticks)
 
     raw_html = si.body.clean_html
