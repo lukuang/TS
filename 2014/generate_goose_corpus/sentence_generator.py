@@ -7,7 +7,7 @@ import json
 import sys
 import re
 from goose import Goose, Configuration
-from corenlp import*
+from corenlp.corenlp import*
 
 class Sentence_generator(object):
     """
