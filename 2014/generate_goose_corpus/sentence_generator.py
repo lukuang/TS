@@ -31,7 +31,9 @@ class Sentence_generator(object):
         print "clean text is:"
         print text
         #get sentences using corenlp
-        nlp_data = json.loads( self._corenlp.parse(text).encode("utf-8",'ignore'))
+        temp_data = self._corenlp.parse(text)
+        print type(temp_data)
+        nlp_data = json.loads( temp_data.encode("utf-8",'ignore'))
 
         sentences = [x["text"] for x in nlp_data["sentences"]]
 
