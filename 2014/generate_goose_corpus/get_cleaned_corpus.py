@@ -141,9 +141,9 @@ def main():
                     #debug purpose
                     if args.debug:
                         print "original document:"
-                            dids=document["sentences"].keys().sort()
-                            for key in dids:
-                                print "%s: %s" %(key, document["sentences"][key]) 
+                        dids=document["sentences"].keys().sort()
+                        for key in dids:
+                            print "%s: %s" %(key, document["sentences"][key]) 
                     if document_id is not None:
                         sentences = generator.get_sentences(raw_html)
 
