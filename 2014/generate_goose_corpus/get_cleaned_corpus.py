@@ -22,7 +22,7 @@ def get_done_list(record_file):
     return done_list
 
 
-def get_sub_doc_list(doc_list,run_id,total,done_list):
+def get_sub_doc_list(doc_list,run_id,total,done_list,debug):
     required_doc_list =[]
     all_list = []
     with open(doc_list) as f:
@@ -38,12 +38,17 @@ def get_sub_doc_list(doc_list,run_id,total,done_list):
     else:
         required_doc_list = all_list[(run_id-1)*gap:]
 
+    if debug:
+        print "there are %d dirs" %len(all_list)
+        print "%d dirs need to be processed" %len(required_doc_list)
     return required_doc_list
 
 
-def get_doc_list(record_file,doc_list,run_id,total):
+def get_doc_list(record_file,doc_list,run_id,total,debug):
     done_list = get_done_list(record_file)
-    required_doc_list = get_sub_doc_list(doc_list,run_id,total,done_list)
+    if debug:
+        print "length of done list %d" %len(done_list)
+    required_doc_list = get_sub_doc_list(doc_list,run_id,total,done_list,debug)
     
     return required_doc_list
 
@@ -118,7 +123,7 @@ def main():
 
     #get document list needed to be generated
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))
-    required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total)
+    required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total,args.debug)
 
     with dir_name in required_doc_list:
         docs = {}
