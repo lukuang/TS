@@ -27,8 +27,8 @@ class Sentence_generator(object):
     def get_sentences(self,raw_html):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
-        text = article.cleaned_text.encode("utf-8","ignore")
-        
+        text = article.cleaned_text
+        text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         
         #print "clean text is:"
         #print text
