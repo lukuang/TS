@@ -77,7 +77,7 @@ def get_doc(si):
         sentence=u""
         for token in sentence_tokens:
             print type(token.token)
-            sentence += unicode(token.token)+" "
+            sentence += token.token+" "
         #print type(sentence)
         document["sentences"][sentence_index_string] = sentence
     document["time"]=int(si.stream_time.epoch_ticks)
