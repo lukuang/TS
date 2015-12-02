@@ -93,39 +93,25 @@ def read_matches(match_file):
     #sys.exit(0)
     return matches
 
-def read_doc_list(doc_file):
-    docs = {}
-    with open(doc_file) as f:
-        for line in f:
-            m = re.search(".+ \d+-(.+)$",line.rstrip())
-            if m is None:
-                print "wrong line in doc file"
-                print line
-                sys.exit(0)
-            else:
-                did = m.group(1)
-                docs[did] = 1
-    return docs
+
 
 
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     #parser.add_argument("result_file")
     
-    parser.add_argument("-m","--match_file", help="Match File", default = "../../TS14-data/matches.tsv")
-    parser.add_argument("-u","--update_file", help="Update File", default = "../../TS14-data/updates_sampled.extended.tsv")
+    parser.add_argument("-m","--match_file", help="Match File", default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/matches.tsv")
+    parser.add_argument("-u","--update_file", help="Update File", default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/updates_sampled.extended.tsv")
     parser.add_argument("-q","--required_qid", help="Required Query Id", default = "TS14.13")
     parser.add_argument("result_file", help="Run Result File",)
-    parser.add_argument("-d", "--doc_file", help="Document List File", default = "data/temp_result_top_10")
-    parser.add_argument('-n', '--nuggets_file', help='Nuggets File', default="../../TS14-data/nuggets.tsv")
+    parser.add_argument('-n', '--nuggets_file', help='Nuggets File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/nuggets.tsv")
     parser.add_argument("-o","--out_file",help="Output File", default="./result_annotated")
     args = parser.parse_args()
     matches = read_matches(args.match_file)
     nuggets = read_nuggets(args.nuggets_file)
     updates = read_updates(args.update_file, matches)
-    docs = read_doc_list(args.doc_file)
-    
-    f_out = open(args.out_file,"w")
+    out_file = args.required_qid +"-annotated"
+    f_out = open(out_file,"w")
     with open(args.result_file) as f:
         matched_nuggets = {}
         for line in f:
