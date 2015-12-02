@@ -29,11 +29,12 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
+        print type(text)
         #re.sub(r'[^\x00-\x7F]+',' ', text)
         #text = filter(lambda x: x in string.printable, text)
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
-        text = text.encode('ascii', 'ignore')
+        text = text.encode('utf-8', 'ignore')
         #print "new text"
         #print text
         #print "clean text is:"
