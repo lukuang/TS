@@ -34,7 +34,7 @@ class Sentence_generator(object):
         #text = filter(lambda x: x in string.printable, text)
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
-        text = text.encode('utf-8', 'ignore').decode('utf-8','ignore')
+        text = text.encode('ascii', 'ignore').decode('ascii','ignore')
         print type(text)
         print "new text"
         print text
