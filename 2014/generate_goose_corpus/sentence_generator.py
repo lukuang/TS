@@ -44,6 +44,7 @@ class Sentence_generator(object):
         try:
             temp_data = self._corenlp.parse(text)
         except UnicodeDecodeError as e:
+            print e
             print "error text!"
             print text
 
