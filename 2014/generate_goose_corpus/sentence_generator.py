@@ -31,14 +31,19 @@ class Sentence_generator(object):
         re.sub(r'[^\x00-\x7F]+',' ', text)
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
-        print "new text"
-        print text
+        #print "new text"
+        #print text
         #print "clean text is:"
         #print text
 
         #get sentences using corenlp
         
-        temp_data = self._corenlp.parse(text)
+        try:
+            temp_data = self._corenlp.parse(text)
+        except UnicodeDecodeError as e:
+            print "error text!"
+            print text
+            
         
         nlp_data = json.loads( temp_data)
 
