@@ -6,6 +6,7 @@ import os
 import json
 import sys
 import re
+import string
 from goose import Goose, Configuration
 from corenlp.corenlp import*
 
@@ -28,7 +29,8 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
-        re.sub(r'[^\x00-\x7F]+',' ', text)
+        #re.sub(r'[^\x00-\x7F]+',' ', text)
+        text = filter(lambda x: x in string.printable, text)
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
         #print "new text"
@@ -43,7 +45,7 @@ class Sentence_generator(object):
         except UnicodeDecodeError as e:
             print "error text!"
             print text
-            
+
         
         nlp_data = json.loads( temp_data)
 
