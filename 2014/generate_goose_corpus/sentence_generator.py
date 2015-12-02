@@ -28,7 +28,8 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
-        text = ''.join([i if ord(i) < 128 else ' ' for i in text])
+        re.sub(r'[^\x00-\x7F]+',' ', text)
+        #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
         print "new text"
         print text
