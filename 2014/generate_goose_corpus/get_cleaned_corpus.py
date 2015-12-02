@@ -117,7 +117,7 @@ def main():
     parser.add_argument("--corenlp_path","-c",
         default = '/home/1546/myEV/lib/python2.7/site-packages/corenlp')
     parser.add_argument("--doc_list","-l",
-        default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/d_name.list")
+        default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/new_d_name.list")
     parser.add_argument("--source_dir","-s",
         default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/")
     parser.add_argument("--dest_dir","-d",
@@ -137,7 +137,9 @@ def main():
     required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total,args.debug)
 
     for dir_name in required_doc_list:
+        print "process %s" %dir_name
         docs = {}
+        num = 0
         dest_file = os.path.join(args.dest_dir,dir_name)
         for doc_name in os.listdir(dir_name):
             m1=re.search("MAINSTREAM_NEWS",doc_name)
@@ -153,6 +155,9 @@ def main():
                     #debug purpose
                     
                     if document_id is not None:
+                        print "for document id %s" %(document_id)
+                        num += 1
+                        print "It's number %d document" %(num)
                         if args.debug:
                             print "there are %d sentences in original document %s" %(len(document["sentences"]),document_id)
                             print "original document:",document_id
