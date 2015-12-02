@@ -29,15 +29,15 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
-        print type(text)
+        #print type(text)
         #re.sub(r'[^\x00-\x7F]+',' ', text)
         #text = filter(lambda x: x in string.printable, text)
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
-        text = re.sub("\s+"," ",text)
-        text = text.encode('ascii', 'ignore').decode('ascii','ignore')
-        print type(text)
-        print "new text"
-        print text
+        #text = re.sub("\s+"," ",text)
+        #text = text.encode('ascii', 'ignore').decode('ascii','ignore')
+        #print type(text)
+        #print "new text"
+        #print text
         #print "clean text is:"
         #print text
 
@@ -48,6 +48,10 @@ class Sentence_generator(object):
         
         nlp_data = json.loads( temp_data)
 
-        sentences = [x["text"] for x in nlp_data["sentences"]]
+        try:
+            sentences = [x["text"] for x in nlp_data["sentences"]]
+        except Exception as e:
+            print e
+            print nlp_data
 
         return sentences
