@@ -35,19 +35,15 @@ class Sentence_generator(object):
         #text = ''.join([i if ord(i) < 128 else ' ' for i in text])
         text = re.sub("\s+"," ",text)
         text = text.encode('utf-8', 'ignore')
-        #print "new text"
-        #print text
+        print type(text)
+        print "new text"
+        print text
         #print "clean text is:"
         #print text
 
         #get sentences using corenlp
-        
-        try:
-            temp_data = self._corenlp.parse(text)
-        except UnicodeDecodeError as e:
-            print e
-            print "error text!"
-            print text
+        temp_data = self._corenlp.parse(text)
+            
 
         
         nlp_data = json.loads( temp_data)
