@@ -104,12 +104,12 @@ def clean_document(document,sentences):
         document["sentences"].pop(index,None)
 
 
-def write_docs(dest_file,docs,record_file,source_file):
+def write_docs(dest_file,docs,record_file):
     with open(dest_file,"w") as f:
         f.write(json.dumps(docs))
 
     with open(record_file,"a") as f:
-        f.write(source_file+"\n")
+        f.write(dest_file+"\n")
 
 
 def main():
@@ -138,14 +138,14 @@ def main():
     #get document list needed to be generated
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))
     required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total,args.debug)
-    print "dest dir is %s" %args.dest_dir
+    #print "dest dir is %s" %args.dest_dir
     for dir_name in required_doc_list:
         print "process %s" %dir_name
         docs = {}
         num = 0
-        print "dest dir is %s" %args.dest_dir
+        #print "dest dir is %s" %args.dest_dir
         dest_file = os.path.join(args.dest_dir,os.path.basename(dir_name) )
-        print "dest file is %s" %dest_file
+        #print "dest file is %s" %dest_file
         for doc_name in os.listdir(dir_name):
             m1=re.search("MAINSTREAM_NEWS",doc_name)
             m2=re.search("news-",doc_name)
@@ -189,7 +189,7 @@ def main():
         if args.debug:
             sys.exit(-1)
 
-        write_docs(dest_file,docs,record_file,source_file)
+        write_docs(dest_file,docs,record_file)
         sys.exit(-1)
 
 
