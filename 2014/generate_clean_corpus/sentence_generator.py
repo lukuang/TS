@@ -16,15 +16,15 @@ class Sentence_generator(object):
     use goose to parse raw html and
     use corenlp to tokenize text to sentences
     """
-    def __init__(self,use_nltk=True):
-        self._use_nltk = use_nltk
+    def __init__(self,use_nlp=True):
+        self._use_nlp = use_nlp
         
         #set up goose
         config = Configuration()
         config.enable_image_fetching = False
         self._g = Goose(config)
-        
-        if not use_nltk:    
+
+        if use_nlp:    
             #set up corenlp
             self._corenlp = StanfordCoreNLP()
 
@@ -32,10 +32,12 @@ class Sentence_generator(object):
         #get cleaned text
         article = self._g.extract(raw_html = raw_html)
         text = article.cleaned_text
-        if self._use_nltk:
-            return self.nltk_get_sentences(text)
-        else:
+        if self._use_nlp:
             return self.corenlp_get_sentences(text)
+
+        else:
+            return self.nltk_get_sentences(text)
+            
         
 
     def nltk_get_sentences(self,text):
