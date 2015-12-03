@@ -158,9 +158,9 @@ def main():
                     #debug purpose
                     
                     if document_id is not None:
-                        print "for document id %s" %(document_id)
+                        #print "for document id %s" %(document_id)
                         num += 1
-                        print "It's number %d document" %(num)
+                        #print "It's number %d document" %(num)
                         if args.debug:
                             print "there are %d sentences in original document %s" %(len(document["sentences"]),document_id)
                             print "original document:",document_id
