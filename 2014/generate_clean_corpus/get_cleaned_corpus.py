@@ -124,8 +124,8 @@ def main():
         default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/goose_corpus/")
     parser.add_argument("--debug","-de",action="store_true",default = False)
     parser.add_argument("--use_nlp","-n",action="store_true",default = False)
-    parser.add_argument("run_id",type=int)
     parser.add_argument("total",type=int)
+    parser.add_argument("run_id",type=int)
 
     args=parser.parse_args()
 
