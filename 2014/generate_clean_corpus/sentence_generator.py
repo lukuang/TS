@@ -10,6 +10,7 @@ import string
 from goose import Goose, Configuration
 from corenlp.corenlp import*
 from nltk.tokenize import sent_tokenize
+import lxml
 
 class Sentence_generator(object):
     """
@@ -30,14 +31,21 @@ class Sentence_generator(object):
 
     def get_sentences(self,raw_html):
         #get cleaned text
-        article = self._g.extract(raw_html = raw_html)
+        try:
+            article = self._g.extract(raw_html = raw_html)
+        except lxml.etree.ParserError as e:
+            print e
+            print "the raw html is:"
+            print "_"*20
+            print raw_html
+            sys.exit(-1)
         text = article.cleaned_text
         if self._use_nlp:
             return self.corenlp_get_sentences(text)
 
         else:
             return self.nltk_get_sentences(text)
-            
+
         
 
     def nltk_get_sentences(self,text):
