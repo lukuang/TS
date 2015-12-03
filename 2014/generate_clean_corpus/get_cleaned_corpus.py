@@ -190,7 +190,7 @@ def main():
             sys.exit(-1)
 
         write_docs(dest_file,docs,record_file,dir_name)
-        sys.exit(-1)
+        #sys.exit(-1)
 
 
 
