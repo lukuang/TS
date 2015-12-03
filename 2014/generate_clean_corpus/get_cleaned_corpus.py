@@ -171,7 +171,8 @@ def main():
                             for key in dids:
                                 print "%s: %s" %(key, document["sentences"][key]) 
                         sentences = generator.get_sentences(raw_html)
-
+                        if sentences is None:
+                            continue
                         clean_document(document,sentences)
                         docs[document_id] = document
                     else:

@@ -31,14 +31,12 @@ class Sentence_generator(object):
 
     def get_sentences(self,raw_html):
         #get cleaned text
+        if not raw_html:
+            return None
         try:
             article = self._g.extract(raw_html = raw_html)
         except lxml.etree.ParserError as e:
-            print e
-            print "the raw html is:"
-            print "_"*20
-            print raw_html
-            sys.exit(-1)
+            return None
         text = article.cleaned_text
         if self._use_nlp:
             return self.corenlp_get_sentences(text)
