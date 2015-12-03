@@ -104,12 +104,12 @@ def clean_document(document,sentences):
         document["sentences"].pop(index,None)
 
 
-def write_docs(dest_file,docs,record_file):
+def write_docs(dest_file,docs,record_file,dir_name):
     with open(dest_file,"w") as f:
         f.write(json.dumps(docs))
 
     with open(record_file,"a") as f:
-        f.write(dest_file+"\n")
+        f.write(dir_name+"\n")
 
 
 def main():
@@ -189,7 +189,7 @@ def main():
         if args.debug:
             sys.exit(-1)
 
-        write_docs(dest_file,docs,record_file)
+        write_docs(dest_file,docs,record_file,dir_name)
         sys.exit(-1)
 
 
