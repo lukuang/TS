@@ -143,7 +143,8 @@ def main():
         print "process %s" %dir_name
         docs = {}
         num = 0
-        dest_file = os.path.join(args.dest_dir,dir_name)
+        print "dest dir is %s" %args.dest_dir
+        dest_file = os.path.join(args.dest_dir,os.path.basename(dir_name) )
         print "dest file is %s" %dest_file
         for doc_name in os.listdir(dir_name):
             m1=re.search("MAINSTREAM_NEWS",doc_name)
