@@ -138,7 +138,7 @@ def main():
     #get document list needed to be generated
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))
     required_doc_list = get_doc_list(record_file,args.doc_list,args.run_id,args.total,args.debug)
-
+    print "dest dir is %s" %args.dest_dir
     for dir_name in required_doc_list:
         print "process %s" %dir_name
         docs = {}
