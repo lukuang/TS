@@ -43,7 +43,7 @@ class Sentence_generator(object):
             print "the error html is:"
             print raw_html
             with open("debug","w") as f:
-                f.wrtie(raw_html)
+                f.write(raw_html)
             sys.exit(-1)
 
         text = article.cleaned_text
