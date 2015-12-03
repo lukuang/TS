@@ -19,12 +19,12 @@ class Sentence_generator(object):
     def __init__(self,use_nltk=True):
         self._use_nltk = use_nltk
         
-        if not use_nltk:
-            #set up goose
-            config = Configuration()
-            config.enable_image_fetching = False
-            self._g = Goose(config)
-
+        #set up goose
+        config = Configuration()
+        config.enable_image_fetching = False
+        self._g = Goose(config)
+        
+        if not use_nltk:    
             #set up corenlp
             self._corenlp = StanfordCoreNLP()
 
