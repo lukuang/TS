@@ -123,14 +123,17 @@ def main():
     parser.add_argument("--dest_dir","-d",
         default = "/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/goose_corpus/")
     parser.add_argument("--debug","-de",action="store_true",default = False)
+    parser.add_argument("--not_use_nltk","-n",action="store_true",default = False)
     parser.add_argument("run_id",type=int)
     parser.add_argument("total",type=int)
 
     args=parser.parse_args()
 
+    use_nltk = not args.not_use_nltk
     #set up generator
-    os.chdir(args.corenlp_path)
-    generator = Sentence_generator()
+    if args.not_use_nltk:
+        os.chdir(args.corenlp_path)
+    generator = Sentence_generator(use_nltk)
 
     #get document list needed to be generated
     record_file = os.path.join(args.dest_dir,"record"+str(args.run_id))
