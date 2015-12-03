@@ -50,7 +50,7 @@ def get_doc_list(record_file,doc_list,run_id,total,debug):
     if debug:
         print "length of done list %d" %len(done_list)
     required_doc_list = get_sub_doc_list(doc_list,run_id,total,done_list,debug)
-    
+    print "%d dirs need to be processed" %(len(required_doc_list))
     return required_doc_list
 
 
