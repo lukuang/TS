@@ -37,6 +37,15 @@ class Sentence_generator(object):
             article = self._g.extract(raw_html = raw_html)
         except lxml.etree.ParserError as e:
             return None
+        except IndexError as e:
+            print e
+            print "_"*20
+            print "the error html is:"
+            print raw_html
+            with open("debug","w") as f:
+                f.wrtie(raw_html)
+            sys.exit(-1)
+
         text = article.cleaned_text
         if self._use_nlp:
             return self.corenlp_get_sentences(text)
