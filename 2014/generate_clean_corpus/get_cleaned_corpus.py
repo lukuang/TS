@@ -192,6 +192,7 @@ def main():
 
         write_docs(dest_file,docs,record_file,dir_name)
         #sys.exit(-1)
+    print "finished"
 
 
 
