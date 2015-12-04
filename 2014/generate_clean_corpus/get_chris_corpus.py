@@ -9,7 +9,7 @@ import re
 import logging
 import json
 import time
-
+import argparse
 
 def get_doc_list(queries_file,run_id,source_dir,debug):
     queries = json.load(open(queries_file))
