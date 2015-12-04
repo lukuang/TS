@@ -18,7 +18,7 @@ def get_doc_list(queries_file,run_id,source_dir,debug):
     for file_name in os.listdir(source_dir):
         if re.search("\.sc$",file_name) is not None:
             if file_name.find(q_name) != -1:
-                required_doc_list.append(os.path.join(source,file_name) )
+                required_doc_list.append(os.path.join(source_dir,file_name) )
             else:
                 if debug:
                     print "skip no query file %s" %(file_name)
