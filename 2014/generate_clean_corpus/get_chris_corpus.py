@@ -72,7 +72,7 @@ def get_doc(si):
 def write_2_doc(required_doc_list):
     docs={}
     for file_name in required_doc_list:
-        print "process %" %file_name
+        print "process %s" %file_name
         for si in streamcorpus.Chunk(path=file_name):
             did, single_doc=get_doc(si)
             if (single_doc!=None):
