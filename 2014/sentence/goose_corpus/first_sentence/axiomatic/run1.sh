@@ -10,5 +10,5 @@ source /home/1546/myEV/bin/activate
 # When a single command in the array job is sent to a compute node,
 # its task number is stored in the variable SGE_TASK_ID,
 # so we can use the value of that variable to get the results we want:
-python no_sub_collection_select.py test_para $model $SGE_TASK_ID $b $c $d
+python no_sub_collection_select.py test_para $model $SGE_TASK_ID $b  $d
 #echo $SGE_TASK_ID

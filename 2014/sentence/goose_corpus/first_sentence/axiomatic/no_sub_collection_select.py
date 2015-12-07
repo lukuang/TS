@@ -456,7 +456,6 @@ def main():
     parser.add_argument("model")
     parser.add_argument("--background", "-b", default = "/home/1546/code/TS/axiomatic/default_retrieval_model/axio_background")
     parser.add_argument("required_qid")
-    parser.add_argument("a", type=int)
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
     parser.add_argument("sentence_mu", type=int)
@@ -477,7 +476,7 @@ def main():
     sentence_mu = args.sentence_mu*2000
     run_id = "%f-%d-%f" %(sim_threshold,sentence_mu,a) 
     #run_id = "info_simple"
-    para["output_file"] = "test-%f-%d-%f-%s" %( sim_threshold, sentence_mu,a,para["output_file"])
+    para["output_file"] = "test-%f-%d-%s" %( sim_threshold, sentence_mu,para["output_file"])
     #top_percent = 0.02
     #sim_threshold = 0.5
     doc_num = 10
