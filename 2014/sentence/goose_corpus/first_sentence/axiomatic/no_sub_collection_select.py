@@ -227,7 +227,7 @@ def select_sentence(documents, statistics, words, secs):
 
         #purified_sentences = purify_sentence(doc_sentences, statistics)
         #all_sentences.extend(purified_sentences)
-        min_sid = min( map(int,doc["doc"]._sentences.keys()) )
+        min_sid = str(min( map(int,doc["doc"]._sentences.keys()) ) )
         single_sentence = {}
         single_sentence["sid"] = min_sid
         single_sentence["did"] = did
