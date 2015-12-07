@@ -241,8 +241,8 @@ def select_sentence(documents, statistics, words, secs):
     #     if index > size:
     #         break
     # #print "get",len(candidate_sentences),"new sentences"
-     if len(all_sentences) == 0:
-         return all_sentences 
+    if len(all_sentences) == 0:
+        return all_sentences 
     candidate_sentences = purify_sentence(all_sentences, statistics)
     return candidate_sentences    
 
