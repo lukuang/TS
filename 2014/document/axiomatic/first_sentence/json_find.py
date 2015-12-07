@@ -122,9 +122,8 @@ def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query
     #h=hpy()
     #print h.heap()
     #print "size is:", size
-    for single_doc in data:
-        did = single_doc[0]
-        sub_data = single_doc[1]
+    for did in data:
+        sub_data = data[did]
         time = int(sub_data['time']) 
         sentences_dict={}
         if time > int(start) and time < int(end):
