@@ -158,9 +158,9 @@ def filter_document(doc_dir_path, doc_list_path, start, end, single_dir, statist
     #print h.heap()
     #print "size is:", size
     all_documents = []
-    for single_doc in data:
-
-        did = single_doc[0]
+    for did in data:
+        sub_data = data[did]
+        time = int(sub_data['time']) 
         if did not in candidate_dids:
             continue
         #print "new document", did
