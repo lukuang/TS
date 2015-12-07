@@ -1,5 +1,5 @@
 <parameters>
 <doc_dir_list>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/old_d_name.list</doc_dir_list>
 <query_file>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/trec2014-ts-topics-test.xml</query_file>
-<doc_dir_path>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/json_corpus/</doc_dir_path>
+<doc_dir_path>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/goose_corpus/</doc_dir_path>
 </parameters>
