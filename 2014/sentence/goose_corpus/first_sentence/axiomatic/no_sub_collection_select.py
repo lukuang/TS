@@ -228,7 +228,13 @@ def select_sentence(documents, statistics, words, secs):
         #purified_sentences = purify_sentence(doc_sentences, statistics)
         #all_sentences.extend(purified_sentences)
         min_sid = min( map(int,doc["doc"]._sentences.keys()) )
-        all_sentences.append(doc["doc"]._sentences[str(min_sid)])
+        single_sentence = {}
+        single_sentence["sid"] = min_sid
+        single_sentence["did"] = did
+        single_sentence["time"] = secs
+        single_sentence["model"] = doc["doc"]._sentences[min_sid]._terms
+        single_sentence["score"] = documents_score
+        all_sentences.append(single_sentence)
     
     # sorted_sentences = sorted(all_sentences, key = lambda x: x["score"], reverse = True)
     # size =  len(sorted_sentences)*statistics._top_percent
