@@ -159,12 +159,11 @@ def filter_document(doc_dir_path, doc_list_path, start, end, single_dir, statist
     #print "size is:", size
     all_documents = []
     for did in data:
-        sub_data = data[did]
-        time = int(sub_data['time']) 
+
         if did not in candidate_dids:
             continue
         #print "new document", did
-        sub_data = single_doc[1]
+        sub_data = data[did]
         time = int(sub_data['time']) 
         
         sentences_dict={}
