@@ -472,7 +472,7 @@ def main():
 
 
     sentence_mu = args.sentence_mu*2000
-    run_id = "%f-%d-%f" %(sim_threshold,sentence_mu,a) 
+    run_id = "%f-%d" %(sim_threshold,sentence_mu) 
     #run_id = "info_simple"
     para["output_file"] = "test-%f-%d-%s" %( sim_threshold, sentence_mu,para["output_file"])
     #top_percent = 0.02
