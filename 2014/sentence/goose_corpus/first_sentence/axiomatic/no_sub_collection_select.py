@@ -468,8 +468,6 @@ def main():
     #a = int(args.a)*0.1
     sim_threshold = int(args.sim_threshold)*0.2
     #b = int(args.b)*0.1
-    a = args.a*0.2
-    b = 1-a
     para = parse_args(args.para_file, args.required_qid)
 
 
@@ -495,7 +493,7 @@ def main():
         for d in queries[qid]._dirs:
             print d
         query_model, background_model, stopwords = prepare_data(args.model, args.background, para["stopwords"])
-        statistics = Statistics(query_model[qid], background_model, para["mu"], a, b,\
+        statistics = Statistics(query_model[qid], background_model, para["mu"],\
             sentence_mu, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
             string_time = single_dir + "-59-59"
