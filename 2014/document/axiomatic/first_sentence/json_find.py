@@ -285,7 +285,8 @@ def get_matches(match_file):
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     parser.add_argument("para_file")
-    parser.add_argument("--model","-m",default="/lustre/scratch/lukuang/Temporal_Summerization/TS/axiomatic/default_retrieval_model/model")
+    #parser.add_argument("--model","-m",default="/lustre/scratch/lukuang/Temporal_Summerization/TS/axiomatic/default_retrieval_model/model")
+    parser.add_argument("model")
     parser.add_argument("--background", "-b", default = "/home/1546/code/TS/axiomatic/default_retrieval_model/axio_background")
     parser.add_argument("qid")
     parser.add_argument("mu",type=int)
