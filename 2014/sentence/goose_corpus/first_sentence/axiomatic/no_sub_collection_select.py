@@ -200,49 +200,50 @@ def select_sentence(documents, statistics, words, secs):
     for doc in documents:
         documents_score = doc["score"]
         did = doc["did"]
-        doc_sentences = []
-        for sid in doc["doc"]._sentences:
+        #doc_sentences = []
+        # for sid in doc["doc"]._sentences:
             
-            if doc["doc"]._sentences[sid]._length > 25 or doc["doc"]._sentences[sid]._length < 4:
-                continue
-            sentence_score =  statistics._a*documents_score\
-                + statistics._b*get_sentence_score(statistics, doc["doc"]._sentences[sid])
+        #     if doc["doc"]._sentences[sid]._length > 25 or doc["doc"]._sentences[sid]._length < 4:
+        #         continue
+        #     sentence_score =  statistics._a*documents_score\
+        #         + statistics._b*get_sentence_score(statistics, doc["doc"]._sentences[sid])
                 
-            single_sentence = {}
-            single_sentence["sid"] = sid
-            single_sentence["did"] = did
-            single_sentence["time"] = secs
-            single_sentence["model"] = doc["doc"]._sentences[sid]._terms
-            needed = False
-            for term in  single_sentence["model"]:
-                if term in words:
-                    needed = True
-            if not needed:
-                continue
-            single_sentence["score"] = sentence_score
-            #print "add sentence"
-            #print did,sid,len(single_doc["model"])
-            doc_sentences.append(single_sentence)
-        if len(doc_sentences) == 0:
-            continue
+        #     single_sentence = {}
+        #     single_sentence["sid"] = sid
+        #     single_sentence["did"] = did
+        #     single_sentence["time"] = secs
+        #     single_sentence["model"] = doc["doc"]._sentences[sid]._terms
+        #     needed = False
+        #     for term in  single_sentence["model"]:
+        #         if term in words:
+        #             needed = True
+        #     if not needed:
+        #         continue
+        #     single_sentence["score"] = sentence_score
+        #     #print "add sentence"
+        #     #print did,sid,len(single_doc["model"])
+        #     doc_sentences.append(single_sentence)
+        # if len(doc_sentences) == 0:
+        #     continue
 
-        purified_sentences = purify_sentence(doc_sentences, statistics)
-        all_sentences.extend(purified_sentences)
-
+        #purified_sentences = purify_sentence(doc_sentences, statistics)
+        #all_sentences.extend(purified_sentences)
+        min_sid = min( map(int,doc["doc"]._sentences.keys()) )
+        all_sentences.append(doc["doc"]._sentences[str(min_sid)])
     
-    sorted_sentences = sorted(all_sentences, key = lambda x: x["score"], reverse = True)
-    size =  len(sorted_sentences)*statistics._top_percent
-    index = 0
-    candidate_sentences = []
-    for data in sorted_sentences:
-        candidate_sentences.append(data)
-        index += 1
-        if index > size:
-            break
-    #print "get",len(candidate_sentences),"new sentences"
-    if len(candidate_sentences) == 0:
-        return candidate_sentences 
-    candidate_sentences = purify_sentence(candidate_sentences, statistics)
+    # sorted_sentences = sorted(all_sentences, key = lambda x: x["score"], reverse = True)
+    # size =  len(sorted_sentences)*statistics._top_percent
+    # index = 0
+    # candidate_sentences = []
+    # for data in sorted_sentences:
+    #     candidate_sentences.append(data)
+    #     index += 1
+    #     if index > size:
+    #         break
+    # #print "get",len(candidate_sentences),"new sentences"
+    # if len(candidate_sentences) == 0:
+    #     return candidate_sentences 
+    candidate_sentences = purify_sentence(all_sentences, statistics)
     return candidate_sentences    
 
 
@@ -458,7 +459,6 @@ def main():
     parser.add_argument("a", type=int)
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
-    parser.add_argument("top_percent")
     parser.add_argument("sentence_mu", type=int)
     #parser.add_argument("doc_num")
     args = parser.parse_args()
@@ -467,7 +467,6 @@ def main():
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
     #a = int(args.a)*0.1
-    top_percent = int(args.top_percent)*0.02
     sim_threshold = int(args.sim_threshold)*0.2
     #b = int(args.b)*0.1
     a = args.a*0.2
@@ -476,9 +475,9 @@ def main():
 
 
     sentence_mu = args.sentence_mu*2000
-    run_id = "%f-%f-%d-%f" %(top_percent,sim_threshold,sentence_mu,a) 
+    run_id = "%f-%d-%f" %(sim_threshold,sentence_mu,a) 
     #run_id = "info_simple"
-    para["output_file"] = "test-%f-%f-%d-%f-%s" %(top_percent, sim_threshold, sentence_mu,a,para["output_file"])
+    para["output_file"] = "test-%f-%d-%f-%s" %( sim_threshold, sentence_mu,a,para["output_file"])
     #top_percent = 0.02
     #sim_threshold = 0.5
     doc_num = 10
@@ -498,7 +497,7 @@ def main():
             print d
         query_model, background_model, stopwords = prepare_data(args.model, args.background, para["stopwords"])
         statistics = Statistics(query_model[qid], background_model, para["mu"], a, b,\
-            sentence_mu, top_percent, sim_threshold, doc_num, stopwords)
+            sentence_mu, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
             string_time = single_dir + "-59-59"
             t = time.strptime(string_time, "%Y-%m-%d-%H-%M-%S")
