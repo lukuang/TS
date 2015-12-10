@@ -184,7 +184,7 @@ def main():
                         if sentences is None:
                             continue
                         clean_document(document,sentences)
-                        stem_sentences(document)
+                        stem_document(document)
                         docs[document_id] = document
                     else:
                         print "skip no did document"
