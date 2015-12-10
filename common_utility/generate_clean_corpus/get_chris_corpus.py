@@ -106,6 +106,7 @@ def main():
         default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/2014")
     parser.add_argument("--debug","-de",action="store_true",default = False)
     parser.add_argument("run_id",type=int)
+    
 
     args=parser.parse_args()
 
