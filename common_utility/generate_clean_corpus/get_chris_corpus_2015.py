@@ -101,11 +101,11 @@ def output(docs,dest_dir,q_name):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--queries_file","-q",
-        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/trec-data/deduped-articles/goose/2014_serif_only/0.8/queries")
+        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/trec-data/deduped-articles/goose/Trec-TS-2015F/0.8/queries")
     parser.add_argument("--source_dir","-s",
-        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/trec-data/deduped-articles/goose/2014_serif_only/0.8")
+        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/trec-data/deduped-articles/goose/Trec-TS-2015F/0.8")
     parser.add_argument("--dest_dir","-d",
-        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/2014")
+        default = "/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/2015")
     parser.add_argument("--debug","-de",action="store_true",default = False)
     parser.add_argument("run_id",type=int)
     
