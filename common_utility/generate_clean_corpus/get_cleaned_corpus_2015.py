@@ -132,8 +132,10 @@ def main():
         os.chdir(args.corenlp_path)
     generator = Sentence_generator(args.use_nlp)
 
-    source_dir = os.path.join(args.source_dir,qid)
-    dest_dir = os.path.join(args.dest_dir,qid)
+    source_dir = os.path.join(args.source_dir,args.qid)
+    dest_dir = os.path.join(args.dest_dir,args.qid)
+    if not os.path.exists(dest_dir):
+        os.mkdir(dest_dir)
     
     required_doc_list = get_doc_list(source_dir,args.debug)
     #print "dest dir is %s" %args.dest_dir
@@ -143,6 +145,8 @@ def main():
         num = 0
         #print "dest dir is %s" %args.dest_dir
         dest_file = os.path.join(dest_dir,os.path.basename(dir_name) )
+        if os.path.exists(dest_file):
+            continue
         #print "dest file is %s" %dest_file
         for doc_name in os.listdir(dir_name):
             m1=re.search("MAINSTREAM_NEWS",doc_name)
