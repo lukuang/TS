@@ -11,6 +11,7 @@ import argparse
 import streamcorpus
 import Levenshtein
 from sentence_generator import Sentence_generator
+from myStemmer import pstem as stem
 
 
 def get_done_list(record_file):
@@ -103,6 +104,15 @@ def clean_document(document,sentences):
     for index in (all_indecis - indecis):
         document["sentences"].pop(index,None)
 
+def stem_sentence(sentence):
+    all_words = re.findall("\w+",sentence.lower())
+    all_words = map(stem,all_words)
+    return " ".join(all_words)
+
+
+def stem_document(document):
+    for index in document["sentences"]:
+        document["sentences"][index] = stem_sentence(document["sentences"][index])
 
 def write_docs(dest_file,docs):
     with open(dest_file,"w") as f:
@@ -174,6 +184,7 @@ def main():
                         if sentences is None:
                             continue
                         clean_document(document,sentences)
+                        stem_sentences(document)
                         docs[document_id] = document
                     else:
                         print "skip no did document"
