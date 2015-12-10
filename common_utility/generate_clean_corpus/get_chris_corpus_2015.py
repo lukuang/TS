@@ -63,6 +63,8 @@ def get_doc(si):
         sentence_tokens = si.body.sentences[tag][sentence_index].tokens
         # concatenate token strings into a sentence
         sentence=""
+        if len(sentence_tokens)==0:
+            continue
         for token in sentence_tokens:
             sentence = "%s%s "%(sentence,stem(token.token.lower()) )
         document["sentences"][sentence_index_string] = sentence
