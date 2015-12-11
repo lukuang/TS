@@ -1,0 +1,4 @@
+<parameters>
+<query_file>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/trec2014-ts-topics-test.xml</query_file>
+<doc_dir_path>/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/chris_data/2014/</doc_dir_path>
+</parameters>
