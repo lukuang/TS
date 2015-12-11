@@ -108,7 +108,7 @@ def repl(m):
     text = re.sub("[^A-Za-z0-9 \.]", " ",  text)
     return m.group(1) + text.lower() + m.group(3)
 
-def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query_words):
+def get_documents_scores( start, end, single_dir, statistics, query_words):
     file_path = single_dir
     #h=hpy()
     #print h.heap()
