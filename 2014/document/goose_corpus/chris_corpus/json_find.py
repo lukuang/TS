@@ -164,7 +164,7 @@ def load_score(word_score_file):
                 sys.exit(-1)
     return word_score
 
-def prepare_data(alpha, belta, distribution, words, background, expansion_terms):
+def prepare_data(alpha, beta, distribution, words, background, expansion_terms):
     background_model = load_score(background)
     print "size of background is %d" %(len(background_model))
     #print background_model
@@ -195,15 +195,15 @@ def prepare_data(alpha, belta, distribution, words, background, expansion_terms)
 
     for w in words:
         if w in query_model:
-            query_model[w] += words[w]*(1-alpha-belta)
+            query_model[w] += words[w]*(1-alpha-beta)
         else:
-            query_model[w] = words[w]*(1-alpha-belta)
+            query_model[w] = words[w]*(1-alpha-beta)
 
     for w in expansion_terms:
         if w in query_model:
-            query_model[w] += expansion_terms[w]*belta
+            query_model[w] += expansion_terms[w]*beta
         else:
-            query_model[w] = expansion_terms[w]*belta
+            query_model[w] = expansion_terms[w]*beta
 
     
     
@@ -297,7 +297,7 @@ def main():
     parser.add_argument("--data_dir", "-d", default = "/home/1546/code/2014/required_data_for_every_index/all")
     parser.add_argument("qid")
     parser.add_argument("--alpha","-a",type=int,default=0)
-    parser.add_argument("--belta","-b",type=int,default=0)
+    parser.add_argument("--beta","-b",type=int,default=0)
     parser.add_argument("run_id",type=int)
     #parser.add_argument("mu",type=int)
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms")
@@ -305,11 +305,11 @@ def main():
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
     para = parse_args(args.para_file,args.data_dir, args.qid)
-    para["output_dir"] = os.path.join("./",str(args.alpha)+"_"+str(args.belta),args.qid)
+    para["output_dir"] = os.path.join("./",str(args.alpha)+"_"+str(args.beta),args.qid)
     para["mu"] = 8000
     #para["mu"]=args.mu*2000
     para["alpha"]=args.alpha*0.2
-    para["belta"]=args.belta*0.2
+    para["beta"]=args.beta*0.2
 
     queries = get_queries(para["query_file"], para["doc_dir_path"], args.qid)
 
@@ -321,7 +321,7 @@ def main():
             continue
         doc_result_list = []
         size = 0
-        query_model, background_model = prepare_data(para["alpha"], para["belta"], para["distribution"], queries[qid]._words, para["background"], expansion_terms[qid])
+        query_model, background_model = prepare_data(para["alpha"], para["beta"], para["distribution"], queries[qid]._words, para["background"], expansion_terms[qid])
         statistics = Statistics(query_model, background_model, para["mu"])
         dirs_needed = {}
         #print "len is", len(queries[qid]._dirs)
