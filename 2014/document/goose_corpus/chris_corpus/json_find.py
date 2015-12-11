@@ -101,7 +101,7 @@ def get_queries(file_path, doc_dir_path, requried_qid):
         query=Query(start, end, words, dirs)
         queries[qid]=query
 
-    return queries
+    return queries,doc_dir_path
 
 def repl(m):
     text = re.sub("(http[s]?://)?([A-Za-z0-9\$\-\_\@\&]+\.)+([A-Za-z]+)(/[A-Za-z0-9$-_@&+]+)*", "", m.group(2))
@@ -109,7 +109,7 @@ def repl(m):
     return m.group(1) + text.lower() + m.group(3)
 
 def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query_words):
-    file_path = doc_dir_path+single_dir
+    file_path = os.path.join(doc_dir_path,single_dir)
     #h=hpy()
     #print h.heap()
     print "open file:"+ file_path
@@ -311,7 +311,7 @@ def main():
     para["alpha"]=args.alpha*0.2
     para["beta"]=args.beta*0.2
 
-    queries = get_queries(para["query_file"], para["doc_dir_path"], args.qid)
+    queries, para["doc_dir_path"]= get_queries(para["query_file"], para["doc_dir_path"], args.qid)
 
     expansion_terms = get_expansion_terms(args.term_dir)
     #result_dirs = 
