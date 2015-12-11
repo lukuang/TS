@@ -109,7 +109,7 @@ def repl(m):
     return m.group(1) + text.lower() + m.group(3)
 
 def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query_words):
-    file_path = doc_dir_path+single_dir
+    file_path = single_dir
     #h=hpy()
     #print h.heap()
     print "open file:"+ file_path
@@ -342,7 +342,7 @@ def main():
         print "size is", len(dirs_needed[int(args.run_id)])
         for single_dir in dirs_needed[int(args.run_id)]:
 
-            documents = get_documents_scores(para["doc_dir_path"], queries[qid]._start, queries[qid]._end, single_dir, statistics, queries[qid]._words)
+            documents = get_documents_scores( queries[qid]._start, queries[qid]._end, single_dir, statistics, queries[qid]._words)
             #score_string = json.dumps(documents)
             #sorted_documents = sorted(documents.items(), key = lambda x: x[1])
             #doc_scores = rank_documents(sorted_documents, statistics)
