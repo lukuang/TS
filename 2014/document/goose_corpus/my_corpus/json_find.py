@@ -92,7 +92,7 @@ def get_queries(file_path, doc_dir_list, requried_qid):
         for w in temp:
             if w not in words:
                 words[w] = 1
-        find_directories(time.gmtime(float(start)),time.gmtime(float(end)),doc_dir_list)
+        dirs = find_directories(time.gmtime(float(start)),time.gmtime(float(end)),doc_dir_list)
         query=Query(start, end, words, dirs)
         queries[qid]=query
 
