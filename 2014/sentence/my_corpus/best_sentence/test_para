@@ -11,6 +11,6 @@
 <check_output>./check_1000</check_output>
 <calculation_output>calculation_output</calculation_output>
 <alpha>NEED TO CHANGE</alpha>
-<belta>NEED TO CHANGE</belta>
+<beta>NEED TO CHANGE</beta>
 <mu>8000</mu>
 </parameters>
