@@ -229,7 +229,7 @@ def select_sentence(documents, statistics, words, secs):
         all_sentences.extend(purified_sentences)
 
     
-    sorted_sentences = sorted(all_sentences, key = lambda x: int(x["sid"]), reverse = True)
+    sorted_sentences = sorted(all_sentences, key = lambda x: x["score"], reverse = True)
     size =  len(sorted_sentences)*statistics._top_percent
     index = 0
     candidate_sentences = []
