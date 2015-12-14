@@ -31,7 +31,7 @@ def get_queries(file_path, doc_dir_path, requried_qid,stopwords):
         end = event.find("end").text
         
 
-        dir_name = event.find("title").text.lower()
+        dir_name = event.find("query").text.lower()
         dir_name = re.sub(" ","_",dir_name)
         word_string =event.find("query").text
         all_words = re.findall("\w+",word_string)
@@ -72,7 +72,7 @@ def read_stopwords(stopwords_file):
     return stopwords
 
 def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query_words,qid):
-    file_path = os.path.join(doc_dir_path,qid,single_dir)
+    file_path = os.path.join(doc_dir_path,single_dir)
     #h=hpy()
     #print h.heap()
     print "open file:"+ file_path
@@ -318,7 +318,7 @@ def main():
         statistics = Statistics(query_model, background_model, para["mu"])
 
 
-        print statistics._background 
+        #print statistics._background 
         docids = {}
         for single_dir in queries[qid]._dirs:
             documents = get_documents_scores(para["doc_dir_path"], queries[qid]._start, queries[qid]._end, single_dir, statistics, queries[qid]._words,qid)
