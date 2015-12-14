@@ -469,12 +469,12 @@ def update_result(out_sentences, candidate_sentences, statistics):
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     parser.add_argument("para_file")
-    parser.add_argument("required_qid")
     parser.add_argument("a", type=int)
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms")
     parser.add_argument("sentence_mu", type=int)
+    parser.add_argument("required_qid")
     #parser.add_argument("doc_num")
     args = parser.parse_args()
     #if args.required_qid != "11" and args.required_qid != "15":
