@@ -1,5 +1,4 @@
 from __future__ import division
-from stemming.porter import stem
 import re
 
 class Statistics:
@@ -22,12 +21,10 @@ class Sentence:
         self._length = 0
         #print "the sentence is:",sentence_string
         for word in re.findall("\w+",sentence_string):
-            stem_word = stem(word.lower())
-            if stem_word not in self._terms:
-                self._terms[stem_word] = 1
+            if word not in self._terms:
+                self._terms[word] = 1
             else:
-                #print stem_word
-                self._terms[stem_word] += 1
+                self._terms[word] += 1
             self._length += 1
         #for t in self._terms:
         #    print t,":",self._terms[t]
