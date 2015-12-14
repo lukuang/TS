@@ -232,8 +232,10 @@ def select_sentence(documents, statistics, words, secs):
 
     
     sorted_sentences = sorted(all_sentences, key = lambda x: int(x["time"]))
-    index = 0
     candidate_sentences = []
+    if len(sorted_sentences)==0:
+        return candidate_sentences
+    
     candidate_sentences = purify_sentence(sorted_sentences, statistics)
     return candidate_sentences    
 
