@@ -508,7 +508,7 @@ def main():
     doc_num = 10
     #doc_num = int(args.doc_num)
     expansion_terms = get_expansion_terms(args.term_dir)
-    queries, para["doc_dir_path"]= get_queries(para["query_file"], para["doc_dir_path"], args.qid)
+    queries, para["doc_dir_path"]= get_queries(para["query_file"], para["doc_dir_path"], args.required_qid)
     #result_dirs = 
     out_sentences = {}
     for qid in queries:
