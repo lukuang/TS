@@ -1,0 +1,11 @@
+<parameters>
+<doc_dir_path>/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/stemmed_corpus_porter</doc_dir_path>
+<query_file>/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/trec2015-ts-topics-test.xml</query_file>
+<distribution>feedback</distribution>
+<background>possibility</background>
+<check_output>./check_1000</check_output>
+<alpha>0.2</alpha>
+<belta>0.6</belta>
+<mu>8000</mu>
+<calculation_output>calculation_output</calculation_output>
+</parameters>
