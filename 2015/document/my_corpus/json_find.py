@@ -86,7 +86,7 @@ def get_documents_scores(doc_dir_path, start, end, single_dir, statistics, query
         sentences_dict={}
         if time > int(start) and time < int(end):
             for sid in sub_data["sentences"]:
-                sentences_dict[sid] = sub_data["sentences"][sid]["text"]
+                sentences_dict[sid] = sub_data["sentences"][sid]
                     #print sentence.find("id").text,":",sentence.find("text").text
                 #print "get Document:",did
 
