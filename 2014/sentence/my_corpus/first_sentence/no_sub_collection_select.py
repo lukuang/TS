@@ -204,8 +204,7 @@ def select_sentence(documents, statistics, words, secs):
             
             if doc["doc"]._sentences[sid]._length > 25 or doc["doc"]._sentences[sid]._length < 4:
                 continue
-            sentence_score =  statistics._a*documents_score\
-                + statistics._b*get_sentence_score(statistics, doc["doc"]._sentences[sid])
+            sentence_score =  get_sentence_score(statistics, doc["doc"]._sentences[sid])
                 
             single_sentence = {}
             single_sentence["sid"] = sid
@@ -469,7 +468,6 @@ def update_result(out_sentences, candidate_sentences, statistics):
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     parser.add_argument("para_file")
-    parser.add_argument("a", type=int)
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms")
@@ -484,15 +482,13 @@ def main():
     #a = int(args.a)*0.1
     sim_threshold = int(args.sim_threshold)*0.2
     #b = int(args.b)*0.1
-    a = args.a*0.2
-    b = 1-a
     para = parse_args(args.para_file, args.required_qid)
 
 
     sentence_mu = args.sentence_mu*2000
-    run_id = "%f-%d-%f" %(sim_threshold,sentence_mu,a) 
+    run_id = "%f-%d" %(sim_threshold,sentence_mu) 
     #run_id = "info_simple"
-    para["output_file"] = "test-%f-%d-%f-%s" %(sim_threshold, sentence_mu,a,para["output_file"])
+    para["output_file"] = "test-%f-%d-%s" %(sim_threshold, sentence_mu,para["output_file"])
     #top_percent = 0.02
     #sim_threshold = 0.5
     doc_num = 10
@@ -512,7 +508,7 @@ def main():
         for d in queries[qid]._dirs:
             print d
         query_model, background_model, stopwords = prepare_data(para["alpha"], para["beta"],para["distribution"], queries[qid]._words, para["background"], para["stopwords"], expansion_terms[qid])
-        statistics = Statistics(query_model, background_model, para["mu"], a, b,\
+        statistics = Statistics(query_model, background_model, para["mu"],\
             sentence_mu, 0.0, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
             string_time = single_dir + "-59-59"
