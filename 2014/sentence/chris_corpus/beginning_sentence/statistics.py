@@ -13,7 +13,7 @@ class Statistics:
         self._num_of_sentences = num_of_sentences
         self._sim_threshold = sim_threshold
         self._doc_num = doc_num
-        self.stopwords = stopwords
+        self._stopwords = stopwords
         min = 1000
         for term in background:
            if background[term] < min and background[term] != 0.0:
