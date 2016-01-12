@@ -225,7 +225,7 @@ def select_sentence(documents, statistics, words, secs):
         if len(doc_sentences) == 0:
             continue
 
-        size =  len(doc_sentences)*statistics._top_percent
+        size =  statistics._num_of_sentence
         index = 0
         candidate_sentences = []
         sorted_sentences = sorted(doc_sentences, key = lambda x: int(x["sid"]))
@@ -480,7 +480,7 @@ def main():
     parser.add_argument("para_file")
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
-    parser.add_argument("top_percent")
+    parser.add_argument("num_of_sentence", type=int)
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms")
     parser.add_argument("sentence_mu", type=int)
     parser.add_argument("required_qid")
@@ -491,16 +491,16 @@ def main():
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
     #a = int(args.a)*0.1
-    top_percent = int(args.top_percent)*0.02
+    num_of_sentence = args.num_of_sentence
     sim_threshold = int(args.sim_threshold)*0.2
     #b = int(args.b)*0.1
     para = parse_args(args.para_file, args.required_qid)
 
 
     sentence_mu = args.sentence_mu*2000
-    run_id = "%f-%f-%d" %(top_percent,sim_threshold,sentence_mu) 
+    run_id = "%d-%f-%d" %(num_of_sentence,sim_threshold,sentence_mu) 
     #run_id = "info_simple"
-    para["output_file"] = "test-%f-%f-%d-%s" %(top_percent, sim_threshold, sentence_mu,para["output_file"])
+    para["output_file"] = "test-%d-%f-%d-%s" %(num_of_sentence, sim_threshold, sentence_mu,para["output_file"])
     #top_percent = 0.02
     #sim_threshold = 0.5
     doc_num = 10
@@ -521,7 +521,7 @@ def main():
             print d
         query_model, background_model, stopwords = prepare_data(para["alpha"], para["beta"],para["distribution"], queries[qid]._words, para["background"], para["stopwords"], expansion_terms[qid])
         statistics = Statistics(query_model, background_model, para["mu"],\
-            sentence_mu, top_percent, sim_threshold, doc_num, stopwords)
+            sentence_mu, num_of_sentence, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
             string_time = single_dir + "-59-59"
             t = time.strptime(string_time, "%Y-%m-%d-%H-%M-%S")

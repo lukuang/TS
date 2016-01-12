@@ -4,13 +4,13 @@ import re
 import sys
 
 class Statistics:
-    def __init__(self, query_model, background, mu, sentence_mu, top_percent,\
+    def __init__(self, query_model, background, mu, sentence_mu, num_of_sentence,\
         sim_threshold, doc_num, _stopwords):
         self._mu = mu
         self._query_model = query_model
         self._background = background
         self._sentence_mu = sentence_mu
-        self._top_percent = top_percent
+        self._num_of_sentence = num_of_sentence
         self._sim_threshold = sim_threshold
         self._doc_num = doc_num
         self._stopwords = _stopwords
