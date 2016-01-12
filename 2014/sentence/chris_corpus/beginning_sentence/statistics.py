@@ -5,7 +5,7 @@ import sys
 
 class Statistics:
     def __init__(self, query_model, background, mu, sentence_mu, num_of_sentences,\
-        sim_threshold, doc_num, _stopwords):
+        sim_threshold, doc_num, stopwords):
         self._mu = mu
         self._query_model = query_model
         self._background = background
@@ -13,7 +13,7 @@ class Statistics:
         self._num_of_sentences = num_of_sentences
         self._sim_threshold = sim_threshold
         self._doc_num = doc_num
-        self._stopwords = _stopwords
+        self.stopwords = stopwords
         min = 1000
         for term in background:
            if background[term] < min and background[term] != 0.0:
