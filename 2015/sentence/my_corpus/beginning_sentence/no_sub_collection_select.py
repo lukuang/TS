@@ -500,7 +500,7 @@ def main():
     sim_threshold = int(args.sim_threshold)*0.2
     #b = int(args.b)*0.1
     para = parse_args(args.para_file, args.required_qid)
-    stopwords =read_stopwords(para["stopword_file"])
+    stopwords =read_stopwords(para["stopwords"])
 
     sentence_mu = args.sentence_mu*2000
     run_id = "%d-%f-%d" %(num_of_sentences,sim_threshold,sentence_mu) 
