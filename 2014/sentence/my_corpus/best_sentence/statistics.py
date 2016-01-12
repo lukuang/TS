@@ -16,15 +16,15 @@ class Statistics:
         self._sim_threshold = sim_threshold
         self._doc_num = doc_num
         self._stopwords = _stopwords
-    #min = 1000
-        #for term in background:
-        #    if background[term] < min and background[term] != 0.0:
-        #         min = background[term]
-        #for term in self._background:
-        #     if self._background[term] == 0.0:
-        #         print "SUPER WRONG!"
-        #         sys.exit(-1)
-        #         self._background[term] = min
+        min = 1000
+        for term in background:
+           if background[term] < min and background[term] != 0.0:
+                min = background[term]
+        for term in self._background:
+            if self._background[term] == 0.0:
+                print "SUPER WRONG!"
+                sys.exit(-1)
+                self._background[term] = min
                    
 
 class Sentence:
