@@ -3,7 +3,7 @@
 <query_file>/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/trec2014-ts-topics-test.xml</query_file>
 <doc_dir_path>/lustre/scratch/lukuang/Temporal_Summerization/TS-2015/data/cleaned_corpus</doc_dir_path>
 <doc_list_path>NEED TO CHANGE</doc_list_path>
-<data_dir></data_dir>
+<data_dir>/home/1546/code/2015/new_required_data</data_dir>
 <distribution>feedback</distribution>
 <background>possibility</background>
 <output_file>result</output_file>
