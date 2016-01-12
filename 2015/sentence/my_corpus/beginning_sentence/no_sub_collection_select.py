@@ -6,7 +6,7 @@ from os.path import isfile, join
 import os
 #import xml.etree.ElementTree as ET
 import re
-from stemming.porter import stem
+from myStemmer import pstem as stem
 import time
 from statistics import Statistics, Document, Query 
 #from guppy import hpy
@@ -109,8 +109,6 @@ def get_queries(file_path, doc_dir_path,required_qid,stopwords):
 
     return queries
 
-
-    return queries
 
 def repl(m):
     text = re.sub("(http[s]?://)?([A-Za-z0-9\$\-\_\@\&]+\.)+([A-Za-z]+)(/[A-Za-z0-9$-_@&+]+)*", "", m.group(2))
