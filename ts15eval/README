@@ -1,0 +1,20 @@
+bin/
+tseval.py - Evaluation script for temporal summarization 2015
+
+data/
+matches.tsv - All matches between gold standard nuggets and pooled updates
+matches_task*.tsv - Matches filtered by task dataset
+nuggets.tsv - Gold standard nuggets
+updates_pooled.tsv - Pooled set of updates
+exactMatches2015.tsv - Duplicate matches found using exact matches between the
+                       pooled updates and the filtered dataset.
+
+
+Usage:
+The official track metrics were generated with:
+./bin/tseval.py -t -l all -n data/nuggets.tsv -u data/updates_sampled.tsv \
+    -m data/matches_task<TASKNUMBER>.tsv \
+    --duplicates_file data/exactMatches2015.tsv 
+
+-t - Normalization using only nuggets found in the match file
+-l all - Fixes latency to the earliest of any nugget and its matching updates
