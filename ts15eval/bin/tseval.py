@@ -1190,10 +1190,10 @@ def main(args):
 
 if __name__ == "__main__":
 	argparser = argparse.ArgumentParser(description='Computes Evaluation Metrics for Temporal Summarization Track')
-	argparser.add_argument('-n', '--nuggets', help='Nuggets File', default="../data/nuggets.tsv")
-	argparser.add_argument('-u', '--updates', help='Updates File', default="../data/updates_sampled.tsv")
-	argparser.add_argument('-m', '--matches', help='Matches File', default="../data/exactMatches2015.tsv")
-	argparser.add_argument('--duplicates_file', help='Duplicates File', default="../data/duplicates.tsv")
+	argparser.add_argument('-n', '--nuggets', help='Nuggets File', default="/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/nuggets.tsv")
+	argparser.add_argument('-u', '--updates', help='Updates File', default="/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/updates_sampled.tsv")
+	argparser.add_argument('-m', '--matches', help='Matches File', default="/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/exactMatches2015.tsv")
+	argparser.add_argument('--duplicates_file', help='Duplicates File', default="/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/duplicates.tsv")
 	argparser.add_argument('runs', nargs="+", help='Runs File(s)')
 	argparser.add_argument('-d', '--debug', action='store_true', help='Debug mode (lots of output)')
 	argparser.add_argument('-i', '--ignore', action='store_true', help='Ignore unsampled updates (rather than considering non-relevant)')
