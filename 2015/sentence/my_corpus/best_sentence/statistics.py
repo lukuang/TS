@@ -1,5 +1,5 @@
 from __future__ import division
-from stemming.porter import stem
+from myStemmer import pstem as stem
 import re
 import sys
 

@@ -481,7 +481,7 @@ def main():
     #parser.add_argument("b")
     parser.add_argument("sim_threshold")
     parser.add_argument("top_percent")
-    parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/2014_terms")
+    parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/newer_2015")
     parser.add_argument("sentence_mu", type=int)
     parser.add_argument("required_qid")
     #parser.add_argument("doc_num")
