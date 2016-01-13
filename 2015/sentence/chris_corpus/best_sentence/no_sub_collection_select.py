@@ -76,7 +76,7 @@ def get_dir(doc_dir_path):
     onlyfiles.sort()
     return onlyfiles
 
-def get_queries(file_path, doc_dir_path, requried_qid):
+def get_queries(file_path, doc_dir_path, requried_qid,stopwords):
     tree = ET.parse(file_path)
     root = tree.getroot()
     queries = {}
@@ -87,7 +87,8 @@ def get_queries(file_path, doc_dir_path, requried_qid):
         start = event.find("start").text
         end = event.find("end").text
         
-        dir_name = event.find("title").text.lower()
+
+        dir_name = event.find("query").text.lower()
         dir_name = re.sub(" ","_",dir_name)
         word_string =event.find("query").text
         all_words = re.findall("\w+",word_string)
@@ -97,18 +98,24 @@ def get_queries(file_path, doc_dir_path, requried_qid):
             if word not in word_hash:
                 word_hash[word] = 1
                 temp_words.append(word.lower())
-        temp=map(stem, temp_words)
+        temp = map(stem,temp_words)
         words = {}
+        #print " ".join(temp_words)
+        #print "query words"
         for w in temp:
+            #print w
+            if w in stopwords:
+                continue
             if w not in words:
                 words[w] = 1
-
         doc_dir_path = os.path.join(doc_dir_path,dir_name)
         dirs =  os.listdir(doc_dir_path)
         query=Query(start, end, words, dirs)
         queries[qid]=query
 
     return queries,doc_dir_path
+
+
 
 def repl(m):
     text = re.sub("(http[s]?://)?([A-Za-z0-9\$\-\_\@\&]+\.)+([A-Za-z]+)(/[A-Za-z0-9$-_@&+]+)*", "", m.group(2))
@@ -274,10 +281,9 @@ def read_stopwords(stopword_file):
                 stopwords[stem(m.group(1).lower())] = 1
     return stopwords
 
-def prepare_data(alpha, beta, distribution, words, background, stopword_file, expansion_terms):
+def prepare_data(alpha, beta, distribution, words, background, stopwords, expansion_terms):
     background_model = load_score(background)
     raw_model = json.load(open(distribution))
-    stopwords = read_stopwords(stopword_file)
 
     expansion_sum = sum(expansion_terms.values())
     for w  in expansion_terms:
@@ -314,7 +320,7 @@ def prepare_data(alpha, beta, distribution, words, background, stopword_file, ex
         else:
             query_model[w] = expansion_terms[w]*beta    
 
-    return query_model, background_model, stopwords
+    return query_model, background_model
 
 
 
@@ -497,7 +503,7 @@ def main():
     a = args.a*0.2
     b = 1-a
     para = parse_args(args.para_file, args.required_qid)
-
+    stopwords = read_stopwords(para["stopwords"])
 
     sentence_mu = args.sentence_mu*2000
     run_id = "%f-%f-%d-%f" %(top_percent,sim_threshold,sentence_mu,a) 
@@ -508,7 +514,7 @@ def main():
     doc_num = 10
     #doc_num = int(args.doc_num)
     expansion_terms = get_expansion_terms(args.term_dir)
-    queries, para["doc_dir_path"]= get_queries(para["query_file"], para["doc_dir_path"], args.required_qid)
+    queries, para["doc_dir_path"]= get_queries(para["query_file"], para["doc_dir_path"], args.required_qid,stopwords)
     #result_dirs = 
     out_sentences = {}
     for qid in queries:
@@ -521,7 +527,8 @@ def main():
         print "dirs are:"
         for d in queries[qid]._dirs:
             print d
-        query_model, background_model, stopwords = prepare_data(para["alpha"], para["beta"],para["distribution"], queries[qid]._words, para["background"], para["stopwords"], expansion_terms[qid])
+        query_model, background_model = prepare_data(para["alpha"], para["beta"],para["distribution"], queries[qid]._words, para["background"], stopwords, expansion_terms[qid])
+            
         statistics = Statistics(query_model, background_model, para["mu"], a, b,\
             sentence_mu, top_percent, sim_threshold, doc_num, stopwords)
         for single_dir in queries[qid]._dirs:
