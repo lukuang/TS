@@ -504,7 +504,7 @@ def main():
     stopwords =read_stopwords(para["stopwords"])
     
 
-    sentence_mu = args.sentence_mu*2000
+    sentence_mu = args.sentence_mu
     run_id = "%f-%f-%d-%f" %(score_thresold,sim_threshold,sentence_mu,a) 
     #run_id = "info_simple"
     para["output_file"] = "test-%f-%f-%d-%f-%s" %(score_thresold, sim_threshold, sentence_mu,a,para["output_file"])

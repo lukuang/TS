@@ -483,7 +483,7 @@ def update_result(out_sentences, candidate_sentences, statistics):
 
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
-     parser.add_argument("para_file")
+    parser.add_argument("para_file")
     
     #parser.add_argument("b")
     parser.add_argument("--sim_threshold",type=float,default=)
