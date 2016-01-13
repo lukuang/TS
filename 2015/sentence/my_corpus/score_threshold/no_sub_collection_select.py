@@ -243,8 +243,10 @@ def select_sentence(documents, statistics, words, secs):
             break
     #print "get",len(candidate_sentences),"new sentences"
     if len(candidate_sentences) == 0:
-        return candidate_sentences 
-    candidate_sentences = purify_sentence(candidate_sentences, statistics)
+        if len(sorted_sentences) != 0:
+            candidate_sentences.append(sorted_sentences[0])
+    else:
+        candidate_sentences = purify_sentence(candidate_sentences, statistics)
     return candidate_sentences    
 
 
@@ -480,11 +482,11 @@ def main():
     parser.add_argument("para_file")
     
     #parser.add_argument("b")
-    parser.add_argument("sim_threshold",type=float,default=)
-    parser.add_argument("score_thresold",type=float,default=)
+    parser.add_argument("--sim_threshold",type=float,default=)
+    parser.add_argument("--score_thresold",type=float,default=)
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/newer_2015")
-    parser.add_argument("sentence_mu", type=int,default=)
-    parser.add_argument("a", type=float,default=)
+    parser.add_argument("--sentence_mu", type=int,default=)
+    parser.add_argument("--a", type=float,default=)
     parser.add_argument("required_qid")
     #parser.add_argument("doc_num")
     args = parser.parse_args()
