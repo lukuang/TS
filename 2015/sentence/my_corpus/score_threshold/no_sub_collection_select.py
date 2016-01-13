@@ -478,12 +478,13 @@ def update_result(out_sentences, candidate_sentences, statistics):
 def main():
     parser = argparse.ArgumentParser(usage=__doc__)
     parser.add_argument("para_file")
-    parser.add_argument("a", type=int)
+    
     #parser.add_argument("b")
-    parser.add_argument("sim_threshold")
-    parser.add_argument("score_thresold")
+    parser.add_argument("sim_threshold",type=float)
+    parser.add_argument("score_thresold",type=float)
     parser.add_argument("--term_dir", "-r", default = "/lustre/scratch/lukuang/dbpedia/src/expand_query_with_top_terms_in_wiki_doc/newer_2015")
     parser.add_argument("sentence_mu", type=int)
+    parser.add_argument("a", type=float)
     parser.add_argument("required_qid")
     #parser.add_argument("doc_num")
     args = parser.parse_args()
@@ -492,10 +493,10 @@ def main():
     #matches = get_matches(args.match_file)
     #rel_docs = matches["TS14.13"]
     #a = int(args.a)*0.1
-    score_thresold = float(score_thresold)
-    sim_threshold = int(args.sim_threshold)*0.2
+    score_thresold = args.score_thresold
+    sim_threshold = args.sim_threshold
     #b = int(args.b)*0.1
-    a = args.a*0.2
+    a = args.a
     b = 1-a
     para = parse_args(args.para_file, args.required_qid)
     stopwords =read_stopwords(para["stopwords"])
