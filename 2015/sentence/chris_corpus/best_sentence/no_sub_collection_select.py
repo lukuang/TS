@@ -89,7 +89,7 @@ def get_queries(file_path, doc_dir_path, requried_qid):
         
         dir_name = event.find("title").text.lower()
         dir_name = re.sub(" ","_",dir_name)
-        word_string =event.find("query").text+" "+event.find("title").text
+        word_string =event.find("query").text
         all_words = re.findall("\w+",word_string)
         temp_words=[]
         word_hash = {}
