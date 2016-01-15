@@ -22,7 +22,7 @@ def main():
 
             run_file = os.path.join(args.source_dir,single_file)
             new_runid = args.new_prefix+m.group(2)
-            print "change %s to %s" %()
+            print "change %s to %s" %(run_file,new_runid)
             dest_file = os.path.join(args.dest_dir,new_runid)
             change_runid_for_single_file(run_file,new_runid,dest_file)
         else:
