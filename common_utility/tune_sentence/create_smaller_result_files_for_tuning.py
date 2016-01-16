@@ -12,17 +12,17 @@ import json
 
 class Result_struct:
 
-    def __init__(self,line):
+    def __init__(self,line,is_15):
         self.qid, self.grp_tag, self.run_tag, self.did, self.sid, self.time,self.score = line.split()
         self.score = float(self.score)
-        self.qid = "TS14."+self.qid
-
+        if not is_15:
+            self.qid = "TS14."+self.qid
 
 def update_matches_with_duplicate_update(update_file, matches):
     with open(update_file) as f:
         for line in f:
             result= (line.rstrip()).split()
-            m = re.search("^TS", line)
+            m = re.search("^(TS)?\d+", line)
             if m is None:
                 print "avoid first line"
                 print line
@@ -114,7 +114,7 @@ def get_result_file_list(result_dir):
 
     return files
 
-def get_best_map_per_file(result_file,matches,nuggets):
+def get_best_map_per_file(result_file,matches,nuggets,is_15):
     high = -1000
     low = 1000
     results = []
@@ -122,7 +122,7 @@ def get_best_map_per_file(result_file,matches,nuggets):
     with open(result_file) as f:
         for line in f:
 
-            single_result = Result_struct(line)
+            single_result = Result_struct(line,is_15)
             m = re.search("^\d+-(.+?)$", single_result.did)
             if m is None:
                 print >>sys.stderr,"wrong result line in file %s" %result_file
@@ -140,10 +140,17 @@ def get_best_map_per_file(result_file,matches,nuggets):
     max_at_score = 0 
     local_nugget = {}
     num_of_result = {}
-    for i in xrange(11,26):
-        qid = "TS14."+str(i)
-        local_nugget[qid] = {}
-        num_of_result[qid] = 0
+    if not is_15:  
+         for i in xrange(11,26):
+            qid = "TS14."+str(i)
+            local_nugget[qid] = {}
+       	    num_of_result[qid] = 0
+
+    else:
+        for i in xrange(26,47):
+            qid = str(i)
+    	    local_nugget[qid] = {}
+       	    num_of_result[qid] = 0
     record_score = 0
     need_record = False 
     for single_result in sorted(results, key = lambda x:x.score, reverse=True):
@@ -224,9 +231,14 @@ def main():
     parser.add_argument('-u', '--update_file', help='Updates File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/updates_sampled.extended.tsv")
     parser.add_argument('-m', '--match_file', help='Matches File', default="/lustre/scratch/lukuang/Temporal_Summerization/streamcorpus-2014-v0_3_0-ts-filtered/TS14-data/matches.tsv")
     parser.add_argument("result_dir")
+    parser.add_argument("--is_15","-i",action='store_true')
     parser.add_argument("--out_file", "-o", default="score_threshold.json")
 
     args = parser.parse_args()
+    if args.is_15:
+        args.nuggets_file = "/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/nuggets.tsv" 
+        args.update_file = "/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/updates_sampled.tsv"
+        args.match_file = "/lustre/scratch/lukuang/Temporal_Summerization/TS/ts15eval/data/matches_task2.tsv"
     thresholds = {}
     nuggets = get_nuggets(args.nuggets_file)
     print len(nuggets),"nuggets"
@@ -237,7 +249,7 @@ def main():
     result_files = get_result_file_list(args.result_dir)
     for f in result_files:
         print "the file is %s" %f
-        best_score, best_map = get_best_map_per_file(f, matches,nuggets)
+        best_score, best_map = get_best_map_per_file(f, matches,nuggets, args.is_15)
         print "for %s the best map is %f and the threshold is %f" %(os.path.split(f)[1], best_map,best_score)
         thresholds[ os.path.split(f)[1] ] = best_score
         #break
