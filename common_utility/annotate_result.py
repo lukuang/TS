@@ -11,7 +11,7 @@ def read_updates(update_file, matches):
     with open(update_file) as f:
         for line in f:
             result= (line.rstrip()).split()
-            m = re.search("^TS", line)
+            m = re.search("^(TS)?\d+", line)
             if m is None:
                 print "avoid first line"
                 print line
