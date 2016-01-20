@@ -47,6 +47,8 @@ def normalize_model(model,stopwords):
     
     remove_stopwords(model,stopwords)
 
-    occurance = sum(model.values())
+    occurance = 0
+    for w in occurance:
+        occurance += model[w]*model[w]
     for w in model:
         model[w] /= 1.0*occurance
